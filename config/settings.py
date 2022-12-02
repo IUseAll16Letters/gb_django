@@ -16,14 +16,14 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # TODO: REMOVE TO DOT_ENV file
-with open(BASE_DIR / 'config/news_api_key.txt', 'r', encoding='utf-8') as f:
-    NEWS_API_KEY = f.readline().strip()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-(*ywn2trkdndh95sh9bcj0%agr!rcy*%mhuu@iy6m)3@)9-no='
+NEWS_API_KEY = ''
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
