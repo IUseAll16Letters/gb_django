@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from mainapp.utils.get_news_api import get_news
 
@@ -14,19 +14,13 @@ class IndexView(TemplateView):
 
 class NewsPageView(TemplateView):
     template_name = "mainapp/news.html"
+    page = 0
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context.update(
-            {
-                "news_objects": [{'title': f'title for news {i}',
-                                  'content': f'news number {i} content, that describe it',
-                                  'date': f'22-12-22-00:00:0{i}',
-                                  'id': f'{i}'} for i in range(1, 8)]
-             }
-        )
         context.update({"news": get_news()})
-
+        print(context.get('news'))
+        print(f'{self.page = }')
         return context
 
 
@@ -46,3 +40,5 @@ class DocPageView(TemplateView):
     template_name = 'mainapp/doc_site.html'
 
 
+def redirect_page(request, param: str):
+    return redirect(to=f'https://google.com/search?q={param}')

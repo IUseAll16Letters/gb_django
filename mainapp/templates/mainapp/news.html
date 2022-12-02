@@ -11,10 +11,11 @@
         {% for i in news|slice:":10" %}
             <div class="card my-2">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i.title|truncatewords:15 }}</h5>
+                    <h5 class="card-title"></h5>
+                        <a href="{% url 'mainapp:redirect' i.title|truncatewords:5 %}">{{ i.title|truncatewords }}</a></h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{ i.publishedAt }}</h6>
                     <p class="card-text">{{ i.content|truncatechars:60 }}</p>
-                    <a href="{{ i.url }}" class="card-link">Подробнее</a>
+                    <a href="{{ i.url }}" target="_blank" class="card-link">Подробнее</a>
                 </div>
             </div>
 
@@ -55,11 +56,9 @@
 <div class="row justify-content-center align-items-center mt-3 mb-n3">
   <nav aria-label="Page navigation example">
     <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        {% for n in news %}
+            <li class="page-item"><a class="page-link" href="{% url 'mainapp:news'  %}">{{ forloop.counter }}</a></li>
+        {% endfor %}
     </ul>
   </nav>
 </div>

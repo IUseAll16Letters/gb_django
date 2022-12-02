@@ -24,7 +24,7 @@ def make_news_json_from_api(news_as_dict: dict, news_file: WindowsPath = None) -
 
 def get_news_from_api() -> dict:
     request_url = f'https://newsapi.org/v2/everything?q=Python+Programming&' \
-                  f'sortBy=popularity&' \
+                  f'sortBy=publishedAt&' \
                   f'pageSize=100&page=1&' \
                   f'language=en&language=ru&' \
                   f'apiKey={NEWS_API_KEY}'
@@ -49,7 +49,9 @@ def get_news() -> dict:
             .strptime(re.search(r'(\d{2}_){5}\d{2}', str(news_file), re.I).group(), '%y_%m_%d_%H_%M_%S')
         if datetime.datetime.now() - news_file_datetime < datetime.timedelta(hours=1):
             return get_news_from_json(news_file).get('articles')
+    print('Getting new news')
     news = get_news_from_api()
     make_news_json_from_api(news, news_file)
+    news = news.get('articles')
 
-    return news.get('articles')
+    return news

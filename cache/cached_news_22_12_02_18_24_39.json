@@ -1,0 +1,1306 @@
+{
+    "status": "ok",
+    "totalResults": 1108,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Macintosh Plus Raspberry Pi Case #piday #raspberrypi @Raspberry_Pi",
+            "description": "Over on reddit u/rideology posted about their Pi build with a gutted 1986 Mac Plus, LCD and a Raspberry Pi:I took all the guts out of an 1986 Mac Plus and put a new LCD screen and Raspberry PI in it. This makes a great show piece but also function. I did put \u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/macintosh-plus-raspberry-pi-case-piday-raspberrypi-raspberry_pi/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/cjknk88t372a1.jpg-scaled-e1669747224655.webp",
+            "publishedAt": "2022-12-02T15:00:45Z",
+            "content": "December 2, 2022 AT 10:00 am\r\nMacintosh Plus Raspberry Pi Case #piday #raspberrypi @Raspberry_Pi\r\nOver on reddit u/rideology posted about their Pi build with a gutted 1986 Mac Plus, LCD and a Raspber\u2026 [+3073 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "HID Remapper allows you to remap inputs from mice, keyboards and other devices #USB #PiDay @jfedorynski @Raspberry_Pi",
+            "description": "HID Remapper is a configurable USB dongle that allows you to remap inputs from mice, keyboards and other devices. It works completely in hardware and requires no software running on the computer during normal use.It can do things like reassign buttons, change\u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/hid-remapper-allows-you-to-remap-inputs-from-mice-keyboards-and-other-devices-usb-piday-jfedorynski-raspberry_pi/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-13.png",
+            "publishedAt": "2022-12-02T14:51:29Z",
+            "content": "December 2, 2022 AT 9:51 am\r\nHID Remapper allows you to remap inputs from mice, keyboards and other devices #USB #PiDay @jfedorynski @Raspberry_Pi\r\nHID Remapper is a configurable USB dongle that allo\u2026 [+3606 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Taking a good picture of a PCB #Photography #PCB @braam_martijn",
+            "description": "Taking a picture of a PCB is easy, taking a professionally looking one is a bit harder. So Martijn Braam overengineers this.Pictures of boards are everywhere when you work in IT. Lots of computer components come as (partially) bare PCBs and single board compu\u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/taking-a-good-picture-of-a-pcb-photography-pcb-braam_martijn/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-11.png",
+            "publishedAt": "2022-12-02T14:44:19Z",
+            "content": "December 2, 2022 AT 9:44 am\r\nTaking a good picture of a PCB #Photography #PCB @braam_martijn\r\nTaking a picture of a PCB is easy, taking a professionally looking one is a bit harder. So Martijn Braam \u2026 [+3621 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Using a Raspberry Pi as a kiosk for Home Assistant or Grafana #IoT #PiDay #RaspberryPi @Raspberry_Pi",
+            "description": "Peter Mount\u2019s Blog discusses how to set up a Raspberry Pi running as a kiosk so that when they boot up they automatically open a browser on a fixed page.In my setup I have Home Assistant, Zigbee2MQTT and RabbitMQ running on a Raspberry PI 4B. As it has the of\u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/using-a-raspberry-pi-as-a-kiosk-for-home-assistant-or-grafana-iot-piday-raspberrypi-raspberry_pi/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-9.png",
+            "publishedAt": "2022-12-02T14:30:55Z",
+            "content": "December 2, 2022 AT 9:30 am\r\nUsing a Raspberry Pi as a kiosk for Home Assistant or Grafana #IoT #PiDay #RaspberryPi @Raspberry_Pi\r\nPeter Mount\u2019s Blog discusses how to set up a Raspberry Pi running as\u2026 [+3250 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Vectrex cartridge and LED board designs #Gaming @technobly",
+            "description": "Want to produce a Vectrex game and you need a 32KB cartridge with high score save support? Brett Walach (@technobly) has your reference design! You can order it as is or customize it with your own graphics.Got a 64KB game that uses John Dondzilla PB6 bank swi\u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/vectrex-cartridge-and-led-board-designs-gaming-technobly/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-3.jpg",
+            "publishedAt": "2022-12-02T14:23:57Z",
+            "content": "December 2, 2022 AT 9:23 am\r\nVectrex cartridge and LED board designs #Gaming @technobly\r\nWant to produce a Vectrex game and you need a 32KB cartridge with high score save support? Brett Walach (@tech\u2026 [+3618 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Nintendo GameCube Carby HDMI Adapter Support #3DThursday #3DPrinting",
+            "description": "archaicbubba shares:Support prevents both horizontal and vertical movement of the adapter ensuring no stress is applied to the Digital port while using a Carby. Requires disassembly of the Nintendo GameCube. Two versions are included, one for 4mm screws, and \u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/nintendo-gamecube-carby-hdmi-adapter-support-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Nintendo-GameCube-Carby-HDMI-Adapter-Support.jpg",
+            "publishedAt": "2022-12-02T14:13:13Z",
+            "content": "December 2, 2022 AT 9:13 am\r\nNintendo GameCube Carby HDMI Adapter Support #3DThursday #3DPrinting\r\narchaicbubba shares:\r\nSupport prevents both horizontal and vertical movement of the adapter ensuring\u2026 [+3893 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Kelly",
+            "title": "IBM PCjr + GPT-3 @Raspberry_Pi #PiDay #RaspberryPi",
+            "description": "Rad build from Nick Bild up on Hackster.io!An IBM PCjr (MS-DOS 5.0, 640 KB RAM) has it\u2019s serial port connected to an RS-232 to USB adapter. Since the serial port uses a non-standard 2\u00d78 pin Berg connector (everything on a PCjr is non-standard), I hacked toget\u2026",
+            "url": "https://blog.adafruit.com/2022/12/02/ibm-pcjr-gpt-3-raspberry_pi-piday-raspberrypi/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/ibm-pcjr-gpt-3-raspberrypi-piday.jpg",
+            "publishedAt": "2022-12-02T13:00:47Z",
+            "content": "December 2, 2022 AT 8:00 am\r\nIBM PCjr + GPT-3 @Raspberry_Pi #PiDay #RaspberryPi\r\nRad build from Nick Bild up on Hackster.io!\r\nAn IBM PCjr (MS-DOS 5.0, 640 KB RAM) has it\u2019s serial port connected to an\u2026 [+3671 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "DevOps.com"
+            },
+            "author": "Mike Vizard",
+            "title": "AWS Previews Amazon CodeCatalyst to Automatically Create Dev Environments",
+            "description": "Amazon Web Services (AWS) this week launched a preview release of the Amazon CodeCatalyst framework that leverages blueprints to automatically provision and configure developer environments in its cloud. Announced at the AWS re:Invent 2022 conference, Amazon \u2026",
+            "url": "https://devops.com/aws-previews-amazon-codecatalyst-to-automatically-create-dev-environments/",
+            "urlToImage": "https://devops.com/wp-content/uploads/2020/11/How-to-Improve-Code-Quality-Efficiently-with-Static-Analysis.jpg",
+            "publishedAt": "2022-12-02T12:26:05Z",
+            "content": "Amazon Web Services (AWS) this week launched a preview release of the Amazon CodeCatalyst framework that leverages blueprints to automatically provision and configure developer environments in its cl\u2026 [+3265 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kdnuggets.com"
+            },
+            "author": "Vaishnavi Amira Yada",
+            "title": "How Can Python Be Used for Data Visualization?",
+            "description": "This article discusses the different python libraries used for data visualization with examples.",
+            "url": "https://www.kdnuggets.com/2022/12/python-used-data-visualization.html",
+            "urlToImage": "https://www.kdnuggets.com/wp-content/uploads/yada_python_used_data_visualization_10.jpg",
+            "publishedAt": "2022-12-02T11:55:05Z",
+            "content": "Image from Freepik\r\nIntroduction\r\nThe study of how to visually represent data is known as data visualization. It effectively communicates findings from data by graphically plotting the data.\r\nWe can \u2026 [+10298 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "InfoWorld"
+            },
+            "author": "Bob Violino",
+            "title": "What is DevSecOps? Securing devops pipelines",
+            "description": "Software runs our businesses today. It powers operations, transactions, communications\u2014just about every facet of the digital organization. It follows that ensuring the security of applications and operating systems is a major priority for development and secu\u2026",
+            "url": "https://www.infoworld.com/article/3681097/what-is-devsecops-securing-devops-pipelines.html",
+            "urlToImage": "https://images.idgesg.net/images/article/2022/12/shutterstock_38272936-100935113-large.jpg?auto=webp&quality=85,70",
+            "publishedAt": "2022-12-02T11:00:00Z",
+            "content": "Software runs our businesses today. It powers operations, transactions, communicationsjust about every facet of the digital organization. It follows that ensuring the security of applications and ope\u2026 [+7162 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Search Engine Journal"
+            },
+            "author": "Will Nye",
+            "title": "Transitioning From Excel To Python: Essential Functions For SEO Data Analysis via @sejournal, @williamjnye",
+            "description": "Learn the Python equivalents of your favorite Excel formulas to speed up your data analysis and automate repetitive tasks.\nThe post Transitioning From Excel To Python: Essential Functions For SEO Data Analysis appeared first on Search Engine Journal.",
+            "url": "https://www.searchenginejournal.com/transitioning-from-excel-to-python-essential-functions-for-seo-data-analysis/472147/",
+            "urlToImage": "https://cdn.searchenginejournal.com/wp-content/uploads/2022/11/excel-to-python-for-data-analysis-637f4d8b66fb7-sej.png",
+            "publishedAt": "2022-12-02T09:15:42Z",
+            "content": "Learning to code, whether with\u00a0Python,\u00a0JavaScript, or another programming language, has a whole host of benefits, including the ability to work with larger datasets and automate repetitive tasks.\r\nBu\u2026 [+19025 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "QWi123",
+            "title": "Dot Net - The First Choice of IT Professionals?",
+            "description": "A collection of Web development tools called ASP.NET was created by Microsoft. Visual Web developer and Visual Studio. Net are two tools that aid developers in building dynamic websites with a visual interface. It is based on the.Net framework's Common Langua\u2026",
+            "url": "https://slashdot.org/submission/16973918/dot-net---the-first-choice-of-it-professionals",
+            "urlToImage": null,
+            "publishedAt": "2022-12-02T05:42:37Z",
+            "content": "A collection of Web development tools called ASP.NET was created by Microsoft. Visual Web developer and Visual Studio. Net are two tools that aid developers in building dynamic websites with a visual\u2026 [+4571 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dev.to"
+            },
+            "author": "Scott Beeker",
+            "title": "Anything C can do Rust can do Better",
+            "description": "C++ and Rust are both system programming languages that can be used to produce software and software...",
+            "url": "https://dev.to/scottbeeker/anything-c-can-do-rust-can-do-better-2a9a",
+            "urlToImage": "https://dev.to/social_previews/article/1281283.png",
+            "publishedAt": "2022-12-02T05:32:51Z",
+            "content": "C++ and Rust are both system programming languages that can be used to produce software and software platforms. They are both capable of interacting with low-level components such as operating system\u2026 [+23494 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "3D Printing a Life-Size Imperial Guard Helmet from Warhammer 40,000 #3DThursday",
+            "description": "Troy of the tabletop gaming channel FacilityD20 is looking to get deeper into 3D design and printing and doing things like human-scale prints of game elements.In this video, he wades into the deep end and decides to 3D design and print an Imperial Guard\u2026er\u2026 A\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/3d-printing-a-life-size-imperial-guard-helmet-from-warhammer-40000-3dthursday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-01-at-5.38.56-PM.png",
+            "publishedAt": "2022-12-02T02:30:15Z",
+            "content": "December 1, 2022 AT 9:30 pm\r\n3D Printing a Life-Size Imperial Guard Helmet from Warhammer 40,000 #3DThursday\r\nTroy of the tabletop gaming channel FacilityD20 is looking to get deeper into 3D design a\u2026 [+2782 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "One of the Best Hobby Materials You May Have Never Heard of",
+            "description": "In this Tabletop Alchemy video, Ignatius talks about the extruded, moderately-expanded closed-cell polyvinyl chloride (PVC) material known as Sintra. He argues that it is an underutilized material in hobby construction and thinks it should be given a closer l\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/one-of-the-best-hobby-materials-you-may-have-never-heard-of/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-01-at-2.31.23-PM.png",
+            "publishedAt": "2022-12-02T02:00:57Z",
+            "content": "December 1, 2022 AT 9:00 pm\r\nOne of the Best Hobby Materials You May Have Never Heard of\r\nIn this Tabletop Alchemy video, Ignatius talks about the extruded, moderately-expanded closed-cell polyvinyl \u2026 [+2969 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Miter Saw Stop Block #3DThursday #3DPrinting",
+            "description": "Shared by ModernHobbyist on Thingiverse:I recently built a miter saw station, and decided to upgrade it with this super awesome 3d printed stop block with a flip stop and acrylic marking guide to help me easily make accurate and repeatable cuts! This one is d\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/miter-saw-stop-block-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-5.02.27-PM.png",
+            "publishedAt": "2022-12-02T01:00:00Z",
+            "content": "December 1, 2022 AT 8:00 pm\r\nMiter Saw Stop Block #3DThursday #3DPrinting\r\nShared by ModernHobbyist on Thingiverse:\r\nI recently built a miter saw station, and decided to upgrade it with this super aw\u2026 [+3717 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Kyle Wiggers",
+            "title": "While anticipation builds for GPT-4, OpenAI quietly releases GPT-3.5",
+            "description": "Released two years ago, OpenAI\u2019s remarkably capable, if flawed, GPT-3 was perhaps the first to demonstrate that AI can write convincingly \u2014 if not perfectly \u2014 like a human. The successor to GPT-3, most likely called GPT-4, is expected to be unveiled in the ne\u2026",
+            "url": "https://techcrunch.com/2022/12/01/while-anticipation-builds-for-gpt-4-openai-quietly-releases-gpt-3-5/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/03/lp-logo-3.jpg?resize=1200,812",
+            "publishedAt": "2022-12-02T00:08:28Z",
+            "content": "Released two years ago, OpenAI\u2019s remarkably capable, if flawed, GPT-3 was perhaps the first to demonstrate that AI can write convincingly \u2014 if not perfectly \u2014 like a human. The successor to GPT-3, mo\u2026 [+11095 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Lego Figure Column #3DThursday #3DPrinting",
+            "description": "Hatchet141 shares: I just added lego pegs. There are 2-peg versions for minifigs, and a 4-peg version for bases and bricks.download the files on: https://www.thingiverse.com/thing:5505682 Every Thursday is #3dthursday here at Adafruit! The DIY 3D printing com\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/lego-figure-column-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Lego-Figure-Column.png",
+            "publishedAt": "2022-12-02T00:00:51Z",
+            "content": "December 1, 2022 AT 7:00 pm\r\nLego Figure Column #3DThursday #3DPrinting\r\nHatchet141 shares: \r\nI just added lego pegs. There are 2-peg versions for minifigs, and a 4-peg version for bases and bricks.\r\u2026 [+3716 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nlppeople.com"
+            },
+            "author": "Alexander Raginsky",
+            "title": "ML/NLP Internship (6-month)",
+            "description": "Are you a curious and open-minded individual with an interest in programming and machine learning? Thomson Reuters Labs in London is seeking an ML/NLP scientist intern with a passion for problem-solving using state-of-the-art Machine Learning and Natural Lang\u2026",
+            "url": "https://nlppeople.com/job/ml-nlp-internship-6-month/",
+            "urlToImage": "https://s0.wp.com/i/blank.jpg",
+            "publishedAt": "2022-12-02T00:00:00Z",
+            "content": "Are you a curious and open-minded individual with an interest in programming and machine learning? Thomson Reuters Labs in London is seeking an ML/NLP scientist intern with a passion for problem-solv\u2026 [+2936 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Filament Welder #3DThursday #3DPrinting",
+            "description": "Shared by coffee_suger_cinnamon on Thingiverse:A jig for welding 1.75mm PLA filament. Welded filament slides smoothly through 2mm inner diameter tubing without sanding. A PTFE tube and coil spring are required separately. -PTFE tube: Length: 40mm, ID x OD: 1.\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/filament-welder-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-5.00.09-PM.png",
+            "publishedAt": "2022-12-01T23:01:20Z",
+            "content": "December 1, 2022 AT 6:01 pm\r\nFilament Welder #3DThursday #3DPrinting\r\nShared by coffee_suger_cinnamon on Thingiverse:\r\nA jig for welding 1.75mm PLA filament.Welded filament slides smoothly through 2m\u2026 [+3541 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Bedpost Castle Cap #3DThursday #3DPrinting",
+            "description": "MoldyWombat shares: My daughter had all of her cables around her bedpost. I drafted this guy up and added some textures to make it more interesting. It turned out really well.download the files on: https://www.thingiverse.com/thing:5513044 Every Thursday is #\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/bedpost-castle-cap-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Bedpost-Castle-Cap.jpg",
+            "publishedAt": "2022-12-01T22:00:19Z",
+            "content": "December 1, 2022 AT 5:00 pm\r\nBedpost Castle Cap #3DThursday #3DPrinting\r\nMoldyWombat shares: \r\nMy daughter had all of her cables around her bedpost. I drafted this guy up and added some textures to m\u2026 [+3768 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Benj Edwards",
+            "title": "OpenAI invites everyone to test new AI-powered chatbot\u2014with amusing results",
+            "description": "ChatGPT aims to produce accurate and harmless talk\u2014but it's a work in progress.",
+            "url": "https://arstechnica.com/information-technology/2022/12/openai-invites-everyone-to-test-new-ai-powered-chatbot-with-amusing-results/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/chatbot_hero_1-760x380.jpg",
+            "publishedAt": "2022-12-01T21:22:50Z",
+            "content": "Enlarge/ An AI-generated image of a chatbot exploding forth from squiggly radial lines, as was foretold by the prompt.\r\n1 with 0 posters participating\r\nOn Wednesday, OpenAI announced ChatGPT, a dialo\u2026 [+3729 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Jessie Mae",
+            "title": "Cable Organizer #3Dprinting #3DThursday",
+            "description": "mishkin2 shared this project on Thingiverse! Saves you from disconnecting or organizing messy cords of small kitchen appliances. Keep all your kitchen appliance cords neat and organized. Widely used to hold the cords of kitchen appliances, including coffee ma\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/cable-organizer-3dprinting-3dthursday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/ICable_Organizer_by_mishkin2_-_Thingiverse.png",
+            "publishedAt": "2022-12-01T21:00:28Z",
+            "content": "December 1, 2022 AT 4:00 pm\r\nCable Organizer #3Dprinting #3DThursday\r\nmishkin2 shared this project on Thingiverse!\r\nSaves you from disconnecting or organizing messy cords of small kitchen appliances.\u2026 [+3437 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Emulating an MS-DOS machine #doscember #VintageComputing #MSDOS @RetroTechChris",
+            "description": "MikeyGRetro on YouTube writes: \u201cFor the month of December I\u2019m looking at MS-DOS. #doscemberI show you how to emulate an old Pentium 120 Socket 7 PC on modern PC and install DOS 6.22.\u201dSee the video above.Software Links: https://86box.net/ https://github.com/86\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/emulating-an-ms-dos-machine-doscember-vintagecomputing-msdos-retrotechchris/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-2.jpg",
+            "publishedAt": "2022-12-01T20:24:38Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Jessie Mae",
+            "title": "Adafruit\u2019s Top 10 Blog Posts of November 2022 #StateOfTheFruit #AdafruitTopTen",
+            "description": "1. 22-year-old builds chips in his parents\u2019 garage @Wired2. The Return of ADABOX 2023 ! We\u2019re back!3. Human Evolution 3000 years into the future4. The \u201cSolar Metal Smelter\u201d, a magnifying glass producing 1000 Celsius heat @pomeranian995. ISS flyby at low altit\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/adafruits-top-10-blog-posts-of-november-2022-stateofthefruit-adafruittopten/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/IUntitled-53.png",
+            "publishedAt": "2022-12-01T20:00:49Z",
+            "content": "December 1, 2022 AT 3:00 pm\r\nAdafruits Top 10 Blog Posts of November 2022 #StateOfTheFruit #AdafruitTopTen\r\nStop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground \u2026 [+2480 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Snip Cover #3DThursday #3DPrinting",
+            "description": "_Rosti_ shares: This is a snap on protective cover for the snips / cutters provided with most 3D printers. The cover snaps into place and leaves the compression spring under no tension. To remove simply open the snips to full and the cover eases off, alternat\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/snip-cover-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Snip-Cover.jpg",
+            "publishedAt": "2022-12-01T20:00:25Z",
+            "content": "December 1, 2022 AT 3:00 pm\r\nSnip Cover #3DThursday #3DPrinting\r\n_Rosti_ shares: \r\nThis is a snap on protective cover for the snips / cutters provided with most 3D printers.The cover snaps into place\u2026 [+4086 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "The Python on Hardware weekly video 208 November 30, 2022 #CircuitPython #Python @micropython @Adafruit",
+            "description": "The Python on hardware news for this week!Episode 208 (November 30, 2022)This is the Adafruit weekly Python on Microcontrollers newsletter video highlights!John Park provide this week\u2019s\u00a0video\u00a0on Python on hardware news and more.The news comes from the Python \u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/the-python-on-hardware-weekly-video-208-november-30-2022-circuitpython-python-micropython-adafruit/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Python-on-hardware-alt-10-13-22.jpg",
+            "publishedAt": "2022-12-01T19:35:35Z",
+            "content": "December 1, 2022 AT 2:35 pm\r\nThe Python on Hardware weekly video 208 November 30, 2022 #CircuitPython #Python @micropython @Adafruit\r\nEpisode 208 (November 30, 2022)\r\nThis is the Adafruit weekly Pyth\u2026 [+3337 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Jessie Mae",
+            "title": "True Fruit Plant Mesh 500ml #3DPrinting #3DThursday",
+            "description": "dotmago shared this project on Thingiverse! Some time ago I felt in love with the True Fruit Smoothy (big one with 500ml). The bottles are labeled with a short story and one big word (e.g. noodles, machine, divorce). To up-cycle the bottles I created this pla\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/true-fruit-plant-mesh-500ml-3dprinting-3dthursday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/ITrue_Fruit_Plant_Mesh_500ml_by_dotmago_-_Thingiverse.png",
+            "publishedAt": "2022-12-01T19:00:12Z",
+            "content": "December 1, 2022 AT 2:00 pm\r\nTrue Fruit Plant Mesh 500ml #3DPrinting #3DThursday\r\ndotmago shared this project on Thingiverse! \r\nSome time ago I felt in love with the True Fruit Smoothy (big one with \u2026 [+3739 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Wavey Modular Mushrooms #3DThursday #3DPrinting",
+            "description": "DaveMakesStuff shares: Combine different caps, gills, stems, and attachments to make your own wavey psychedelic mushrooms! Print the pieces in different colours to make your mushrooms even more magical. Attachments allow mushrooms to stand on flat surfaces or\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/wavey-modular-mushrooms-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Wavey-Modular-Mushrooms.jpg",
+            "publishedAt": "2022-12-01T18:00:35Z",
+            "content": "December 1, 2022 AT 1:00 pm\r\nWavey Modular Mushrooms #3DThursday #3DPrinting\r\nDaveMakesStuff shares: \r\nCombine different caps, gills, stems, and attachments to make your own wavey psychedelic mushroo\u2026 [+3898 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Amazon.com"
+            },
+            "author": "Steve Roberts",
+            "title": "Announcing Amazon CodeCatalyst (preview), a Unified Software Development Service",
+            "description": "Today, we announced the preview release of Amazon CodeCatalyst. A unified software development and delivery service, Amazon CodeCatalyst enables software development teams to quickly and easily plan, develop, collaborate on, build, and deliver applications on\u2026",
+            "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-codecatalyst-preview-a-unified-software-development-service/",
+            "urlToImage": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/25/Site-Merch_Amazon-CodeCatalyst_Blog-1.png",
+            "publishedAt": "2022-12-01T17:31:09Z",
+            "content": "Today, we announced the preview release of Amazon CodeCatalyst. A unified software development and delivery service, Amazon CodeCatalyst enables software development teams to quickly and easily plan,\u2026 [+11029 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "An obscure ROM archive #VintageComputing @dekuNukem_",
+            "description": "EEPROM dumps of my retro hardware, mostly ones that can\u2019t be found elsewhere.All ROMs here are\u00a0physically dumped\u00a0using TL866II Plus.This includes: Generic SARC RC2016A4 386SX motherboard Kaimei SA-486 VL-BUS M.B. REV. V2C 29GDX4-11B Unknown SiS VLB Motherboar\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/an-obscure-rom-archive-vintagecomputing-dekunukem_/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-6.png",
+            "publishedAt": "2022-12-01T17:04:06Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Jessie Mae",
+            "title": "customizable jar sliding mount #3Dprinting #3DThursday",
+            "description": "Bob837 shared this project on Thingiverse!This is a customizable sliding jar mount. The Fusion 360 file is parametric so you can easily adjust the dimensions. The .stl-files included have these dimensions: middle 1: \u201cRapunzel chocolate cream\u201d: lid_width: 70mm\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/customizable-jar-sliding-mount-3dprinting-3dthursday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Icustomizable_jar_sliding_mount__e_g__spicerack__by_Bob837_-_Thingiverse.png",
+            "publishedAt": "2022-12-01T17:00:50Z",
+            "content": "December 1, 2022 AT 12:00 pm\r\ncustomizable jar sliding mount #3Dprinting #3DThursday\r\nBob837 shared this project on Thingiverse!\r\nThis is a customizable sliding jar mount. The Fusion 360 file is para\u2026 [+3598 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Amazon.com"
+            },
+            "author": "S\u00e9bastien Stormacq",
+            "title": "Step Functions Distributed Map \u2013 A Serverless Solution for Large-Scale Parallel Data Processing",
+            "description": "I am excited to announce the availability of a distributed map for AWS Step Functions. This flow extends support for orchestrating large-scale parallel workloads such as the on-demand processing of semi-structured data. Step Function\u2019s map state executes the \u2026",
+            "url": "https://aws.amazon.com/blogs/aws/step-functions-distributed-map-a-serverless-solution-for-large-scale-parallel-data-processing/",
+            "urlToImage": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2022/11/22/Site-Merch_AWS-Step-Functions_Distributed-Map_Blog-Sidebar.png",
+            "publishedAt": "2022-12-01T16:58:32Z",
+            "content": "I am excited to announce the availability of a distributed map for AWS Step Functions. This flow extends support for orchestrating large-scale parallel workloads such as the on-demand processing of s\u2026 [+9926 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Securityintelligence.com"
+            },
+            "author": "Mike Elgan",
+            "title": "How to Start a Career in Cyber Incident Response",
+            "description": "Cyber incident response is one of cybersecurity\u2019s most interesting and rewarding careers. It\u2019s an in-demand role, and it pays well. But how do you get started?\u00a0 First, let\u2019s start with the basics.\u00a0 What is Cyber Incident Response?\u00a0 Cyber incident response is \u2026",
+            "url": "https://securityintelligence.com/articles/how-to-start-career-cyber-incident-response/",
+            "urlToImage": "https://securityintelligence.com/wp-content/uploads/2019/07/SecurityIntelligence-1200x675.jpg",
+            "publishedAt": "2022-12-01T16:50:00Z",
+            "content": "Cyber incident response is one of cybersecurity\u2019s most interesting and rewarding careers. It\u2019s an in-demand role, and it pays well. But how do you get started?\u00a0\r\nFirst, let\u2019s start with the basics.\u00a0\r\u2026 [+6649 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lesswrong.com"
+            },
+            "author": "specbug",
+            "title": "ChatGPT: First Impressions",
+            "description": "Published on December 1, 2022 4:36 PM GMTChatGPT is OpenAI\u2019s newest language model based on the GPT-3.5 series of LLMs, optimised for dialogue. It is trained using Reinforcement Learning from Human Feedback; human AI trainers provide supervised fine-tuning by\u2026",
+            "url": "https://www.lesswrong.com/posts/jjb7mLwZt5cxChz2n/chatgpt-first-impressions",
+            "urlToImage": "https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4c674d1bf9e75a72f8881178d073604bc5da6f6c5612bb71.png",
+            "publishedAt": "2022-12-01T16:36:19Z",
+            "content": "ChatGPT is OpenAIs newest language model based on the GPT-3.5 series of LLMs, optimised for dialogue. It is trained using Reinforcement Learning from Human Feedback; human AI trainers provide supervi\u2026 [+21922 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Using a tiny laptop: Life at 800MHz @EverfreeArtemis",
+            "description": "Artemis Everfree discusses choosing an older Intel Atom lightweight Netbook to help their needs:We\u2019ve been using a Sony Vaio VGN-P588E for the past few months as our primary personal laptop. This thing\u2019s great; it\u2019s got a small but not uncomfortable keyboard.\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/using-a-tiny-laptop-life-at-800mhz-everfreeartemis/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-4.png",
+            "publishedAt": "2022-12-01T16:27:24Z",
+            "content": "December 1, 2022 AT 11:27 am\r\nUsing a tiny laptop: Life at 800MHz @EverfreeArtemis\r\nArtemis Everfree discusses choosing an older Intel Atom lightweight Netbook to help their needs:\r\nWe\u2019ve been using \u2026 [+3552 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": "lukas.m.prediger@aalto.fi",
+            "title": "twinify added to PyPI",
+            "description": "A software package for privacy-preserving generation of a synthetic twin to a given sensitive data set.",
+            "url": "https://pypi.org/project/twinify/",
+            "urlToImage": "https://pypi.org/static/images/twitter.6fecba6f.jpg",
+            "publishedAt": "2022-12-01T16:12:12Z",
+            "content": "twinify is a software package for privacy-preserving generation of a synthetic twin to a given sensitive tabular data set.\r\nOn a high level, twinify follows the differentially private data sharing pr\u2026 [+21860 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Noe Ruiz",
+            "title": "3D Hangouts \u2013 MicroLipo Charger, Noodle Snowflake, Flexi Yeti and Turkey Leg",
+            "description": "This week @adafruit we\u2019re making a case for the MicroLipo V2! Prototyping a festive project using LED noodles. Timelapse this week features an articulating Yeti designed by Flexi Factory and a Turkey Leg designed by CM_DESIGN.YouTube Video \u2013 https://youtu.be/\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/3d-hangouts-microlipo-charger-noodle-snowflake-flexi-yeti-and-turkey-leg-copy/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/3DHO-1080.jpg",
+            "publishedAt": "2022-12-01T16:00:49Z",
+            "content": "December 1, 2022 AT 11:00 am\r\n3D Hangouts MicroLipo Charger, Noodle Snowflake, Flexi Yeti and Turkey Leg\r\nThis week @adafruit we\u2019re making a case for the MicroLipo V2! Prototyping a festive project u\u2026 [+4991 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nvidia.com"
+            },
+            "author": "Angie Lee",
+            "title": "Meet the Omnivore: Cloud Architect Takes Infrastructure Visualization to New Heights With NVIDIA Omniverse",
+            "description": "As a Microsoft Certified Azure cloud specialist and DevOps automation engineer, Gavin Stevens is deeply in tune with cloud architect workflows.\nThe post Meet the Omnivore: Cloud Architect Takes Infrastructure Visualization to New Heights With NVIDIA Omniverse\u2026",
+            "url": "https://blogs.nvidia.com/blog/2022/12/01/gavin-stevens-omniverse-developer/",
+            "urlToImage": "https://blogs.nvidia.com/wp-content/uploads/2022/12/gavin-stevens-still.jpg",
+            "publishedAt": "2022-12-01T16:00:45Z",
+            "content": "Editors note: This post is a part of our Meet the Omnivore series, which features individual creators and developers who use NVIDIA Omniverse to accelerate their 3D workflows and create virtual world\u2026 [+4927 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Some Useful Small Tools You Can 3D Print #3DThursday",
+            "description": "It\u2019s always great to be reminded of how many clever tool designs there are out there that you can download and 3D print.Here are nine tools you can print out, from a multitool to a bench vise to a cabinet for storing sanding disks.",
+            "url": "https://blog.adafruit.com/2022/12/01/some-useful-small-tools-you-can-3d-print-3dthursday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-7.04.54-PM.png",
+            "publishedAt": "2022-12-01T16:00:35Z",
+            "content": "December 1, 2022 AT 11:00 am\r\nSome Useful Small Tools You Can 3D Print #3DThursday\r\nIt\u2019s always great to be reminded of how many clever tool designs there are out there that you can download and 3D p\u2026 [+2691 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "The \u2018mind-blowing\u2019 sea floor changes caused by Tongan volcanic eruption",
+            "description": "When the underwater volcano Hunga Tonga-Hunga Ha\u2019apai erupted in January this year, scientists knew something extraordinary had happened.An ash plume shot 57 kilometers into the atmosphere; shock waves rippled through the atmosphere, and the eruption triggere\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/the-mind-blowing-sea-floor-changes-caused-by-tongan-volcanic-eruption/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-1.png",
+            "publishedAt": "2022-12-01T15:37:23Z",
+            "content": "December 1, 2022 AT 10:37 am\r\nThe mind-blowing sea floor changes caused by Tongan volcanic eruption\r\nWhen the underwater volcano Hunga Tonga-Hunga Ha\u2019apai erupted in January this year, scientists kne\u2026 [+3948 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Making a holiday house with Circuit Playground Express #CircuitPlaygroundExpress #Crickit",
+            "description": "Elizabeth Hogan made a Christmas house using an Adafruit Circuit Playground Express (CPX) and a Crickit robotics add-on programed with CircuitPython.The Christmas house was made using a CO2 laser machine and has three Christmas automations.See the video below:",
+            "url": "https://blog.adafruit.com/2022/12/01/making-a-holiday-house-with-circuit-playground-express-circuitplaygroundexpress-crickit/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-1.jpg",
+            "publishedAt": "2022-12-01T15:30:53Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Parametric Springs #3DThursday #3DPrinting",
+            "description": "3d-printy shares:Customizable 3D printable springs for bobbleheads and similar designs.download the files on: https://www.printables.com/model/282561-parametric-bobblehead-springs Every Thursday is #3dthursday here at Adafruit! The DIY 3D printing community h\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/parametric-springs-3dthursday-3dprinting/",
+            "urlToImage": "https://s0.wp.com/i/blank.jpg",
+            "publishedAt": "2022-12-01T15:23:29Z",
+            "content": "December 1, 2022 AT 10:23 am\r\nParametric Springs #3DThursday #3DPrinting\r\n3d-printy shares:\r\nCustomizable 3D printable springs for bobbleheads and similar designs.\r\ndownload the files on: https://www\u2026 [+3709 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "MicroLipo Charger v2 #3DThursday #3DPrinting",
+            "description": "3D print a case for the updated Micro Lipo Charger V2!Guide: https://learn.adafruit.com/MicroLipo-CaseThe new V2 version features a built-in slide switch so you can easily switch between the two charging rates. Every Thursday is #3dthursday here at Adafruit! \u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/microlipo-charger-v2-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/LipoCharger-Case-thumb-scaled.jpg",
+            "publishedAt": "2022-12-01T15:00:59Z",
+            "content": "December 1, 2022 AT 10:00 am\r\nMicroLipo Charger v2 #3DThursday #3DPrinting\r\n3D print a case for the updated Micro Lipo Charger V2!\r\nGuide: https://learn.adafruit.com/MicroLipo-Case\r\nThe new V2 versio\u2026 [+3742 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Digitizing Analog Video through a Digital Camcorder #Video @pagetable",
+            "description": "pagetable.com explains a setup and workflow for digitizing analog video (e.g. VHS, Beta, Video 2000, LaserDisc, \u2026) using a Mac and digital camcorder \u2013 in high quality and with interlacing intact; optimized for archival. It uses an old-school digital camcorder\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/digitizing-analog-video-through-a-digital-camcorder-video-pagetable/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/rogue-1.png",
+            "publishedAt": "2022-12-01T14:51:57Z",
+            "content": "December 1, 2022 AT 9:51 am\r\nDigitizing Analog Video through a Digital Camcorder #Video @pagetable\r\npagetable.com explains a setup and workflow for digitizing analog video (e.g. VHS, Beta, Video 2000\u2026 [+3980 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Repairing a vintage Oric Atmos computer #VintageComputing #Retrocomputing @tynemouthsw",
+            "description": "Tynemouth Software had an Oric Atmos in for repair. Normally a very nice looking machine, but this one had a bit of an issue. Some time in the 1980s, the owner thought it was a good idea to fit a power switch (upper right), although they regret that now.Diagn\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/repairing-a-vintage-oric-atmos-computer-vintagecomputing-retrocomputing-tynemouthsw/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/rogue-41.png",
+            "publishedAt": "2022-12-01T14:44:23Z",
+            "content": "December 1, 2022 AT 9:44 am\r\nRepairing a vintage Oric Atmos computer #VintageComputing #Retrocomputing @tynemouthsw\r\nTynemouth Software had an Oric Atmos in for repair. Normally a very nice looking m\u2026 [+2881 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Global positioning: GPS vs GLONASS vs Galileo",
+            "description": "System Overview GPS Operated by the United States Air Force. Global coverage available since April 1995. Space segment includes 32 satellites arranged into 6 orbital planes, each with a minimum of 4 satellites. Satellites Orbit the Earth at an inclination of \u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/global-positioning-gps-vs-glonass-vs-galileo/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/rogue-38.png",
+            "publishedAt": "2022-12-01T14:37:48Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Super Magfest 2023 Swadge #Badgelife @MAGFest",
+            "description": "MAGFest is an organization dedicated to the appreciation of games & VGM with year-round events! For Super Magfest 2023, being held January 5-8 in Maryland USA, they have designed the Super Magfest 2023 Swadge.You can learn more about MagFest, and see the Swag\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/super-magfest-2023-swadge-badgelife-magfest/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/rogue-36.png",
+            "publishedAt": "2022-12-01T14:30:52Z",
+            "content": "December 1, 2022 AT 9:30 am\r\nSuper Magfest 2023 Swadge #Badgelife @MAGFest\r\nMAGFest is an organization dedicated to the appreciation of games &amp; VGM with year-round events! For Super Magfest 2023,\u2026 [+2745 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Howtoforge.com"
+            },
+            "author": "Arvid L",
+            "title": "How to Install Flask with Nginx and Gunicorn on Rocky Linux",
+            "description": "Flask is a microframework written in Python for developing modern web applications and API (Application Programming Interface). In this tutorial, we will show how to install and configure the Flask Python Web Framework with Gunicorn and Nginx on the Rocky Lin\u2026",
+            "url": "https://www.howtoforge.com/how-to-install-flask-with-nginx-and-gunicorn-on-rocky-linux/",
+            "urlToImage": "https://www.howtoforge.com/images/featured/rocky-linux-flask.png",
+            "publishedAt": "2022-12-01T14:12:58Z",
+            "content": "Flask is a microframework written in Python for developing modern web applications and API (Application Programming Interface). It's based on the Werkzeug toolkit and Jinja2 template. Instead of usin\u2026 [+11620 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Flexi Yeti #3DThursday #3DPrinting",
+            "description": "Every week we\u2019ll 3D print designs from the community and showcase slicer settings, use cases and of course, Time-lapses! This Week: Yeti Flexi Factory By Flexi Factory https://cults3d.com/en/3d-model/art/flexi-print-in-place-standing-yeti CR10S Pro V2 Blue Gr\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/flexi-yeti-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/yeti-thumb-scaled.jpg",
+            "publishedAt": "2022-12-01T14:00:01Z",
+            "content": "December 1, 2022 AT 9:00 am\r\nFlexi Yeti #3DThursday #3DPrinting\r\nEvery week we\u2019ll 3D print designs from the community and showcase slicer settings, use cases and of course, Time-lapses! This Week: \r\n\u2026 [+3876 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Plos.org"
+            },
+            "author": "Nele Albers, Mark A. Neerincx, Willem-Paul Brinkman",
+            "title": "Addressing people\u2019s current and future states in a reinforcement learning algorithm for persuading to quit smoking and to be physically active",
+            "description": "Behavior change applications often assign their users activities such as tracking the number of smoked cigarettes or planning a running route. To help a user complete these activities, an application can persuade them in many ways. For example, it may help th\u2026",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277295",
+            "urlToImage": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0277295.g005&size=inline",
+            "publishedAt": "2022-12-01T14:00:00Z",
+            "content": "Abstract\r\nBehavior change applications often assign their users activities such as tracking the number of smoked cigarettes or planning a running route. To help a user complete these activities, an a\u2026 [+96392 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Vmblog.com"
+            },
+            "author": "David Marshall",
+            "title": "Memfault 2023 Predictions: IoT Development and Industry Trends",
+            "description": "Industry executives and experts share their predictions for 2023. Read them in this 15th annual VMblog.com series exclusive. IoT Development and... Read more at VMblog.com.",
+            "url": "https://vmblog.com:443/archive/2022/12/01/memfault-2023-predictions-iot-development-and-industry-trends.aspx",
+            "urlToImage": null,
+            "publishedAt": "2022-12-01T13:47:00Z",
+            "content": "Industry executives and experts share their predictions for 2023.\u00a0 Read them in this 15th annual VMblog.com series exclusive.\r\nBy Fran\u00e7ois\r\nBaldassari, CEO,Memfault\r\n2022 has seen\r\nacceleration of th\u2026 [+4465 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Raji Oluwaniyi",
+            "title": "The 7 Best Places to Host Your Developer Portfolio",
+            "description": "If you're a software developer looking for a place to host your portfolio or showcase your skills, check out these sites that can help you create one.",
+            "url": "https://www.makeuseof.com/best-places-to-host-developer-portfolio/",
+            "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/Multiple-Monitors-Turned-On.jpg",
+            "publishedAt": "2022-12-01T13:45:15Z",
+            "content": "As a developer, building a strong portfolio is vital for your career development, as it's a great way to attract employers and get job opportunities. However, using a platform to display your portfol\u2026 [+8610 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Trendhunter.com"
+            },
+            "author": null,
+            "title": "Educational Programmable Robot - DJI's 'RoboMaster S1' Allows Kids to Program an Educational Robot (TrendHunter.com)",
+            "description": "(TrendHunter.com) DJI\u2019s \u2018RoboMaster S1\u2019 is a robot with omni-directional wheels, a live-streaming video camera, 46 programmable components, and a pellet-firing turret for more action-based fun. The robot is...",
+            "url": "https://www.trendhunter.com/trends/robomaster-s1",
+            "urlToImage": "https://cdn.trendhunterstatic.com/thumbs/493/robomaster-s1.jpeg?auto=webp",
+            "publishedAt": "2022-12-01T13:43:03Z",
+            "content": "DJIs RoboMaster S1 is a robot with omni-directional wheels, a live-streaming video camera, 46 programmable components, and a pellet-firing turret for more action-based fun. The robot is designed to i\u2026 [+609 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Zelda Drink Coaster #3DThursday #3DPrinting",
+            "description": "Atskerp shares: A drink coaster inspired by The Legend of Zelda Breath of the Wild. Print or paint brown. Finish off with some gold rub n\u2019 buff. Enjoy!download the files on: https://www.thingiverse.com/thing:5516317 Every Thursday is #3dthursday here at Adafr\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/zelda-drink-coaster-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Zelda-Drink-Coaster.jpg",
+            "publishedAt": "2022-12-01T13:00:06Z",
+            "content": "December 1, 2022 AT 8:00 am\r\nZelda Drink Coaster #3DThursday #3DPrinting\r\nAtskerp shares: \r\nA drink coaster inspired by The Legend of Zelda Breath of the Wild.\r\nPrint or paint brown. Finish off with \u2026 [+3746 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Geeksforgeeks.org"
+            },
+            "author": "Akanksha Singh",
+            "title": "Josh Technology grp Interview Experience for Software QA (On-Campus)",
+            "description": "I have recently given a Personal interview for Josh Technology Group (Software Quality Analyst). And I will tell my experience through this article. There are\u2026 Read More\nThe post Josh Technology grp Interview Experience for Software QA (On-Campus) appeared fi\u2026",
+            "url": "https://www.geeksforgeeks.org/josh-technology-grp-interview-experience-for-software-qa-on-campus/",
+            "urlToImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
+            "publishedAt": "2022-12-01T12:09:08Z",
+            "content": "I have recently given a Personal interview for Josh Technology Group (Software Quality Analyst). And I will tell my experience through this article. There are five rounds for the Josh Technology Grou\u2026 [+1760 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "BK LED Dimmer Controller 12-24V #3DThursday #3DPrinting",
+            "description": "B3_K shares: This will allow you to reduce the footprint of that behemoth box to be around 75% smaller/more compact. I designed it to mount on and Ender 3 V2 (all E3\u2019s) with two possible mounting options. The standard mount uses the vertical v-slot behind the\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/bk-led-dimmer-controller-12-24v-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/BK-LED-Dimmer-Controller-12-24V.jpg",
+            "publishedAt": "2022-12-01T12:00:36Z",
+            "content": "December 1, 2022 AT 7:00 am\r\nBK LED Dimmer Controller 12-24V #3DThursday #3DPrinting\r\nB3_K shares: \r\nThis will allow you to reduce the footprint of that behemoth box to be around 75% smaller/more com\u2026 [+4225 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": null,
+            "title": "d3p added to PyPI",
+            "description": "Differentially-Private Probabilistic Programming using NumPyro and the differentially-private variational inference algorithm",
+            "url": "https://pypi.org/project/d3p/",
+            "urlToImage": "https://pypi.org/static/images/twitter.6fecba6f.jpg",
+            "publishedAt": "2022-12-01T11:31:07Z",
+            "content": "d3p is an implementation of the differentially private variational inference (DP-VI) algorithm [2] for NumPyro, using JAX for auto-differentiation and fast execution on CPU and GPU.\r\nIt is designed t\u2026 [+9093 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Hand Tool for peeling oranges #3DThursday #3DPrinting",
+            "description": "afruzu shares: Hand Tool for peeling orangesdownload the files on: https://www.thingiverse.com/thing:5527540 Every Thursday is #3dthursday here at Adafruit! The DIY 3D printing community has passion and dedication for making solid objects from digital models.\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/hand-tool-for-peeling-oranges-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Hand-Tool-for-peeling-oranges.jpg",
+            "publishedAt": "2022-12-01T10:00:47Z",
+            "content": "December 1, 2022 AT 5:00 am\r\nHand Tool for peeling oranges #3DThursday #3DPrinting\r\nafruzu shares: \r\nHand Tool for peeling oranges\r\ndownload the files on: https://www.thingiverse.com/thing:5527540\r\nE\u2026 [+3638 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Hands Plate Stand #3DThursday #3DPrinting",
+            "description": "i8yurdog shares: Just a little platter stand I mixed up for Halloween. Takes a 12\u2033 platter as it is sized. (Album Size)download the files on: https://www.thingiverse.com/thing:5510419 Every Thursday is #3dthursday here at Adafruit! The DIY 3D printing communi\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/hands-plate-stand-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Hands-Plate-Stand.jpg",
+            "publishedAt": "2022-12-01T09:00:04Z",
+            "content": "December 1, 2022 AT 4:00 am\r\nHands Plate Stand #3DThursday #3DPrinting\r\ni8yurdog shares: \r\nJust a little platter stand I mixed up for Halloween. Takes a 12\u2033 platter as it is sized. (Album Size)\r\ndown\u2026 [+3701 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dataversity.net"
+            },
+            "author": "Paramita (Guha) Ghosh",
+            "title": "What Makes a Great Data Scientist?",
+            "description": "A great data scientist combines expert knowledge of various interrelated academic disciplines to help global enterprises make agile decisions for improved business performance.\u00a0Data scientists use statistics, mathematics, data mining, and computer science to \u2026",
+            "url": "https://www.dataversity.net/what-makes-a-great-data-scientist/",
+            "urlToImage": "https://d3an9kf42ylj3p.cloudfront.net/uploads/2022/11/pg_greatdatascientist_dec-22.jpg",
+            "publishedAt": "2022-12-01T08:35:00Z",
+            "content": "A great data scientist combines expert knowledge of various interrelated academic disciplines to help global enterprises make agile decisions for improved business performance.\u00a0Data scientists use st\u2026 [+6499 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Christmas tree LED candle cover decoration #3DThursday #3DPrinting",
+            "description": "Locke_One shares: Nice christmas tree decoration for covering standard LED tea light candles as shown. good gift idea. Scale the design to fit your LED candles, if necessary. The current thing inner diameter ~ 3,7cm. height is ~ 11cm.download the files on: ht\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/christmas-tree-led-candle-cover-decoration-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Christmas-tree-LED-candle-cover-decoration.jpg",
+            "publishedAt": "2022-12-01T08:00:58Z",
+            "content": "December 1, 2022 AT 3:00 am\r\nChristmas tree LED candle cover decoration #3DThursday #3DPrinting\r\nLocke_One shares: \r\nNice christmas tree decoration for covering standard LED tea light candles as show\u2026 [+3841 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "8-Button front panel for relay controller #3DThursday #3DPrinting",
+            "description": "onetransistor shares: This is a front panel for an outdoor lights controller box with 8-channels. The panel has 8 numbered push buttons, each with a corresponding LED. Buttons state can be read by a microcontroller using a serial SPI like protocol. Using the \u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/8-button-front-panel-for-relay-controller-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/8-Button-front-panel-for-relay-controller.jpg",
+            "publishedAt": "2022-12-01T07:00:52Z",
+            "content": "December 1, 2022 AT 2:00 am\r\n8-Button front panel for relay controller #3DThursday #3DPrinting\r\nonetransistor shares: \r\nThis is a front panel for an outdoor lights controller box with 8-channels. The\u2026 [+3996 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "From the mail bag\u2026",
+            "description": "From the mail bag!Hi Adafruit, Just wanted to say your weekly newsletters and variety of products are fantastic. I first fell in love with your products when I came across the \u201c3.5mm (1/8\u2033) 4-Pole (TRRS) Audio Plug Terminal Block\u201d Not many places stock this i\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/from-the-mail-bag-605/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2021/05/mailbag_animated.gif",
+            "publishedAt": "2022-12-01T06:30:00Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Lego box for storage #3DThursday #3DPrinting",
+            "description": "https://www.thingiverse.com/BoldCreator shares: Made from the exact outer Lego brick dimensions, scaled up 500%. The eight point box has a dividing wall in it to make it more practical. Super easy to print, preferably with high wall count and low infill perce\u2026",
+            "url": "https://blog.adafruit.com/2022/12/01/lego-box-for-storage-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Lego-box-for-storage.jpg",
+            "publishedAt": "2022-12-01T06:00:49Z",
+            "content": "December 1, 2022 AT 1:00 am\r\nLego box for storage #3DThursday #3DPrinting\r\nhttps://www.thingiverse.com/BoldCreator shares: \r\nMade from the exact outer Lego brick dimensions, scaled up 500%. The eight\u2026 [+3949 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Itsfoss.com"
+            },
+            "author": "Sagar Sharma",
+            "title": "How to Automatically Indent Your Code in Visual Studio Code",
+            "description": "Tabs or spaces? Whatever you prefer. You can set it to automatically indent your code in the Visual Studio Code. Here's how to do that.",
+            "url": "https://itsfoss.com/auto-indent-vs-code/",
+            "urlToImage": "https://itsfoss.com/wp-content/uploads/2022/11/automatically-indent-vscode.png",
+            "publishedAt": "2022-12-01T03:38:00Z",
+            "content": "The indent in code refers to the space you have at the beginning of the code line. Like other code editors and IDEs, VS Code allows you to indent your code automatically.\r\nYou can set tabs or spaces \u2026 [+2331 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Touring the Inside and Out of the USS Enterprise NCC-1701",
+            "description": "I just discovered this wonderful channel of technical 3D cut-away animations of sci-fi spaceships and other tech.Here is a full 11-deck tour of the original USS Enterprise. See the channel for internal tours of dozens of other vessels and tech from Star Trek,\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/touring-the-inside-and-out-of-the-uss-enterprise-ncc-1701/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-5.22.15-PM.png",
+            "publishedAt": "2022-12-01T03:00:38Z",
+            "content": "November 30, 2022 AT 10:00 pm\r\nTouring the Inside and Out of the USS Enterprise NCC-1701\r\nI just discovered this wonderful channel of technical 3D cut-away animations of sci-fi spaceships and other t\u2026 [+2756 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Python.org"
+            },
+            "author": null,
+            "title": "BeginnersGuide/OverviewChinese",
+            "description": "New page:\nAdd: to translate.",
+            "url": "https://wiki.python.org/moin/BeginnersGuide/OverviewChinese",
+            "urlToImage": null,
+            "publishedAt": "2022-12-01T01:57:08Z",
+            "content": "Python is a clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java. \r\nSome of Python's notable features: \r\n<ul><li>Uses an elegant syntax, making the progr\u2026 [+2302 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Making a Baby Stroller That Generates Power as You Stroll",
+            "description": "I\u2019m not sure how much of a need there is for a battery/phone recharging baby stroller, but I say you can never have enough dynamos out there, generating power as we go about our daily lives.In this Digi-Key \u201cPotentially Genius\u201d episode, they are asked to crea\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/making-a-baby-stroller-that-generates-power-as-you-stroll/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-5.11.27-PM.png",
+            "publishedAt": "2022-12-01T01:30:35Z",
+            "content": "November 30, 2022 AT 8:30 pm\r\nMaking a Baby Stroller That Generates Power as You Stroll\r\nI\u2019m not sure how much of a need there is for a battery/phone recharging baby stroller, but I say you can never\u2026 [+2882 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Stxnext.com"
+            },
+            "author": "Susan Johnson",
+            "title": "STX Next: What Is Django and What Is Django Used for?",
+            "description": "Read our guide to the top Python framework: Django. Find out what Django is and what it\u2019s used for. Learn the framework\u2019s best features and applications.",
+            "url": "https://www.stxnext.com/blog/what-is-django/",
+            "urlToImage": "https://www.stxnext.com/hubfs/STX%20Next%202020/blog/images/blog-post-graphic-what-is-Django-used-for.webp#keepProtocol",
+            "publishedAt": "2022-12-01T01:12:41Z",
+            "content": "A lot of frameworks have tried to make their admin panel user-friendly and easy to navigate. However, the Django frameworks default admin panel is different.\r\nNow, some people feel that Djangos defau\u2026 [+2293 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "What Happens if You Leave a Wrench in Evapo-Rust for 3 Years?",
+            "description": "If you haven\u2019t messed with Evapo-Rust yet, you\u2019re missing out. It\u2019s an environmentally friendly de-rusting agent that can be used over and over again. It\u2019s amazingly stuff.On Hand Tool Rescue, Eric wanted to try a little experiment. He soaked a wrench in Evap\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/what-happens-if-you-leave-a-wrench-in-evapo-rust-for-3-years/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-4.46.16-PM.png",
+            "publishedAt": "2022-12-01T01:00:42Z",
+            "content": "November 30, 2022 AT 8:00 pm\r\nWhat Happens if You Leave a Wrench in Evapo-Rust for 3 Years?\r\nIf you haven\u2019t messed with Evapo-Rust yet, you\u2019re missing out. It\u2019s an environmentally friendly de-rusting\u2026 [+3173 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Ride Along with Artemis Around the Moon (Official NASA Video)",
+            "description": "NASA dropped this promo video for the Artemis program. Its a fun trip around the moon that should get you hyped for what a modern day moon exploration can be.Cameras on NASA\u2019s Space Launch System (SLS) rocket and Orion spacecraft give us amazing views of our \u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/ride-along-with-artemis-around-the-moon-official-nasa-video/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/ride-along-with-artemis-around-t.jpg",
+            "publishedAt": "2022-12-01T01:00:00Z",
+            "content": "November 30, 2022 AT 8:00 pm\r\nRide Along with Artemis Around the Moon (Official NASA Video)\r\nNASA dropped this promo video for the Artemis program. Its a fun trip around the moon that should get you \u2026 [+3328 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Stxnext.com"
+            },
+            "author": "Paulina Twarogal",
+            "title": "STX Next: 10 Best Python Books",
+            "description": "Looking for the best Python book recommendation? Read our article and discover top Python books for beginners and advanced programmers.",
+            "url": "https://www.stxnext.com/blog/best-python-books/",
+            "urlToImage": "https://www.stxnext.com/hubfs/STX%20Next%202020/blog/images/blog-post-graphic-top-Python-books.webp#keepProtocol",
+            "publishedAt": "2022-12-01T00:33:59Z",
+            "content": "Python is an incredibly powerful programming language. Due to its versatile nature and simplicity, it continues to capture the interest of developers, those new and experienced alike.\r\nDo you happen \u2026 [+1107 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nlppeople.com"
+            },
+            "author": "Alexander Raginsky",
+            "title": "Research Associate (post-doc) in Machine Learning for Natural Language Processing",
+            "description": "We are hiring a Research Associate (post-doc) to work on one of our NLP projects at the University of Sheffield. The successful candidate will be expected to lead the design and development of strategies for more transparent machine learning models to generat\u2026",
+            "url": "https://nlppeople.com/job/research-associate-post-doc-in-machine-learning-for-natural-language-processing/",
+            "urlToImage": "https://s0.wp.com/i/blank.jpg",
+            "publishedAt": "2022-12-01T00:00:00Z",
+            "content": "We are hiring a Research Associate (post-doc) to work on one of our NLP projects at the University of Sheffield. The successful candidate will be expected to lead the design and development of strate\u2026 [+1096 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nature.com"
+            },
+            "author": "Fabian Eisenstein, Haruaki Yanagisawa, Hiroka Kashihara, Masahide Kikkawa, Sachiko Tsukita, Radostin Danev",
+            "title": "Parallel cryo electron tomography on in situ lamellae",
+            "description": "The parallel cryo electron tomography (PACE-tomo) method increases the throughput on in situ samples by parallelizing acquisition. It maximizes the usable sample area on individual lamellae without compromising data quality.",
+            "url": "https://www.nature.com/articles/s41592-022-01690-1",
+            "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41592-022-01690-1/MediaObjects/41592_2022_1690_Fig1_HTML.png",
+            "publishedAt": "2022-12-01T00:00:00Z",
+            "content": "<li>Hylton, R. K. &amp; Swulius, M. T. Challenges and triumphs in cryo-electron tomography. iScience24, 102959 (2021).\r\nArticle\u00a0\r\n PubMed\u00a0\r\n PubMed Central\u00a0\r\nGoogle Scholar\u00a0\r\n</li><li>Assaiya, A., Bu\u2026 [+11926 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": "zboehm104@gmail.com",
+            "title": "phml added to PyPI",
+            "description": "Python Hypertext Markup Language - Extension of HTML",
+            "url": "https://pypi.org/project/phml/",
+            "urlToImage": "https://pypi.org/static/images/twitter.6fecba6f.jpg",
+            "publishedAt": "2022-11-30T23:34:24Z",
+            "content": "TOC\r\nOverview\r\nThe idea behind the creation of Python in Hypertext Markup Language (phml), is to allow for web page generation with direct access to python. This language pulls directly from framewor\u2026 [+7020 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Takara",
+            "title": "Visualize and Hear Ultrasonic Frequencies With a Third Ear #WearableWednesday",
+            "description": "This project shows you how to convert ultrasonic frequencies into a range perceptible to the human ear.4Eyes6Senses shares this awesome project on instructables.Continuing my interest in wearable augmentations that visualize phenomena, I designed a \u201cthird ear\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/visualize-and-hear-ultrasonic-frequencies-with-a-third-ear/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/visualize-and-hear-ultrasonic-fr.jpg",
+            "publishedAt": "2022-11-30T23:00:02Z",
+            "content": "November 30, 2022 AT 6:00 pm\r\nVisualize and Hear Ultrasonic Frequencies With a Third Ear #WearableWednesday\r\nThis project shows you how to convert ultrasonic frequencies into a range perceptible to t\u2026 [+3774 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "John Park",
+            "title": "John Park\u2019s Workshop \u2014 LIVE! TODAY 11/30/22 @adafruit @johnedgarpark #adafruit",
+            "description": "It\u2019s JOHN PARK\u2019S WORKSHOP! \u2014 LIVE! \u2014 Coming up at 8pm ET / 5pm PT\u00a0LIVE TEXT CHAT IS HERE in the Adafruit Discord chat!\u00a0Today\u2019s project: 16-Steps Also: Gear Report New Product New Learn Guides CircuitPython Parsec Product Pick Recap Fresh Discount Code Python \u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/john-parks-workshop-live-today-11-30-22-adafruit-johnedgarpark-adafruit/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/askjp.png",
+            "publishedAt": "2022-11-30T22:15:35Z",
+            "content": "November 30, 2022 AT 5:15 pm\r\nJohn Park\u2019s Workshop \u2014 LIVE! TODAY 11/30/22 @adafruit @johnedgarpark #adafruit\r\nIt\u2019s JOHN PARK\u2019S WORKSHOP! \u2014 LIVE! \u2014 Coming up at 8pm ET / 5pm PT\u00a0LIVE TEXT CHAT IS HERE \u2026 [+3421 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "New map restores Native names to northern Minnesota #NativeAmericanHeritageMonth #NAHM #AmericanIndianandAlaskaNativeHeritageMonth",
+            "description": "Who doesn\u2019t love a map project? The Ely Folk School and the Bois Forte Band of Chippewa are working together to add the orignal Ojibwe names to towns and waterways. Surprising that this map doesn\u2019t already exist!From MPR:\u201cThis project underscores our voice an\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/new-map-restores-native-names-to-northern-minnesota-nativeamericanheritagemonth-nahm-americanindianandalaskanativeheritagemonth/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/RSLocalFile-E77EFF3C-2FA0-42DE-9000-4E9878EA4755.png",
+            "publishedAt": "2022-11-30T21:43:51Z",
+            "content": "November 30, 2022 AT 4:43 pm\r\nNew map restores Native names to northern Minnesota #NativeAmericanHeritageMonth #NAHM #AmericanIndianandAlaskaNativeHeritageMonth\r\nWho doesn\u2019t love a map project? The E\u2026 [+3292 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Making Gandalf\u2019s Pipe from Lord of the Rings",
+            "description": "Years ago, Adam Savage acquired the Weta Workshop Gandalf staff and pipe. But the pipe wasn\u2019t real, it was a solid resin cast. So, he made his own, not to smoke from it, just to create as accurate an experience as possible.In this \u201cOne Day Build,\u201d he creates \u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/making-gandalfs-pipe-from-lord-of-the-rings/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-30-at-12.41.08-PM.png",
+            "publishedAt": "2022-11-30T21:30:57Z",
+            "content": "November 30, 2022 AT 4:30 pm\r\nMaking Gandalf\u2019s Pipe from Lord of the Rings\r\nYears ago, Adam Savage acquired the Weta Workshop Gandalf staff and pipe. But the pipe wasn\u2019t real, it was a solid resin ca\u2026 [+2752 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Deepesh Sharma",
+            "title": "4 Ways to Shorten Linux Commands and Save Time",
+            "description": "Improve your terminal experience and save more time by reducing the length of your Linux commands with these methods.",
+            "url": "https://www.makeuseof.com/ways-to-shorten-linux-commands/",
+            "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/shorten-linux-commands.jpg",
+            "publishedAt": "2022-11-30T21:30:15Z",
+            "content": "Linux commands are often known for being too long, and with excessive length comes increased complexity and comprehension issues. But there's always a way to shorten your Linux commands and turn them\u2026 [+6135 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Everydaysuperpowers.devhttps"
+            },
+            "author": null,
+            "title": "Everyday Superpowers: Refactor Refactoring for more satisfaction",
+            "description": "I was intimidated by refactoring, but learned that most of us misunderstand what refactoring is. This summary of my PyJamas talk clarifies refactoring.",
+            "url": "https://everydaysuperpowers.devhttps://everydaysuperpowers.dev/articles/refactor-refactoring-for-more-satisfaction/",
+            "urlToImage": "https://everydaysuperpowers.dev/static/ES_globe.png",
+            "publishedAt": "2022-11-30T19:38:05Z",
+            "content": "This is a blogified version of my 18-minute PyJamas talk, Refactor refactoringHow changing your views on refactoring can make your job more\u00a0satisfying.\r\nYou can watch it\u00a0here:\r\nRefactoring is a topic\u2026 [+8512 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Correlation Waves #ArtTuesday",
+            "description": "Pulling inpiration from isolation and global events, Correlation Waves envelopes the viewer. It creates a unique experience that is almost like a drop down wearable.From Action.io:Correlation Waves is a physical interactive installation composed of a kinetic \u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/correlation-waves-arttuesday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/correlation-waves-arttuesday.jpg",
+            "publishedAt": "2022-11-30T19:30:00Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Noe Ruiz",
+            "title": "Show and Tell Tonight Hosted by @ecken @videopixil",
+            "description": "Hey folks! Pedro and myself will be hosting the Adafruit Show and Tell this week. Can\u2019t wait to see your projects! SHOW and TELL 11/30/2022: Watch on YouTubeShow and Tell Playlist on YouTubeTo show and share a project at 7:30pm Eastern today, view the chat or\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/show-and-tell-tonight-hosted-by-ecken-videopixil/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/reminder-show-and-tell-11-16-202.jpg",
+            "publishedAt": "2022-11-30T19:15:13Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Zay",
+            "title": "Little Wearable Ultrasond Stickers #WearableWednesday",
+            "description": "Over at MIT researchers have developed an ultrasound sticker. When applied to a human subject, the sticker can generate high resolution images of internal organs. These images can be captured even when the subject is moving around. Here\u2019s more from Wearable T\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/little-wearable-ultrasond-stickers-wearablewednesday/",
+            "urlToImage": "https://s0.wp.com/i/blank.jpg",
+            "publishedAt": "2022-11-30T19:00:53Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Wire"
+            },
+            "author": null,
+            "title": "MicroEJ Launches Managed-C Support for Safe and Secure Operation of Today\u2019s Connected Systems",
+            "description": "BOSTON--(BUSINESS WIRE)--MicroEJ, the leading provider of software containers for IoT and embedded devices, today announces support of the Managed-C programming language to reinforce the security and reliability of connected devices. Through innovative softwa\u2026",
+            "url": "https://www.businesswire.com/news/home/20221130005998/en/MicroEJ-Launches-Managed-C-Support-for-Safe-and-Secure-Operation-of-Today%E2%80%99s-Connected-Systems",
+            "urlToImage": "https://mms.businesswire.com/media/20221130005998/en/1651568/23/Picture2.jpg",
+            "publishedAt": "2022-11-30T18:55:12Z",
+            "content": "BOSTON--(BUSINESS WIRE)--MicroEJ, the leading provider of software containers for IoT and embedded devices, today announces support of the Managed-C programming language to reinforce the security and\u2026 [+3993 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Amazon.com"
+            },
+            "author": "Prashant Agrawal",
+            "title": "Log analytics the easy way with Amazon OpenSearch Serverless",
+            "description": "We recently announced the preview release of Amazon OpenSearch Serverless, a new serverless option for Amazon OpenSearch Service, which makes it easy for you to run large-scale search and analytics workloads without having to configure, manage, or scale OpenS\u2026",
+            "url": "https://aws.amazon.com/blogs/big-data/log-analytics-the-easy-way-with-amazon-opensearch-serverless/",
+            "urlToImage": "https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/11/29/log-analytics-opensearch-serverless.jpg",
+            "publishedAt": "2022-11-30T18:49:38Z",
+            "content": "We recently announced the preview release of Amazon OpenSearch Serverless, a new serverless option for Amazon OpenSearch Service, which makes it easy for you to run large-scale search and analytics w\u2026 [+14853 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Turning a Home Store Animatronic Doll into Wednesday Addams",
+            "description": "This episode of Wicked Makers, Jaimie and Jay turn a home store animatronic haunted doll into an animatronic Wednesday Addams, inspired by the Wednesday character in the new Netflix series.",
+            "url": "https://blog.adafruit.com/2022/11/30/turning-a-home-store-animatronic-doll-into-wednesday-addams/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-29-at-7.21.06-PM.png",
+            "publishedAt": "2022-11-30T18:00:36Z",
+            "content": "Stop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro\u2026 [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "brent",
+            "title": "Adafruit\u2019s IoT Monthly Newsletter for December 2022 is out this week, Subscribe Now! #IoT #Newsletter",
+            "description": "The\u00a0IoT Monthly\u00a0newsletter is the best place to catch up on the latest news about the Internet of Things. We cover everything from projects to new protocols. 5,000+ readers and growing!This newsletter is only sent to your inbox\u00a0once per month\u00a0\u2013 don\u2019t miss you\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/adafruits-iot-monthly-newsletter-for-december-2022-is-out-this-week-subscribe-now-iot-newsletter/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/adafruit_IoT_monthly_header_blog-1-1-1-1-1-1-1.jpeg",
+            "publishedAt": "2022-11-30T17:35:05Z",
+            "content": "November 30, 2022 AT 12:35 pm\r\nAdafruits IoT Monthly Newsletter for December 2022 is out this week, Subscribe Now! #IoT #Newsletter\r\nThe\u00a0IoT Monthly\u00a0newsletter is the best place to catch up on the la\u2026 [+2898 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kdnuggets.com"
+            },
+            "author": "Vijay Singh Khatri",
+            "title": "8 Best Python Image Manipulation Tools",
+            "description": "Want to extract underlying data from images? This article lists some of the best Python image manipulation tools that help you transform images.",
+            "url": "https://www.kdnuggets.com/2022/11/8-best-python-image-manipulation-tools.html",
+            "urlToImage": "https://www.kdnuggets.com/wp-content/uploads/khatri_8_best_python_image_manipulation_tools_3.png",
+            "publishedAt": "2022-11-30T17:00:58Z",
+            "content": "Image by Editor\u00a0\r\nIn todays world, data plays a vital role in every industry vertical. Images can be one of the sources of extracting data. An image can be defined as a matrix of pixels, and each pix\u2026 [+8663 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jetbrains.com"
+            },
+            "author": "Maria Kosukhina",
+            "title": "IntelliJ IDEA 2022.3 Is Out!",
+            "description": "IntelliJ IDEA 2022.3 is now available with numerous improvements and cool new features! You can download the new version from our website, update directly from the IDE or via the free Toolbox App, or use snaps for Ubuntu. In this new version you can preview t\u2026",
+            "url": "https://blog.jetbrains.com/idea/2022/11/intellij-idea-2022-3/",
+            "urlToImage": "https://blog.jetbrains.com/wp-content/uploads/2022/11/Release_Preview_image_1280x600_IntelliJIDEA-2x-2.png",
+            "publishedAt": "2022-11-30T16:34:31Z",
+            "content": "IntelliJ IDEANewsReleasesIntelliJ IDEA 2022.3 is now available with numerous improvements and cool new features!\r\nYou can download the new version from our website, update directly from the IDE or vi\u2026 [+12760 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digitalocean.com"
+            },
+            "author": "Vivek Kumar Singh",
+            "title": "How To Work with Unicode in Python",
+            "description": "The tutorial will cover the basics of Unicode in Python and how Python interprets Unicode characters. It covers the concepts of unicodedata and how to use this module to convert UTF-8 to ASCII. By the end of this tutorial readers will have a strong fundamenta\u2026",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-work-with-unicode-in-python",
+            "urlToImage": "https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg",
+            "publishedAt": "2022-11-30T16:29:32Z",
+            "content": "*The author selected the [Free and Open Source Fund](https://www.brightfunds.org/funds/foss-nonprofits) to receive a donation as part of the [Write for DOnations](https://do.co/w4do-cta) program.*\n\n#\u2026 [+18241 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "3D Printing with Ten Million Colors!",
+            "description": "In this 3D Printing Nerd video, Joel talks with a representative of Mimaki, an inkjet printing company that has developed a new form of 3D printing. Their process combines the technology they developed for 2D printing and projects it into three dimension. Obj\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/3d-printing-with-ten-million-colors/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/Screen-Shot-2022-11-29-at-6.53.59-PM.png",
+            "publishedAt": "2022-11-30T16:00:49Z",
+            "content": "November 30, 2022 AT 11:00 am\r\n3D Printing with Ten Million Colors!\r\nIn this 3D Printing Nerd video, Joel talks with a representative of Mimaki, an inkjet printing company that has developed a new fo\u2026 [+2874 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "How CUDA programming works #CUDA #Graphics #GPU @nVidia",
+            "description": "An introduction to programming the GPU by the lead architect of CUDA for nVidia. CUDA\u2019s unique in being a programming language designed and built hand-in-hand with the hardware that it runs on.Stepping up from last year\u2019s \u201cHow GPU Computing Works\u201d deep dive i\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/how-cuda-programming-works-cuda-graphics-gpu-nvidia/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/rogue-34.png",
+            "publishedAt": "2022-11-30T15:56:38Z",
+            "content": "November 30, 2022 AT 10:56 am\r\nHow CUDA programming works #CUDA #Graphics #GPU @nVidia\r\nAn introduction to programming the GPU by the lead architect of CUDA for nVidia. CUDA\u2019s unique in being a progr\u2026 [+3395 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "How do transistors work, anyway? #Transistors #Semiconductors",
+            "description": "The invention of the electronic circuit changed the world. In just over a century, electronic devices upended almost every aspect of our lives \u2014 from transportation, to medicine, to the way we interact with each other and have fun.Despite this, a firm grasp o\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/how-do-transistors-work-anyway-transistors-semiconductors/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/rogue-30.png",
+            "publishedAt": "2022-11-30T15:41:22Z",
+            "content": "November 30, 2022 AT 10:41 am\r\nHow do transistors work, anyway? #Transistors #Semiconductors\r\nThe invention of the electronic circuit changed the world. In just over a century, electronic devices upe\u2026 [+3534 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mongodb.com"
+            },
+            "author": "Genevieve Broadhead",
+            "title": "MACH Aligned for Retail: Headless",
+            "description": "The MACH Alliance is a non-profit organization fostering the adoption of composable architecture principles, namely Microservices, API-First, Cloud-Native SaaS, and Headless. MongoDB, among many other technology companies, is a member of this Alliance, enabli\u2026",
+            "url": "https://mongodb.com/blog/post/mach-aligned-retail-headless",
+            "urlToImage": "https://webimages.mongodb.com/_com_assets/cms/kv6qz4v5ozumn6llm-Blog%20Header%204.png?auto=format%252Ccompress",
+            "publishedAt": "2022-11-30T15:29:38Z",
+            "content": "The MACH Alliance is a non-profit organization fostering the adoption of composable architecture principles, namely Microservices, API-First, Cloud-Native SaaS, and Headless. MongoDB, among many othe\u2026 [+9609 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wowebook.org"
+            },
+            "author": "WOW! eBook",
+            "title": "Advanced Data Analytics Using Python, 2nd Edition",
+            "description": "eBook Details: Paperback: 266 pages Publisher: WOW! eBook; 2nd edition (November 26, 2022) Language:\u00a0English ISBN-10: 1484280040 ISBN-13: 978-1484280041 eBook Description: Advanced Data Analytics Using Python: With Architectural Patterns, Text and Image Class\u2026",
+            "url": "https://www.wowebook.org/advanced-data-analytics-using-python-2nd-edition/",
+            "urlToImage": "https://www.wowebook.org/wp-content/uploads/2022/11/Advanced-Data-Analytics-Using-Python-2nd-Edition.webp",
+            "publishedAt": "2022-11-30T15:21:58Z",
+            "content": "eBook Details:\r\n<ul><li>Paperback: 266 pages</li><li>Publisher: WOW! eBook; 2nd edition (November 26, 2022)</li><li>Language:\u00a0English</li><li>ISBN-10: 1484280040</li><li>ISBN-13: 978-1484280041</li><\u2026 [+1646 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Noe Ruiz",
+            "title": "3D Hangouts \u2013 MicroLipo Charger, Noodle Snowflake, Flexi Yeti and Turkey Leg",
+            "description": "This week @adafruit we\u2019re making a case for the MicroLipo V2! Prototyping a festive project using LED noodles. Timelapse this week features an articulating Yeti designed by Flexi Factory and a Turkey Leg designed by CM_DESIGN.YouTube Video \u2013 https://youtu.be/\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/3d-hangouts-microlipo-charger-noodle-snowflake-flexi-yeti-and-turkey-leg/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/3DHO-1080.jpg",
+            "publishedAt": "2022-11-30T15:20:53Z",
+            "content": "November 30, 2022 AT 10:20 am\r\n3D Hangouts MicroLipo Charger, Noodle Snowflake, Flexi Yeti and Turkey Leg\r\nStop breadboarding and soldering \u2013 start making immediately! Adafruit\u2019s Circuit Playground i\u2026 [+2469 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Liz Clark",
+            "title": "NEW GUIDE: Adafruit 5\u00d75 NeoPixel Grid BFF #AdafruitLearningSystem #Adafruit @adafruit @blitzcitydiy",
+            "description": "The Adafruit 5\u00d75 NeoPixel Grid BFF can attach to the back of a QT Py or Xiao board. Onboard is a grid of 25 1.5\u00d71.5mm NeoPixel LEDs connected to pin A3 by default. You can cut/solder some jumpers to select A1, or A2 instead if you like. There\u2019s also solder pa\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/new-guide-adafruit-5x5-neopixel-grid-bff-adafruitlearningsystem-adafruit-adafruit-blitzcitydiy/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/5646-07.jpg",
+            "publishedAt": "2022-11-30T15:15:47Z",
+            "content": "November 30, 2022 AT 10:15 am\r\nNEW GUIDE: Adafruit 5\u00d75 NeoPixel Grid BFF #AdafruitLearningSystem #Adafruit @adafruit @blitzcitydiy\r\nThe Adafruit 5\u00d75 NeoPixel Grid BFF can attach to the back of a QT P\u2026 [+3085 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Sophy Wong Visits Adam Savage #WearableWednesday",
+            "description": "In this video Sophy Wong visits Adam Savage and shows off some of her amazing 3D printed wearables. See more on YouTube and checkout more from Sophy on SophyWong.com, Instagram and Twitter Every Wednesday is Wearable Wednesday here at Adafruit! We\u2019re bringing\u2026",
+            "url": "https://blog.adafruit.com/2022/11/30/sophy-wong-visits-adam-savage-wearablewednesday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/sophy-wong-visits-adam-savage-we.jpg",
+            "publishedAt": "2022-11-30T15:00:21Z",
+            "content": "November 30, 2022 AT 10:00 am\r\nSophy Wong Visits Adam Savage #WearableWednesday\r\nIn this video Sophy Wong visits Adam Savage and shows off some of her amazing 3D printed wearables. See more on YouTub\u2026 [+3016 chars]"
+        }
+    ]
+}
