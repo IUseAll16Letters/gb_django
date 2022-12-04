@@ -19,7 +19,8 @@ def make_news_json_from_api(news_as_dict: dict, news_file: WindowsPath = None) -
     current_time = datetime.datetime.now().strftime('%y_%m_%d_%H_%M_%S')
 
     with open(JSON_NEWS_LOCATION / f'cached_news_{current_time}.json', 'w', encoding=DEFAULT_CHARSET) as f:
-        json.dump(news_as_dict, f, indent=4)
+        dump = json.dumps(news_as_dict, indent=4, ensure_ascii=False)
+        f.write(dump)
 
 
 def get_news_from_api() -> dict:
@@ -49,7 +50,6 @@ def get_news() -> dict:
             .strptime(re.search(r'(\d{2}_){5}\d{2}', str(news_file), re.I).group(), '%y_%m_%d_%H_%M_%S')
         if datetime.datetime.now() - news_file_datetime < datetime.timedelta(hours=1):
             return get_news_from_json(news_file).get('articles')
-    print('Getting new news')
     news = get_news_from_api()
     make_news_json_from_api(news, news_file)
     news = news.get('articles')

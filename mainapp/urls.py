@@ -14,5 +14,5 @@ urlpatterns = [
     path('news/', NewsPageView.as_view(), name='news'),
     path('news/<int:page>', NewsPageView.as_view(), name='news'),
     path('login/', LoginPageView.as_view(), name='login'),
-    path('redirect/<str:param>', redirect_page, name='redirect'),
+    path('google_redirect/<str:param>', redirect_page, name='google_redirect'),
 ]

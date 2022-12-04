@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # TODO: REMOVE TO DOT_ENV file
 SECRET_KEY = 'django-insecure-(*ywn2trkdndh95sh9bcj0%agr!rcy*%mhuu@iy6m)3@)9-no='
-NEWS_API_KEY = 'f322692f7c68470e801d2bdb3d1c49cf'
+NEWS_API_KEY = ''
 
 
 # SECURITY WARNING: don't run with debug turned on in production!

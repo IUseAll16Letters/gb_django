@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load rng %}
+{% load stringify %}
 
 {% block content %}
 
@@ -8,21 +10,19 @@
 
 <div class="row">
     <div class="col-lg-8">
-        {% for i in news|slice:":10" %}
+        {% for i in news %}
             <div class="card my-2">
                 <div class="card-body">
-                    <h5 class="card-title"></h5>
-                        <a href="{% url 'mainapp:redirect' i.title|truncatewords:5 %}">{{ i.title|truncatewords }}</a></h5>
+                    <h5 class="card-title">
+                        <a href="{% url 'mainapp:google_redirect' i.title|stringify  %}">{{ i.title }}</a></h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{ i.publishedAt }}</h6>
-                    <p class="card-text">{{ i.content|truncatechars:60 }}</p>
+                    <p class="card-text">{{ i.content }}</p>
                     <a href="{{ i.url }}" target="_blank" class="card-link">Подробнее</a>
                 </div>
             </div>
 
     {% endfor %}
 
-
-    
     </div>
 
   <div class="col-lg-4">
@@ -56,9 +56,23 @@
 <div class="row justify-content-center align-items-center mt-3 mb-n3">
   <nav aria-label="Page navigation example">
     <ul class="pagination">
-        {% for n in news %}
-            <li class="page-item"><a class="page-link" href="{% url 'mainapp:news'  %}">{{ forloop.counter }}</a></li>
+        {% if prev is not None %}
+        <li class="page-item">
+            <a class="page-link" href="{% url 'mainapp:news' prev %}">< prev</a>
+        </li>
+        {% endif %}
+
+        {% for n in total_range %}
+            <li class="page-item {% if n == page %} active {% endif %}">
+                <a class="page-link " href="{% url 'mainapp:news' n %}">{{ n }}</a>
+            </li>
         {% endfor %}
+
+        {% if next is not None %}
+            <li class="page-item">
+                <a class="page-link" href="{% url 'mainapp:news' next %}">next > </a>
+            </li>
+        {% endif %}
     </ul>
   </nav>
 </div>
