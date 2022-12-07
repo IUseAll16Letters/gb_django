@@ -1,0 +1,1306 @@
+{
+    "status": "ok",
+    "totalResults": 1049,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "InfoWorld"
+            },
+            "author": "paul_krill@idg.com",
+            "title": "14 hot language projects riding WebAssembly",
+            "description": "Today’s web applications are nowhere near as fast and responsive as native desktop applications, but what if they could be? That’s the promise of WebAssembly.\r\nWebAssembly is a low-level, assembly-like language with a compact binary format that runs with near…",
+            "url": "https://www.infoworld.com/article/3619608/14-hot-language-projects-riding-webassembly.html",
+            "urlToImage": "https://images.techhive.com/images/article/2016/12/fire-100698029-large.jpg?auto=webp&quality=85,70",
+            "publishedAt": "2022-12-07T11:00:00Z",
+            "content": "Todays web applications are nowhere near as fast and responsive as native desktop applications, but what if they could be? Thats the promise of WebAssembly.\r\nWebAssembly is a low-level, assembly-like… [+10894 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tech-recipes.com"
+            },
+            "author": "Nadezhda Petrova",
+            "title": "The Ultimate Guide for Choosing Your ASP.NET Hosting Provider",
+            "description": "Are you searching for a reliable ASP.net hosting service provider? Then this guide is for you. ASP.net is a development framework provided by Microsoft for building website pages. It is one of the most widely used web development frameworks, and for good reas…",
+            "url": "https://www.tech-recipes.com/hosting/asp-net-hosting/",
+            "urlToImage": "https://www.tech-recipes.com/wp-content/uploads/2022/12/asp.net-hosting-outreach.jpg",
+            "publishedAt": "2022-12-07T08:06:04Z",
+            "content": "Are you searching for a reliable ASP.net hosting service provider? Then this guide is for you. ASP.net is a development framework provided by Microsoft for building website pages. It is one of the mo… [+18003 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Martech.zone"
+            },
+            "author": "Douglas Karr",
+            "title": "Why The World is Buzzing About ChatGPT",
+            "description": "ChatGPT is a revolutionary new tool that has the potential to revolutionize the programming industry. Developed by the team at OpenAI, ChatGPT is an open-source natural language processing (NLP) model (the GPT in ChatGPT) that can generate real-time, human-li…",
+            "url": "https://martech.zone/why-the-world-is-buzzing-about-chatgpt/",
+            "urlToImage": "https://martech.zone/wp-content/uploads/2022/12/openai-chatgpt.png",
+            "publishedAt": "2022-12-07T02:55:12Z",
+            "content": "ChatGPT is a revolutionary new tool that has the potential to revolutionize the programming industry. Developed by the team at OpenAI, ChatGPT is an open-source natural language processing (NLP) mode… [+3514 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sqlauthority.com"
+            },
+            "author": "Pinal Dave",
+            "title": "Go Language for Database Professional",
+            "description": "The Go language is an open-source project started by Google. It is a statically typed, compiled language that feels like a dynamically typed, interpreted.\nFirst appeared on Go Language for Database Professional",
+            "url": "https://blog.sqlauthority.com/2022/12/07/go-language-for-database-professional/",
+            "urlToImage": "https://blog.sqlauthority.com/wp-content/uploads/2022/12/golang.png",
+            "publishedAt": "2022-12-07T01:30:06Z",
+            "content": "The Go language is an open-source project started by Google. It is a statically typed, compiled language that feels like a dynamically typed, interpreted language. Go’s focus on simplicity and readab… [+4303 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dark Reading"
+            },
+            "author": "Robert Lemos, Contributing Writer, Dark Reading",
+            "title": "Shift to Memory-Safe Languages Gains Momentum",
+            "description": "Software firms and the National Security Agency urge developers to move to memory-safe programming languages to eliminate a major source of high-severity flaws.",
+            "url": "https://www.darkreading.com/application-security/shift-memory-safe-languages-gains-momentum",
+            "urlToImage": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt57b187868d08cc58/6318f9ed487a2c2a95de6773/vulnerabilities_Elena11_shutterstock.jpg",
+            "publishedAt": "2022-12-07T00:03:00Z",
+            "content": "The software industry is making headway against a group of pernicious vulnerabilities that are responsible for the vast majority of critical, remotely exploitable, and in-the-wild attacks, software-s… [+4848 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Takara",
+            "title": "Why is the ‘Charlie Brown Christmas’ soundtrack still so loved?",
+            "description": "Every holiday season, A Charlie Brown Christmas airs. No matter how many times you’ve watched it, it is still a joy. The music featured throughout sets a calming holiday tone, no matter how stressed out Charlie gets. NPR shares the details of this beloved sou…",
+            "url": "https://blog.adafruit.com/2022/12/06/why-is-the-charlie-brown-christmas-soundtrack-still-so-loved/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/ap22335604167148-ce80c1c4ac34cb451d76859bd037591bdb363a68-s800-c85.webp",
+            "publishedAt": "2022-12-06T23:00:45Z",
+            "content": "December 6, 2022 AT 6:00 pm\r\nWhy is the ‘Charlie Brown Christmas’ soundtrack still so loved?\r\nEvery holiday season, A Charlie Brown Christmas airs. No matter how many times you’ve watched it, it is s… [+3189 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "An Over-Engineered Moka Pot",
+            "description": "Moka pots make a sludgy sort of quasi-espresso coffee. It isn’t my favorite. It is a fun device though and nice to have in your coffee making arsenal. I would love to see someone really fine tune the moka pot with some creative design. Enter SunShine who almo…",
+            "url": "https://blog.adafruit.com/2022/12/06/an-over-engineered-moka-pot/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/an-over-engineered-moka-pot.jpg",
+            "publishedAt": "2022-12-06T21:00:00Z",
+            "content": "December 6, 2022 AT 4:00 pm\r\nAn Over-Engineered Moka Pot\r\nMoka pots make a sludgy sort of quasi-espresso coffee. It isn’t my favorite. It is a fun device though and nice to have in your coffee making… [+2896 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "The really tiny RISC-V emulator: But, can it run Doom? #RISCV #Emulation @cnlohr",
+            "description": "Last week, we blogged about the making a very small RISC-V emulator. Folks asked the author the next logical question after finding out that the emulator works: Can it run Doom?The original Doom is considered one of the first pioneering first-person shooter g…",
+            "url": "https://blog.adafruit.com/2022/12/06/the-really-tiny-risc-v-emulator-but-can-it-run-doom-riscv-emulation-cnlohr/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-6.jpg",
+            "publishedAt": "2022-12-06T20:57:07Z",
+            "content": "December 6, 2022 AT 3:57 pm\r\nThe really tiny RISC-V emulator: But, can it run Doom? #RISCV #Emulation @cnlohr\r\nLast week, we blogged about the making a very small RISC-V emulator. Folks asked the aut… [+3230 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "John Park",
+            "title": "JP’s Product Pick of the Week — 4pm Eastern TODAY! 12/6/22 @adafruit #adafruit #newproductpick",
+            "description": "Come on by for JP’s Product Pick of The Week! A new product pick will be revealed. The show airs at 4pm ET / 1pm PT, TODAY!Check out the livestream right here inside this product page —  you won’t want to miss it because there will be a HUGE DISCOUNT during t…",
+            "url": "https://blog.adafruit.com/2022/12/06/jps-product-pick-of-the-week-4pm-eastern-today-12-6-22-adafruit-adafruit-newproductpick/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/jpppw_thumb_episode112_blur.jpg",
+            "publishedAt": "2022-12-06T20:50:38Z",
+            "content": "December 6, 2022 AT 3:50 pm\r\nJP’s Product Pick of the Week — 4pm Eastern TODAY! 12/6/22 @adafruit #adafruit #newproductpick\r\nCome on by for JP’s Product Pick of The Week! A new product pick will be r… [+3078 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "A 10-minute guide to the Linux applications binary interface #Linux #Programming @opensourceway",
+            "description": "Opensource.com presents a quick guide to the Linux applications’ binary interface (ABI). It is intended to familiarize you with the concept of an ABI, why ABI stability matters, and what is included in Linux’s stable ABI.Linus Torvalds’ famous admonition, is …",
+            "url": "https://blog.adafruit.com/2022/12/06/a-10-minute-guide-to-the-linux-applications-binary-interface-linux-programming-opensourceway/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-33.png",
+            "publishedAt": "2022-12-06T20:36:11Z",
+            "content": "December 6, 2022 AT 3:36 pm\r\nA 10-minute guide to the Linux applications binary interface #Linux #Programming @opensourceway\r\nOpensource.com presents a quick guide to the Linux applications’ binary i… [+4208 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "InfoWorld"
+            },
+            "author": "paul_krill@idg.com",
+            "title": "C++ overtakes Java in language popularity index",
+            "description": "C++ ranks higher than Java in the Tiobe language popularity index for the first time ever, dating back to 2001. Java slipped to a new low in the latest edition of the index.\r\nThe December 2002 Tiobe Programming Community Index has C++, ranked third, surpassin…",
+            "url": "https://www.infoworld.com/article/3682141/c-plus-plus-overtakes-java-in-language-popularity-index.html",
+            "urlToImage": "https://images.techhive.com/images/article/2017/02/1200px-fis_medals_gold_silver_bronze-100707383-large.jpg?auto=webp&quality=85,70",
+            "publishedAt": "2022-12-06T19:58:00Z",
+            "content": "C++ ranks higher than Java in the Tiobe language popularity index for the first time ever, dating back to 2001. Java slipped to a new low in the latest edition of the index.\r\nThe December 2002 Tiobe … [+1602 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "A bare metal microcontroller programming guide",
+            "description": "Sergey Lyubka provides a guide written for developers who wish to start programming microcontrollers using the GCC compiler and a bare metal approach. It uses a Nucleo-F429ZI development board with STM32F429 microcontroller. But basic principles are applicabl…",
+            "url": "https://blog.adafruit.com/2022/12/06/a-bare-metal-microcontroller-programming-guide/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-31.png",
+            "publishedAt": "2022-12-06T19:35:01Z",
+            "content": "December 6, 2022 AT 2:35 pm\r\nA bare metal microcontroller programming guide\r\nSergey Lyubka provides a guide written for developers who wish to start programming microcontrollers using the GCC compile… [+3123 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "GL Communications, Inc.",
+            "title": "GL Enhances Multi-Functional Ethernet and IP Test Solution",
+            "description": "GAITHERSBURG, Md., Dec. 06, 2022 (GLOBE NEWSWIRE) -- GL Communications Inc., a global leader in telecom test and measurement solutions, addressed the press regarding their enhanced high-speed Ethernet and IP test solutions – PacketExpert™ 10GX used for testin…",
+            "url": "https://www.globenewswire.com/news-release/2022/12/06/2568716/0/en/GL-Enhances-Multi-Functional-Ethernet-and-IP-Test-Solution.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/0f4e9d6c-8bcf-4d4f-9e8f-defba89f5e9e?size=1",
+            "publishedAt": "2022-12-06T19:13:00Z",
+            "content": "GAITHERSBURG, Md., Dec. 06, 2022 (GLOBE NEWSWIRE) -- GL Communications Inc., a global leader in telecom test and measurement solutions, addressed the press regarding their enhanced high-speed Etherne… [+3159 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Wire"
+            },
+            "author": null,
+            "title": "Variscite Simplifies AI/ML and Multimedia at the Edge with Python API for System on Modules",
+            "description": "TEL AVIV, Israel--(BUSINESS WIRE)--Variscite Simplifies AI/ML and Multimedia at the Edge with Python API for System on Modules",
+            "url": "https://www.businesswire.com/news/home/20221206005431/en/Variscite-Simplifies-AIML-and-Multimedia-at-the-Edge-with-Python-API-for-System-on-Modules",
+            "urlToImage": "http://www.businesswire.com/images/bwlogo_square.png",
+            "publishedAt": "2022-12-06T19:08:19Z",
+            "content": "TEL AVIV, Israel--(BUSINESS WIRE)--Variscite, a leading worldwide designer and manufacturer of System on Modules (SoMs), today announced the official launch of the Variscite Python API developer cent… [+2556 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Joshua Adegoke",
+            "title": "Data Scientist vs. Data Engineer: How Do They Differ?",
+            "description": "Data scientists and data engineers are crucial roles in big data and analytics, but they have different skills and job duties. Here's how they differ!",
+            "url": "https://www.makeuseof.com/data-scientist-vs-data-engineer/",
+            "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/a-man-in-thoughts-standing-in-front-of-a-white-board-_.jpg",
+            "publishedAt": "2022-12-06T18:45:16Z",
+            "content": "Data is the new oil with many sides to its exploration. From the extraction of data down to the system infrastructure needed to contain this data flow, the concept of data organization continues to b… [+7593 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lightning.ai"
+            },
+            "author": "rasbt",
+            "title": "Show HN: Deep Learning Fundamentals – A new, concise resource on learning DL&AI",
+            "description": "Article URL: https://lightning.ai/pages/courses/deep-learning-fundamentals/unit-1/\nComments URL: https://news.ycombinator.com/item?id=33884270\nPoints: 3\n# Comments: 3",
+            "url": "https://lightning.ai/pages/courses/deep-learning-fundamentals/unit-1/",
+            "urlToImage": null,
+            "publishedAt": "2022-12-06T17:56:29Z",
+            "content": "References\r\nWelcome to this exciting journey into the world of machine learning and artificial intelligence. In this first unit, you will learn about the big picture behind machine learning and how i… [+905 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wowebook.org"
+            },
+            "author": "WOW! eBook",
+            "title": "Teach Yourself VISUALLY Python",
+            "description": "eBook Details: Paperback: 304 pages Publisher: WOW! eBook (September 7, 2022) Language: English ISBN-10: 1119860253 ISBN-13: 978-1119860259 eBook Description: Teach Yourself VISUALLY Python: A simple, straightforward, and hands-on roadmap to the world of comp…",
+            "url": "https://www.wowebook.org/teach-yourself-visually-python/",
+            "urlToImage": "https://www.wowebook.org/wp-content/uploads/2022/12/Teach-Yourself-VISUALLY-Python.webp",
+            "publishedAt": "2022-12-06T17:42:35Z",
+            "content": "eBook Details:\r\n<ul><li>Paperback: 304 pages</li><li>Publisher: WOW! eBook (September 7, 2022)</li><li>Language: English</li><li>ISBN-10: 1119860253</li><li>ISBN-13: 978-1119860259</li></ul>eBook Des… [+1197 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Indiana Jones and the Dial of Destiny Trailer with Easter Eggs and Breakdown",
+            "description": "In case you missed the trailer to the 5th movie in the Indiana Jones franchise, Indiana Jones and the Dial of Destiny, here it is. It is followed by a breakdown of the trailer, Easter egg reveals, and tidbits of news related to the film.",
+            "url": "https://blog.adafruit.com/2022/12/06/indiana-jones-and-the-dial-of-destiny-trailer-with-easter-eggs-and-breakdown/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-05-at-8.29.18-PM.png",
+            "publishedAt": "2022-12-06T17:00:29Z",
+            "content": "December 6, 2022 AT 12:00 pm\r\nIndiana Jones and the Dial of Destiny Trailer with Easter Eggs and Breakdown\r\nIn case you missed the trailer to the 5th movie in the Indiana Jones franchise, Indiana Jon… [+2688 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "VentureBeat"
+            },
+            "author": "Aoibhinn McBride",
+            "title": "Want a new tech job in 2023? Here’s what you need to know",
+            "description": "The areas of cloud computing, cyber security, AI and blockchain technology in particular will continue to grow and prosper in 2023.",
+            "url": "https://venturebeat.com/programming-development/want-a-new-tech-job-in-2023-heres-what-you-need-to-know/",
+            "urlToImage": "https://venturebeat.com/wp-content/uploads/2022/12/GettyImages-1322050853.jpg?w=1200&strip=all",
+            "publishedAt": "2022-12-06T16:26:00Z",
+            "content": "Despite big techs behemoths ending 2022 with fewer workers on the books, the tech industry as a whole remains robust and the areas of cloud computing, cyber security, AI and blockchain technology wil… [+4967 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Vickiboykis.com"
+            },
+            "author": null,
+            "title": "The cloudy layers of modern-day programming",
+            "description": "Is what we do development anymore?",
+            "url": "https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/",
+            "urlToImage": "https://veekaybee.github.io/images/logo.png",
+            "publishedAt": "2022-12-06T15:56:52Z",
+            "content": "Composition X, Kandinsky\r\nRecently, Ive come to the realization that much of what we do in modern software development is not true software engineering. We spend the majority of our days trying to co… [+24249 chars]"
+        },
+        {
+            "source": {
+                "id": "hacker-news",
+                "name": "Hacker News"
+            },
+            "author": "FactolSarin",
+            "title": "Show HN: My Child's First Program",
+            "description": "Last night, I introduced my kid to programming. We'd done some stuff with Mindstorms before, but she never really caught the bug for it. But for some reason, last night when I showed her some simple Python scripting to solve math problems and write to the con…",
+            "url": "https://news.ycombinator.com/item?id=33881857",
+            "urlToImage": null,
+            "publishedAt": "2022-12-06T15:43:14Z",
+            "content": "Last night, I introduced my kid to programming. We'd done some stuff with Mindstorms before, but she never really caught the bug for it. But for some reason, last night when I showed her some simple … [+303 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Brake light and turn signals for backpacks #CircuitPlaygroundExpress @hackadayio",
+            "description": "Estudio Roble posts on hackaday.io a backpack project with electronic signaling. An accelerometer autodetects braking. The turn signals are commanded by a 315MHz radio module. 78 NeoPixels are used for lighting the indicators with an Adafruit Circuit Playgrou…",
+            "url": "https://blog.adafruit.com/2022/12/06/brake-light-and-turn-signals-for-backpacks-circuitplaygroundexpress-hackadayio/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-29.png",
+            "publishedAt": "2022-12-06T15:35:55Z",
+            "content": "December 6, 2022 AT 10:35 am\r\nBrake light and turn signals for backpacks #CircuitPlaygroundExpress @hackadayio\r\nEstudio Roble posts on hackaday.io a backpack project with electronic signaling. An acc… [+3174 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "W3.org"
+            },
+            "author": "Andrea Nuzzolese",
+            "title": "Two two-years Research Assistant positions @ISTC-CNR",
+            "description": null,
+            "url": "https://lists.w3.org/Archives/Public/semantic-web/2022Dec/0005.html",
+            "urlToImage": null,
+            "publishedAt": "2022-12-06T15:32:50Z",
+            "content": "From: Andrea Nuzzolese &lt;andreagiovanni.nuzzolese@cnr.it&gt;\r\nDate: Tue, 6 Dec 2022 16:32:50 +0100Message-Id: &lt;B9B8B339-500E-4833-B206-3925782BCF3B@cnr.it&gt;\r\nTo: semantic-web@w3.org\r\nTwo two-y… [+5302 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Meet Viva Magenta, Pantone’s Color of the Year 2023 #ArtTuesday",
+            "description": "Get ready to see shades of magenta in 2023, thanks to Pantone’s Viva Magenta pick for the year. We certainly won’t be mad to have some more of this red tone in our day to day lives. Pantone states the color is a hybrid that translates beautifully in both our …",
+            "url": "https://blog.adafruit.com/2022/12/06/meet-viva-magenta-pantones-color-of-the-year-2023-arttuesday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/pantone-article-what-is-viva-magenta-image-1.jpg-e1670005910977.webp",
+            "publishedAt": "2022-12-06T15:00:17Z",
+            "content": "December 6, 2022 AT 10:00 am\r\nMeet Viva Magenta, Pantone’s Color of the Year 2023 #ArtTuesday\r\nGet ready to see shades of magenta in 2023, thanks to Pantone’s Viva Magenta pick for the year. We certa… [+3723 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Step into the role of a surgeon in an interactive game #Gaming #History #Medicine @OldOpTheatre",
+            "description": "Step into the role of a surgeon at St Thomas’ Hospital in the early 19th century, before the introduction of anesthetics and antiseptic practices. Consider the difficult decisions facing a surgeon and choose your path. Will your patient live?The London-based …",
+            "url": "https://blog.adafruit.com/2022/12/06/step-into-the-role-of-a-surgeon-in-an-interactive-game-gaming-history-medicine-oldoptheatre/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-26.png",
+            "publishedAt": "2022-12-06T14:58:48Z",
+            "content": "December 6, 2022 AT 9:58 am\r\nStep into the role of a surgeon in an interactive game #Gaming #History #Medicine @OldOpTheatre\r\nStep into the role of a surgeon at St Thomas’ Hospital in the early 19th … [+2905 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dzone.com"
+            },
+            "author": "Sampo Ahokas",
+            "title": "Bolster Intelligent Document Processing With Robotic Process Automation",
+            "description": "Over the past few years, there have been countless new technology developments that have advanced the workforce —  from video and chat platforms that keep employees connected to automation solutions that boost productivity. One of the more popular development…",
+            "url": "https://dzone.com/articles/bolster-intelligent-document-processing-with-robot",
+            "urlToImage": "https://dz2cdn4.dzone.com/storage/article-thumb/16561455-thumb.jpg",
+            "publishedAt": "2022-12-06T14:46:19Z",
+            "content": "Over the past few years, there have been countless new technology developments that have advanced the workforce  from video and chat platforms that keep employees connected to automation solutions th… [+6669 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "The Making of Dune II: the strategy game #Dune #Gaming",
+            "description": "Despite its name suggesting otherwise, Dune II was a first – a real-time strategy game that sprang out of the box with almost every gameplay attribute and control system seen in every RTS since. In direct lineage, it was the father of the globally successful …",
+            "url": "https://blog.adafruit.com/2022/12/06/the-making-of-dune-ii-the-strategy-game-dune-gaming/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-24.png",
+            "publishedAt": "2022-12-06T14:41:50Z",
+            "content": "December 6, 2022 AT 9:41 am\r\nThe Making of Dune II: the strategy game #Dune #Gaming\r\nDespite its name suggesting otherwise, Dune II was a first – a real-time strategy game that sprang out of the box … [+3978 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Plos.org"
+            },
+            "author": "Andrea Gulli, Federico Fontana, Eva Orzan, Alessandro Aruffo, Enrico Muzzi",
+            "title": "Spontaneous head movements support accurate horizontal auditory localization in a virtual visual environment",
+            "description": "This study investigates the relationship between auditory localization accuracy in the horizontal plane and the spontaneous translation and rotation of the head in response to an acoustic stimulus from an invisible sound source. Although a number of studies h…",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0278705",
+            "urlToImage": "https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0278705.g008&size=inline",
+            "publishedAt": "2022-12-06T14:00:00Z",
+            "content": "Abstract\r\nThis study investigates the relationship between auditory localization accuracy in the horizontal plane and the spontaneous translation and rotation of the head in response to an acoustic s… [+43361 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jetbrains.com"
+            },
+            "author": "Anastasiia Pogorelova",
+            "title": "Hour of Code: Top 5 Java Projects",
+            "description": "This article was written by Ekaterina Khudikova, Marketing Specialist at JetBrains Academy. It’s the second day of the Hour of Code celebration, and we’re back with more amazing projects to tell you about! Today’s topic is Java, and in case you missed our pos…",
+            "url": "https://blog.jetbrains.com/education/2022/12/06/hour-of-code-top-5-java-projects/",
+            "urlToImage": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Hour_of_Code_Java_2022_Blog_Social_share_image_1280x720.png",
+            "publishedAt": "2022-12-06T13:33:27Z",
+            "content": "JavaJetBrains AcademyNewsThis article was written by Ekaterina Khudikova, Marketing Specialist at JetBrains Academy. \r\nIts the second day of the Hour of Code celebration, and were back with more amaz… [+4033 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Hour of Code Activities @codeorg #CSEdWeek #HourOfCode #CelebratingProgress",
+            "description": "For Computer Science Education Week check out Hour of Code’s ready to go lessons. They have a ton of options available for all grades and skill levels!Try a one-hour tutorial designed for all ages in over 45 languages. Join millions of students and teachers i…",
+            "url": "https://blog.adafruit.com/2022/12/06/hour-of-code-activities-codeorg-csedweek-hourofcode-celebratingprogress/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-05-at-4.01.33-PM.png",
+            "publishedAt": "2022-12-06T13:30:00Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "Liam Tung",
+            "title": "Top programming languages list: An unexpected change at the top",
+            "description": "One of the biggest programming languages has dropped out of the top three, according to one of the lists used to track coders' favourites.",
+            "url": "https://www.zdnet.com/article/top-programming-languages-list-an-unexpected-change-at-the-top/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/87955207fb9162e4fbe2f726a29caeae43a9ca82/2021/09/01/81581e68-6971-43e6-ac99-c14c2817ca29/shutterstock-1500204824.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2022-12-06T13:01:21Z",
+            "content": "Image: Shutterstock / iJeab\r\nC++ has overtaken Java to be the third most popular language in the Tiobe programming language index. \r\nIt's the first time C++ has over taken Java in the Tiobe index and… [+2084 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CMSWire"
+            },
+            "author": "pr@cmswire.com (Pierre DeBois)",
+            "title": "Why Now Is a Good Time to Adjust Your Analytics Workflow",
+            "description": "With the impending transition to GA4, marketers must adjust for martech now.\nContinue reading...",
+            "url": "https://www.cmswire.com/digital-marketing/why-now-is-a-good-time-to-adjust-your-analytics-workflow/",
+            "urlToImage": "https://www.cmswire.com/-/media/6904198af7dd4a6aad6cd52a6f2254a2.ashx",
+            "publishedAt": "2022-12-06T13:00:19Z",
+            "content": "When I was a young boy, I looked forward to autumn to see all the new changes being introduced, ranging from the new car models (because I was a car enthusiast) to the new TV shows. \r\nI think fall is… [+8346 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "Danny Palmer",
+            "title": "This badly made ransomware can't decrypt your files, even if you pay the ransom",
+            "description": "Researchers warn this badly built ransomware will destroy your files, so don't pay up.",
+            "url": "https://www.zdnet.com/article/this-badly-made-ransomware-cant-decrypt-your-files-even-if-you-pay-the-ransom/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/b26acc4dfa9ce89bbcdc007bf03baf6c85348545/2022/08/24/d6fecff6-8183-4b75-9ce0-648079a6bd4d/a-man-looking-frustrated-at-his-computer-in-the-office.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2022-12-06T12:38:56Z",
+            "content": "Image: Getty / 5m3photos\r\nVictims of a recently uncovered form of ransomware are being warned not to pay the ransom demand, simply because the ransomware isn't able to decrypt files it just destroys … [+2937 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BleepingComputer"
+            },
+            "author": "Ax Sharma",
+            "title": "OpenAI's new ChatGPT bot: 10 dangerous things it's capable of",
+            "description": "OpenAI's newly unveiled ChatGPT bot is making waves when it comes to all the amazing things it can do—from writing music to coding to generating vulnerability exploits, and what not. As the erudite machinery turns into a viral sensation, humans have started t…",
+            "url": "https://www.bleepingcomputer.com/news/technology/openais-new-chatgpt-bot-10-dangerous-things-its-capable-of/",
+            "urlToImage": "https://www.bleepstatic.com/content/hl-images/2022/11/30/Red_robot.jpg",
+            "publishedAt": "2022-12-06T12:23:58Z",
+            "content": "OpenAI's newly unveiled ChatGPT bot is making waves when it comes to all the amazing things it can do—from writing music to coding to generating vulnerability exploits, and what not.\r\nAs the erudite … [+12843 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Oreilly.com"
+            },
+            "author": "Mike Loukides",
+            "title": "Radar Trends to Watch: December 2022",
+            "description": "This month’s news has been overshadowed by the implosion of SBF’s TFX and the possible implosion of Elon Musk’s Twitter. All the noise doesn’t mean that important things aren’t happening. Many companies, organizations, and individuals are wrestling with the c…",
+            "url": "https://www.oreilly.com/radar/radar-trends-to-watch-december-2022/",
+            "urlToImage": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2022/12/december2022.png",
+            "publishedAt": "2022-12-06T12:21:48Z",
+            "content": "This months news has been overshadowed by the implosion of SBFs TFX and the possible implosion of Elon Musks Twitter. All the noise doesnt mean that important things arent happening. Many companies, … [+10567 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ozbargain.com.au"
+            },
+            "author": "Wuman",
+            "title": "[ebook] $0 Machine Learning: 4 Books in 1, Girl Detective, Reiki Healing, Chess, The Fed-up Cow, Grill Bible, & More at Amazon",
+            "description": "Free without Kindle Unlimited\n\nMachine Learning: 4 Books in 1: Basic Concepts + Artificial Intelligence + Python Programming + Python Machine Learning. A Comprehensive Guide to Build Intelligent Systems Using Python Libraries\nhttps://www.amazon.com/dp/B086KQM…",
+            "url": "https://www.ozbargain.com.au/node/743647",
+            "urlToImage": "https://files.ozbargain.com.au/n/47/743647.jpg?h=57709d08",
+            "publishedAt": "2022-12-06T11:07:37Z",
+            "content": "Free without Kindle Unlimited\r\nMachine Learning: 4 Books in 1: Basic Concepts + Artificial Intelligence + Python Programming + Python Machine Learning. A Comprehensive Guide to Build Intelligent Syst… [+1987 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Visual.ly"
+            },
+            "author": "ritikaoberoi9878",
+            "title": "What is mobile app backend development, and backend languages.",
+            "description": "Mobile App Backend Development occurs on the server-side. In the app backend work here secures, stores, and processes data. Backend development has di",
+            "url": "https://visual.ly/community/Infographics/business/what-mobile-app-backend-development-and-backend-languages",
+            "urlToImage": "https://i.visual.ly/images/what-is-mobile-app-backend-development-and-backend-languages_638f1edaea833_w250_h250.png",
+            "publishedAt": "2022-12-06T10:52:10Z",
+            "content": "LBMSOLUTIONS MOBILE APP BACKEND DEVELOPMENT What is Backend ? Backend development refers to the server side of an application . The backend usually consists of three parts a server , an application ,… [+329 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ozbargain.com.au"
+            },
+            "author": "Wuman",
+            "title": "80+ $0 Udemy Courses: Complete PHP, Python for Data Science, AutoCAD, HTML5 & CSS3, Public Speaking, QuickBooks Pro & More",
+            "description": "1000 redemption per code.\n\n<ol>\n<li> [17h 35m] Complete PHP from Scratch for Beginners </li>\n<li> [6h 0m] Python for Data Science & Machine Learning: Zero to Hero </li>\n<li> [2h 30m] WordPress Crash Course: Learn WordPress Fast </li>\n<li> [4h 30m] AutoCAD 202…",
+            "url": "https://www.ozbargain.com.au/node/743643",
+            "urlToImage": "https://files.ozbargain.com.au/n/43/743643l.jpg?h=5ae9dbd9",
+            "publishedAt": "2022-12-06T10:40:32Z",
+            "content": "All trademarks are owned by their respective owners.OzBargain is an independent community website which has no association with nor endorsement by the respective trademark owners.\r\nCopyright © 2006-2… [+32 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Securityaffairs.co"
+            },
+            "author": "Pierluigi Paganini",
+            "title": "Ransomware Toolkit Cryptonite turning into an accidental wiper",
+            "description": "Researchers spotted a version of the open-source ransomware toolkit Cryptonite that doesn’t support decryption capabilities. Fortinet researchers discovered a sample of malware generated with the publicly available open-source ransomware toolkit Cryptonite th…",
+            "url": "https://securityaffairs.co/wordpress/139336/cyber-crime/cryptonite-ransomware-toolkit-wiper.html",
+            "urlToImage": "https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/12/cryptonite-ransomware-toolkit.png?resize=300%2C174&ssl=1",
+            "publishedAt": "2022-12-06T10:39:37Z",
+            "content": "Fortinet researchers discovered a sample of malware generated with the publicly available open-source ransomware toolkit Cryptonite that never offers the decryption window, turning it as a wiper. The… [+2695 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pythonbytes.fm"
+            },
+            "author": "Michael Kennedy (@mkennedy)",
+            "title": "Python Bytes: #313 Programming Robots With a Marker",
+            "description": "News and announcements from the Python community for the week of Dec 6th, 2022",
+            "url": "https://pythonbytes.fm/episodes/show/313/programming-robots-with-a-marker",
+            "urlToImage": "https://cdn.pythonbytes.fm/episodes/youtube_image/d-JoGzArMHg?v=1",
+            "publishedAt": "2022-12-06T08:00:00Z",
+            "content": "About the show\r\nSponsored by Microsoft for Startups Founders Hub.\r\nConnect with the hosts\r\nMichael #1:How do you say that number?\r\n<ul><li>Inflect: fosstodon.org/@linuxgal@techhub.social/109430499504… [+4913 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Internet"
+            },
+            "author": "Ravie Lakshmanan",
+            "title": "Open Source Ransomware Toolkit Cryptonite Turns Into Accidental Wiper Malware",
+            "description": "A version of an open source ransomware toolkit called Cryptonite has been observed in the wild with wiper capabilities due to its \"weak architecture and programming.\"\nCryptonite, unlike other ransomware strains, is not available for sale on the cybercriminal …",
+            "url": "https://thehackernews.com/2022/12/open-source-ransomware-toolkit.html",
+            "urlToImage": "https://thehackernews.com/new-images/img/b/R29vZ2xl/AVvXsEjThor5HuqM23U-6_kx1BErr-bpKNg-7Beoo3P9muEEugJPeYp52Gi9AJMoh372UPdRpEdnFv0evJzol4SRB0oC1jHbgJ0ZC4jP5trfbpJ0vgA3A-W9WpJSEO5iwQLkFwpufQFhvkBNySPbwiVsCVMHDuOnlV53VsC91urpArO1bxrOU8k0zg2E20-y/s728-e1000/ransomware.png",
+            "publishedAt": "2022-12-06T06:11:00Z",
+            "content": "A version of an open source ransomware toolkit called Cryptonite has been observed in the wild with wiper capabilities due to its \"weak architecture and programming.\"\r\nCryptonite, unlike other ransom… [+1542 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Making PVC Christmas Trees",
+            "description": "OK, so they’re really more like poles for stringing lights on that look like Christmas trees, but they still look quick and simple to make and the results are lovely. It only takes about 15 minutes for each tree.",
+            "url": "https://blog.adafruit.com/2022/12/05/making-pvc-christmas-trees/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-05-at-6.48.32-PM.png",
+            "publishedAt": "2022-12-06T03:30:45Z",
+            "content": "December 5, 2022 AT 10:30 pm\r\nMaking PVC Christmas Trees\r\nOK, so they’re really more like poles for stringing lights on that look like Christmas trees, but they still look quick and simple to make an… [+2613 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Benj Edwards",
+            "title": "OpenAI’s new chatbot can hallucinate a Linux shell—or calling a BBS",
+            "description": "ChatGPT-generated command line can create virtual files, execute code, play games.",
+            "url": "https://arstechnica.com/information-technology/2022/12/openais-new-chatbot-can-hallucinate-a-linux-shell-or-calling-a-bbs/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/ai_terminal_hero_2-760x380.jpg",
+            "publishedAt": "2022-12-05T22:45:41Z",
+            "content": "Enlarge/ An AI-generated illustration of an AI-hallucinated computer.\r\n8 with 0 posters participating\r\nOver the weekend, experimenters discovered that OpenAI's new chatbot, ChatGPT, can hallucinate s… [+4572 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Simonwillison.net"
+            },
+            "author": null,
+            "title": "Learning Rust with ChatGPT, Copilot and Advent of Code",
+            "description": "I’m using this year’s Advent of Code to learn Rust—with the assistance of GitHub Copilot and OpenAI’s new ChatGPT. I think one of the most exciting applications of large language …",
+            "url": "https://simonwillison.net/2022/Dec/5/rust-chatgpt-copilot/",
+            "urlToImage": "https://static.simonwillison.net/static/2022/copilot-2.jpg",
+            "publishedAt": "2022-12-05T21:47:56Z",
+            "content": "Im using this years Advent of Code to learn Rustwith the assistance of GitHub Copilot and OpenAIs new ChatGPT.\r\nI think one of the most exciting applications of large language models is to support se… [+13116 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "How ‘goblin mode’ became Oxford’s word of the year",
+            "description": "Have you gone “goblin mode” recently? While the term first appeared in 2009 the usage took off in 2022. a slang term, often used in the expressions ‘in goblin mode’ or ‘to go goblin mode’ – is ‘a type of behaviour which is unapologetically self-indulgent, laz…",
+            "url": "https://blog.adafruit.com/2022/12/05/how-goblin-mode-became-oxfords-word-of-the-year/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/gettyimages-1244288689-fcb97c98d1103b9cb93e06f463ab0544a89d5fba-s800-c85.png",
+            "publishedAt": "2022-12-05T21:00:00Z",
+            "content": "December 5, 2022 AT 4:00 pm\r\nHow ‘goblin mode’ became Oxford’s word of the year\r\nHave you gone “goblin mode” recently? While the term first appeared in 2009 the usage took off in 2022. \r\na slang term… [+3640 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Natasha Lomas",
+            "title": "Gift Guide: More than 20 STEM gift ideas to inspire kids to code",
+            "description": "All aboard the learn-to-code train! As another holiday season looms, we've got you covered with a bumper edition of our annual STEM gift guide -- packed with more than 20 ideas to get kids into coding...",
+            "url": "https://techcrunch.com/2022/12/05/stem-gift-guide-2022/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/11/gift-guide-22-stem.jpg?resize=1200,645",
+            "publishedAt": "2022-12-05T20:39:15Z",
+            "content": "All aboard the learn-to-code train! As another holiday season looms and kids everywhere start clamouring for shiny stuff, we’ve got you covered with a bumper edition of our annual STEM gift guide. Th… [+23123 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": null,
+            "title": "pyquibbler added to PyPI",
+            "description": "",
+            "url": "https://pypi.org/project/pyquibbler/",
+            "urlToImage": "https://pypi.org/static/images/twitter.6fecba6f.jpg",
+            "publishedAt": "2022-12-05T18:41:38Z",
+            "content": "Interactive, reproducible and efficient data analytics\r\nWhat is it?\r\nQuibbler is a toolset for building highly interactive, yet reproducible,\r\ntransparent and efficient data analysis pipelines. Quibb… [+2247 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Pedro",
+            "title": "Flower Hairpin #3DThursday #3DPrinting",
+            "description": "baygaillard shares: This is a hairpin modeled after the Tang Dynasty hairpin found at the Met museum ( https://www.metmuseum.org/art/collection/search/60841 ). You will need to scale up the flower until it is as large as you want, but you can print all three …",
+            "url": "https://blog.adafruit.com/2022/12/05/flower-hairpin-3dthursday-3dprinting/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Flower-Hairpin-rotated.jpg",
+            "publishedAt": "2022-12-05T18:00:40Z",
+            "content": "December 5, 2022 AT 1:00 pm\r\nFlower Hairpin #3DThursday #3DPrinting\r\nbaygaillard shares: \r\nThis is a hairpin modeled after the Tang Dynasty hairpin found at the Met museum ( https://www.metmuseum.org… [+3865 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "A Smart Wireless Bandage That Monitors Your Wounds, and Treats Them, Too",
+            "description": "A team of researchers working under the Stanford Wearable Electronics Initiative have developed a “smart bandage” which, they claim, does not only monitor wounds wirelessly, but can actively speed up healing through the application of electrical stimulation. …",
+            "url": "https://blog.adafruit.com/2022/12/05/a-smart-wireless-bandage-that-monitors-your-wounds-and-treats-them-too/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-04-at-9.11.18-PM.png",
+            "publishedAt": "2022-12-05T18:00:22Z",
+            "content": "December 5, 2022 AT 1:00 pm\r\nA Smart Wireless Bandage That Monitors Your Wounds, and Treats Them, Too\r\nA team of researchers working under the Stanford Wearable Electronics Initiative have developed … [+3702 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Melissa LeBlanc-Williams",
+            "title": "UPDATED GUIDE: Running TensorFlow Lite Object Recognition on the Raspberry Pi 4 @Raspberry_Pi @TensorFlow #MachineLearning #BrainCraft @circuitpython #circuitpython #AdafruitLearningSystem @Adafruit @MakerMelissa",
+            "description": "The Running TensorFlow Lite Object Recognition on the Raspberry Pi 4 guide has been updated to work with Raspberry Pi Bullseye and the new picamera2 library. It has also been updated to use a newer version of TensorFlow Lite, version 2.10.0.Want to up your ro…",
+            "url": "https://blog.adafruit.com/2022/12/05/updated-guide-running-tensorflow-lite-object-recognition-on-the-raspberry-pi-4-raspberry_pi-tensorflow-machinelearning-braincraft-circuitpython-circuitpython-adafruitlearningsystem-adafruit-2/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2020/10/main-image-1.gif",
+            "publishedAt": "2022-12-05T17:25:11Z",
+            "content": "December 5, 2022 AT 12:25 pm\r\nUPDATED GUIDE: Running TensorFlow Lite Object Recognition on the Raspberry Pi 4 @Raspberry_Pi @TensorFlow #MachineLearning #BrainCraft @circuitpython #circuitpython #Ada… [+3626 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kai-waehner.de"
+            },
+            "author": "Kai Wähner",
+            "title": "When NOT To Choose Amazon MSK Serverless for Apache Kafka?",
+            "description": "Apache Kafka became the de facto standard for data streaming. Various cloud offerings emerged and improved in the last years. Amazon MSK Serverless is the latest Kafka product from AWS. This blog post looks at its capabilities to explore how it relates to \"th…",
+            "url": "https://www.kai-waehner.de/blog/2022/08/30/when-not-to-choose-amazon-msk-serverless-for-apache-kafka/",
+            "urlToImage": "https://dz2cdn3.dzone.com/storage/article-thumb/16559642-thumb.jpg",
+            "publishedAt": "2022-12-05T17:23:50Z",
+            "content": "Apache Kafka became the de facto standard for data streaming. Various cloud offerings emerged and improved in the last years. Amazon MSK Serverless is the latest Kafka product from AWS. This blog pos… [+19688 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "John Park",
+            "title": "John Park’s CircuitPython Parsec: Blink Without Delay @adafruit @johnedgarpark #adafruit #circuitpython",
+            "description": "How to use timing intervals in CircuitPython without blocking your code. To learn about CircuitPython: https://circuitpython.org",
+            "url": "https://blog.adafruit.com/2022/12/05/john-parks-circuitpython-parsec-blink-without-delay-adafruit-johnedgarpark-adafruit-circuitpython/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/john-parks-circuitpython-parsec.jpg",
+            "publishedAt": "2022-12-05T16:38:11Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "The Radiation-Hardened Robots of Fukushima",
+            "description": "In this Asianometry video, Jon looks at the disastrous Fukushima power plant meltdown that occurred on March 2011, after the Great East Japan earthquake caused a massive tsunami that disabled the cooling systems of the plant.In the aftermath of the disaster, …",
+            "url": "https://blog.adafruit.com/2022/12/05/the-radiation-hardened-robots-of-fukushima/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-04-at-7.58.42-PM.png",
+            "publishedAt": "2022-12-05T16:00:45Z",
+            "content": "December 5, 2022 AT 11:00 am\r\nThe Radiation-Hardened Robots of Fukushima\r\nIn this Asianometry video, Jon looks at the disastrous Fukushima power plant meltdown that occurred on March 2011, after the … [+2809 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "City A.M."
+            },
+            "author": "Kirstie McDermott",
+            "title": "You Should Lay The Groundwork For Your 2023 Pay Rise Now",
+            "description": "There is no doubt it has been a tough year for many people. Inflation has skyrocketed, prices have risen across the board, with energy costs coming under particular scrutiny. Confirming the pressure many feel is the Bank of England’s just-released biannual ho…",
+            "url": "https://www.cityam.com/you-should-lay-the-groundwork-for-your-2023-pay-rise-now/",
+            "urlToImage": "https://www.cityam.com/wp-content/uploads/2022/12/pay-rise.png",
+            "publishedAt": "2022-12-05T15:59:19Z",
+            "content": "Monday 05 December 2022 3:59 pm\r\nBy: \r\nKirstie McDermott\r\nKirstie works for our job board partner, Jobbio. Based in Dublin, she has been a writer and editor across print and digital platforms for ove… [+4863 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fortinet.com"
+            },
+            "author": "Gergely Revay",
+            "title": "The Story of a Ransomware Turning into an Accidental Wiper",
+            "description": "FortiGuard Labs provides a deeper analysis of an open-source Cryptonite  ransomware sample that never offers a decryption window, but instead acts as wiper malware. Read to find out more.…",
+            "url": "https://www.fortinet.com/blog/threat-research/The-story-of-a-ransomware-turning-into-an-accidental-wiper",
+            "urlToImage": "https://www.fortinet.com/content/dam/fortinet-blog/article-images/hero.WIPER.jpg",
+            "publishedAt": "2022-12-05T15:57:00Z",
+            "content": "In the last issue of our Ransomware Roundup series, we discussed a publicly available open-source ransomware toolkit called Cryptonite. As part of that investigation, we also discovered a Cryptonite … [+11369 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Dive in to How Artists Get Paid From Streaming #MusicMonday",
+            "description": "Elio Quinton takes readers of The Pudding on a deep dive into the fundamental principles that determine how artists are paid when their music is played from streaming services like Spotify, Apple Music, Deezer, Pandora, Tidal, YouTube Music, and Amazon Music.…",
+            "url": "https://blog.adafruit.com/2022/12/05/dive-in-to-how-artists-get-paid-from-streaming-musicmonday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/streaming-e1670004714699.png",
+            "publishedAt": "2022-12-05T15:00:26Z",
+            "content": "December 5, 2022 AT 10:00 am\r\nDive in to How Artists Get Paid From Streaming #MusicMonday\r\nElio Quinton takes readers of The Pudding on a deep dive into the fundamental principles that determine how … [+3076 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "Reverse engineering the codes at Disney Galaxy’s Edge #Disney #ReverseEngineering @AndrewMohawk",
+            "description": "Disney star wars games involve a bunch of scanning Aztec codes for items and challenges. Andrew MacPherson couldn’t figure out how to generate the codes correctly. Taking apart the APK, each one was generated with its description and all the barcodes were put…",
+            "url": "https://blog.adafruit.com/2022/12/05/reverse-engineering-the-codes-at-disney-galaxys-edge-disney-reverseengineering-andrewmohawk/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/one-22.png",
+            "publishedAt": "2022-12-05T14:37:14Z",
+            "content": "December 5, 2022 AT 9:37 am\r\nReverse engineering the codes at Disney Galaxy’s Edge #Disney #ReverseEngineering @AndrewMohawk\r\nDisney star wars games involve a bunch of scanning Aztec codes for items … [+3284 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Stratechery.com"
+            },
+            "author": "Ben Thompson",
+            "title": "AI Homework",
+            "description": "The first obvious casualty of large language models is homework: the real training for everyone, though, and the best way to leverage AI, will be in verifying and editing information.",
+            "url": "https://stratechery.com/2022/ai-homework/",
+            "urlToImage": "https://i0.wp.com/stratechery.com/wp-content/uploads/2020/03/Stratechery-2020-03-11-23.03.59.png?fit=1200%2C811&ssl=1",
+            "publishedAt": "2022-12-05T14:33:08Z",
+            "content": "It happened to be Wednesday night when my daughter, in the midst of preparing for “The Trial of Napoleon” for her European history class, asked for help in her role as Thomas Hobbes, witness for the … [+19746 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Anne Barela",
+            "title": "The Python on Hardware Newsletter: 10k subscribers, subscribe now! #CircuitPython #Python @micropython @ThePSF",
+            "description": "Interested in Python, especially on small devices? With the Python on Microcontrollers newsletter, you get all the latest information in one place! The Python on Microcontrollers newsletter is the place for the latest news involving Python on hardware (microc…",
+            "url": "https://blog.adafruit.com/2022/12/05/the-python-on-hardware-newsletter-10k-subscribers-subscribe-now-circuitpython-python-micropython-thepsf-2/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/all-python-subscribe-2.jpg",
+            "publishedAt": "2022-12-05T14:30:57Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Realpython.com"
+            },
+            "author": "Real Python",
+            "title": "Python News: What's New From November 2022",
+            "description": "November 2022 was full of Python news! Quickly get up to speed on what's been happening in the world of Python in the past month. You'll read about Python 3.12 alpha, malicious packages, concerns about GitHub Copilot, and more.",
+            "url": "https://realpython.com/python-news-november-2022/",
+            "urlToImage": "https://files.realpython.com/media/Monthly-Python-News_Purple_Watermarked.5b2e306328cb.jpg",
+            "publishedAt": "2022-12-05T14:00:00Z",
+            "content": "The Python world never stops spinning! After the release of Python 3.11 in October, the Python release team is already launching the first alpha versions of Python 3.12. The excitement of trying shin… [+9025 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thediff.co"
+            },
+            "author": "Byrne Hobart",
+            "title": "The Uses of Friction",
+            "description": "Plus! Market-Making; Poaching and Equity Currency; China's Covid Economy; The Cost of AI; Friendshoring; Diff Jobs",
+            "url": "https://www.thediff.co/p/the-uses-of-friction",
+            "urlToImage": "https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5b730ae4-aa35-496e-8198-965a187e2e43_600x600.png",
+            "publishedAt": "2022-12-05T13:52:08Z",
+            "content": "Welcome to the free weekly edition of The Diff! This newsletter goes out to 48,000+ readers. In this issue:\r\n<ul><li>The Uses of Friction\r\n</li><li>Market-Making\r\n</li><li>Poaching and Equity Currenc… [+17474 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pythonlibrary.org"
+            },
+            "author": "Mike",
+            "title": "Mike Driscoll: PyDev of the Week: Miroslav Šedivý",
+            "description": "This week we welcome Miroslav Šedivý as our PyDev of the Week! Miro has been a speaker at several different Python conferences. You can also catch up with",
+            "url": "https://www.blog.pythonlibrary.org/2022/12/05/pydev-of-the-week-miroslav-sedivy/",
+            "urlToImage": "https://www.blog.pythonlibrary.org/wp-content/uploads/2022/11/miro_202208_800px.jpg",
+            "publishedAt": "2022-12-05T13:23:21Z",
+            "content": "This week we welcome Miroslav edivý as our PyDev of the Week! Miro has been a speaker at several different Python conferences. You can also catch up with Miro on his website or by checking out Miro's… [+5383 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Celebrate Computer Science Education 2022 @codeorg #CSEdWeek #HourOfCode #CelebratingProgress",
+            "description": "Today kicks off Computer Science Education Week. From December 5-11, 2022 celebrate with fun projects and actives like Hour of Code to encourage coding in the classroom. Computer Science Education Week is an annual call to aciton to inspire k-12 students to l…",
+            "url": "https://blog.adafruit.com/2022/12/05/celebrate-computer-science-education-2022-codeorg-csedweek-hourofcode-celebratingprogress/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-02-at-4.05.25-PM.png",
+            "publishedAt": "2022-12-05T13:15:00Z",
+            "content": "December 5, 2022 AT 8:15 am\r\nCelebrate Computer Science Education 2022 @codeorg #CSEdWeek #HourOfCode #CelebratingProgress\r\nToday kicks off Computer Science Education Week. From December 5-11, 2022 c… [+3278 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Kelly",
+            "title": "Among Us Ugly Christmas Sweater w Bluetooth",
+            "description": "We are absolutely blown away by this spectacular build from Dawn DuPriest! Stunning, fun, and creative work. I have tried to make a musical, light-up Ugly Christmas Sweater each year since 2013 – the only year I skipped was 2021! For this year’s sweater, I fo…",
+            "url": "https://blog.adafruit.com/2022/12/05/among-us-ugly-christmas-sweater-w-bluetooth/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/among-us-ugly-christmas-sweater.jpg",
+            "publishedAt": "2022-12-05T13:00:09Z",
+            "content": "December 5, 2022 AT 8:00 am\r\nAmong Us Ugly Christmas Sweater w Bluetooth\r\nWe are absolutely blown away by this spectacular build from Dawn DuPriest! Stunning, fun, and creative work.\r\nI have tried to… [+3696 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sparkfun.com"
+            },
+            "author": "Lauren Gregory",
+            "title": "Happy Computer Science Education Week!",
+            "description": "These days, computer science makes the world go round in most ways except literal. We're celebrating this amazing field by setting you up with different resources to hone your software skills!",
+            "url": "https://www.sparkfun.com/news/5485",
+            "urlToImage": null,
+            "publishedAt": "2022-12-05T12:32:00Z",
+            "content": "Happy Computer Science Education Week, everyone!\n\nThe field of computer science has changed a lot over the past century or so (and even further back than that), and every new generation gets to learn… [+5050 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Geeksforgeeks.org"
+            },
+            "author": "Akanksha Singh",
+            "title": "Virtusa Interview Experience (On-Campus)",
+            "description": "Virtusa arrived at my college in the month of August 2022, I wanted to share my experience with all of us.  Eligibility Criteria: 65% or… Read More\nThe post Virtusa Interview Experience (On-Campus) appeared first on GeeksforGeeks.",
+            "url": "https://www.geeksforgeeks.org/virtusa-interview-experience-on-campus-6/",
+            "urlToImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
+            "publishedAt": "2022-12-05T12:31:39Z",
+            "content": "Virtusa arrived at my college in the month of August 2022, I wanted to share my experience with all of us. \r\nEligibility Criteria: 65% or above marks throughout academics. The selection is made on th… [+2773 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jetbrains.com"
+            },
+            "author": "Anastasiia Pogorelova",
+            "title": "Hour of Code: Top 5 Python Projects",
+            "description": "This article was written by a guest author. The Hour of Code starts today! As announced earlier, during this week, we’ll share a series of blog posts highlighting the most popular projects on JetBrains Academy and challenge you to solve coding problems every …",
+            "url": "https://blog.jetbrains.com/education/2022/12/05/hour-of-code-top-5-python-projects/",
+            "urlToImage": "https://blog.jetbrains.com/wp-content/uploads/2022/12/Hour_of_Code_Python_2022_Blog_Social_share_image_1280x720.png",
+            "publishedAt": "2022-12-05T12:13:19Z",
+            "content": "JetBrains AcademyNewsPythonThis article was written by a guest author. \r\nThe Hour of Code starts today! As announced earlier, during this week, well share a series of blog posts highlighting the most… [+4076 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Visual.ly"
+            },
+            "author": "anushagowda1001",
+            "title": "Commonly used tools in Data Visualization",
+            "description": "Best Data science course in Delhi at budget-friendly prices at Skillslash. Enrol in our data science course with placement support.",
+            "url": "https://visual.ly/community/Infographics/education/commonly-used-tools-data-visualization",
+            "urlToImage": "https://i.visual.ly/images/commonly-used-tools-in-data-visualization_638dd872885b5_w250_h250.jpg",
+            "publishedAt": "2022-12-05T11:39:30Z",
+            "content": "&lt; SKILL &lt; S / ASH &gt; Commonly used tools in Data Visualization Tools for Generic Purpose Tableau Intuitive to use , even for business users Story telling feature . Connectivity with various d… [+4889 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "InfoWorld"
+            },
+            "author": "Josh Fruhlinger",
+            "title": "5 things developers love about their work, and 5 things they don't",
+            "description": "Most software developers will recognize the scenario that John Macpherson, lead developer at Scottish web design company Media Surgery, describes as one of the true highs of his job: that feeling \"when you test the part you have been working on for days or ho…",
+            "url": "https://www.infoworld.com/article/3681658/5-things-developers-love-about-their-work-and-5-things-they-dont.html",
+            "urlToImage": "https://images.idgesg.net/images/article/2022/12/shutterstock_1071286400-100935109-large.jpg?auto=webp&quality=85,70",
+            "publishedAt": "2022-12-05T11:00:00Z",
+            "content": "Most software developers will recognize the scenario that John Macpherson, lead developer at Scottish web design company Media Surgery, describes as one of the true highs of his job: that feeling \"wh… [+12143 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techtarget.com"
+            },
+            "author": "Amanda Stevens",
+            "title": "Top 10 cloud computing careers of 2023 and how to get started",
+            "description": "Cloud computing touches many aspects of modern life, and the need for cloud professionals is great. Learn about the necessary skills and education for a cloud computing career.",
+            "url": "https://www.techtarget.com/whatis/feature/Top-7-cloud-computing-careers-and-how-to-get-started",
+            "urlToImage": "https://cdn.ttgtmedia.com/rms/onlineimages/cloud_g1066575078.jpg",
+            "publishedAt": "2022-12-05T09:00:00Z",
+            "content": "Cloud computing is a system of databases and software, typically operated in data centers and warehouses. It enables users and businesses to access digital information over the internet from anywhere… [+13721 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tabnak.ir"
+            },
+            "author": "info@tabnak.ir",
+            "title": "What is an SMM panel(social media marketing panel)?",
+            "description": "Growth and progress in social networks is an important issue in businesses today. With the help of SMM panel, you can progress in social networks in a short time.",
+            "url": "https://www.tabnak.ir/fa/news/1153373/what-is-an-smm-panelsocial-media-marketing-panel",
+            "urlToImage": null,
+            "publishedAt": "2022-12-05T07:47:29Z",
+            "content": "social media marketing panel?\r\nIn today's competitive environment, it can be quite difficult to differentiate your firm from the competitors. To connect with your target audience, you'll require mark… [+7476 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "8 Different Approaches to Tool Drawer Organizing",
+            "description": "In this Fix This, Build That, Brad looks at 8 different methods of tool drawer organization, from building dividers out of foam core to 3D printing bins and doubling the storage capacity of your drawers by adding custom, sliding trays.",
+            "url": "https://blog.adafruit.com/2022/12/04/8-different-approaches-to-tool-drawer-organizing/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-04-at-5.27.08-PM.png",
+            "publishedAt": "2022-12-05T04:30:28Z",
+            "content": "December 4, 2022 AT 11:30 pm\r\n8 Different Approaches to Tool Drawer Organizing\r\nIn this Fix This, Build That, Brad looks at 8 different methods of tool drawer organization, from building dividers out… [+2656 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNX Software"
+            },
+            "author": "Jean-Luc Aufranc (CNXSoft)",
+            "title": "Getting Started with CrowBot BOLT smart robot car",
+            "description": "CrowBot BOLT is a smart robot car based on an ESP32 wireless microcontroller and designed for the education market with the ability to program the robot",
+            "url": "https://www.cnx-software.com/2022/12/05/getting-started-review-crowbot-bolt-education-smart-robot-car/",
+            "urlToImage": "https://www.cnx-software.com/wp-content/uploads/2022/11/Elecrow-CrowBot-BOLT-Game-Controller-Assembled.jpg",
+            "publishedAt": "2022-12-05T02:45:18Z",
+            "content": "CrowBot BOLT is a smart robot car based on an ESP32 wireless microcontroller and designed for the education market with the ability to program the robot with visual programming, Arduino, or MicroPyth… [+14071 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Zay",
+            "title": "Space Outfits in Science Fiction #SciFiSunday",
+            "description": "In space, no one can hear you walk. Here’s an exploration of shoes, helmets, and various space outfits from science fiction movies over the years. Here’s more from Sci-Fi Interfaces:Though it’s not extravehicular, I have to give a shout out to 2001: A Space O…",
+            "url": "https://blog.adafruit.com/2022/12/04/space-outfits-in-science-fiction-scifisunday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/stewardess-walk-759.jpeg",
+            "publishedAt": "2022-12-05T01:00:05Z",
+            "content": "December 4, 2022 AT 8:00 pm\r\nSpace Outfits in Science Fiction #SciFiSunday\r\nIn space, no one can hear you walk. Here’s an exploration of shoes, helmets, and various space outfits from science fiction… [+3089 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Takara",
+            "title": "Laser Cutting: Ornaments and Decorations at NYC Resistor",
+            "description": "NYC Resistor is holding an awesome holiday edition laser cutting class on December 11th. Learn to make ornaments and decorations with them and make your tree stand out!Harness the power of an Eplilog 60 Watt Laser! In this class you’ll learn everything you ne…",
+            "url": "https://blog.adafruit.com/2022/12/04/laser-cutting-ornaments-and-decorations-at-nyc-resistor/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/https-cdn.evbuc_.com-images-390213849-73882583-1-original.jpg.webp",
+            "publishedAt": "2022-12-04T23:00:29Z",
+            "content": "December 4, 2022 AT 6:00 pm\r\nLaser Cutting: Ornaments and Decorations at NYC Resistor\r\nNYC Resistor is holding an awesome holiday edition laser cutting class on December 11th. Learn to make ornaments… [+3565 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Deepesh Sharma",
+            "title": "Beautiful Soup vs. Scrapy vs. Selenium: Which Web Scraping Tool Should You Use?",
+            "description": "When you start with Python web scraping, your choices eventually boil down to three tools: Beautiful Soup, Scrapy, and Selenium.",
+            "url": "https://www.makeuseof.com/beautiful-soup-vs-scrapy-vs-selenium/",
+            "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/12/beautifulsoup-vs-scrapy-vs-selenium.jpg",
+            "publishedAt": "2022-12-04T22:00:15Z",
+            "content": "Want to learn web scraping with Python but are confused about whether to use Beautiful Soup, Selenium, or Scrapy for your next project? While all these Python libraries and frameworks are powerful in… [+6560 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Color Mixer Box",
+            "description": "Dial in the exact color with this RGB color mixer from Arnov Sharma on Hackster.io. With this project you can add just the right effect to your photos and video.So this is Color Mixer Version 1, which is basically a DIY version of the commercially available R…",
+            "url": "https://blog.adafruit.com/2022/12/04/color-mixer-box/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/RSLocalFile-B1B01873-9C95-40AC-8311-6166137521AB.png",
+            "publishedAt": "2022-12-04T21:00:00Z",
+            "content": "December 4, 2022 AT 4:00 pm\r\nColor Mixer Box\r\nDial in the exact color with this RGB color mixer from Arnov Sharma on Hackster.io. With this project you can add just the right effect to your photos an… [+3106 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Adafruit Weekly Editorial Round-Up: 100 Boards Support CircuitPython, Adafruit Holiday Gift Guides, #3DPrinted MicroLipo v2 Case & More!",
+            "description": "ADAFRUIT WEEKLY EDITORIAL ROUND-UPWe’ve got so much happening here at Adafruit that it’s not always easy to keep up! Don’t fret, we’ve got you covered. Each week we’ll be posting a handy round-up of what we’ve been up to, ranging from learn guides to blog art…",
+            "url": "https://blog.adafruit.com/2022/12/04/adafruit-weekly-editorial-round-up-100-boards-support-circuitpython-adafruit-holiday-gift-guides-3dprinted-microlipo-v2-case-more/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/adafruit-weekly-editorial-round.jpg",
+            "publishedAt": "2022-12-04T20:00:49Z",
+            "content": "December 4, 2022 AT 3:00 pm\r\nAdafruit Weekly Editorial Round-Up: 100 Boards Support CircuitPython, Adafruit Holiday Gift Guides, #3DPrinted MicroLipo v2 Case &amp; More!\r\nADAFRUIT WEEKLY EDITORIAL RO… [+3680 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Corecursive.com"
+            },
+            "author": "Adam Gordon Bell",
+            "title": "Porting Doom to the 3D0 Console",
+            "description": "Today Rebecca Burger Becky Heineman shares the tale of porting Doom to the 3DO console under extreme conditions. There is an engine to tweak, deadlines to hit, hardware acceleration to get working, and dramatic rock anthems to record.We also learn about how g…",
+            "url": "https://corecursive.com/doomed-to-fail-with-burger-becky/",
+            "urlToImage": "https://corecursive.com/assets/images/083/wide.png",
+            "publishedAt": "2022-12-04T19:44:04Z",
+            "content": "Introduction\r\nAdam:\r\nHi. This is CoRecursive, and Im Adam Gordon Bell. Each episode is the story of a piece of software being built. Why dont you tell me what you do and who you are?\r\nBecky:\r\nOkay. Y… [+43473 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Debugpointnews.com"
+            },
+            "author": "arindam",
+            "title": "4MLinux 41.0 stable is now available with SDL games + More",
+            "description": "The release highlights of new stable version 4MLinux 41.0, which brings Kernel 6.0.9, a new version of applications and additional games.",
+            "url": "https://debugpointnews.com/4mlinux-41-0-release/",
+            "urlToImage": "https://debugpointnews.com/wp-content/uploads/2022/12/4mlinux-head.jpg",
+            "publishedAt": "2022-12-04T19:36:40Z",
+            "content": "The new stable version of 4MLinux 41.0 is now generally available for download and installation.\r\n4MLinux is a decade-old small Linux distribution that focuses on four main capabilities: maintenance … [+3212 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Erin St Blaine",
+            "title": "NEW GUIDE: NeoPixel Remote: IR Control with WLED",
+            "description": "Take a look at this brand-new tutorial from Erin St Blaine: NeoPixel Remote: IR Control with WLEDThis tutorial shows an easy way to get custom animations running on a NeoPixel strip and control them with an infrared remote. From the guide: RGB LED lighting st…",
+            "url": "https://blog.adafruit.com/2022/12/04/new-guide-light-up-costumes-in-harsh-environments-adafruitlearningsystem-wled-adafruit-erinstblaine-mermaid-copy/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/bubblewall-scaled.jpeg",
+            "publishedAt": "2022-12-04T19:00:34Z",
+            "content": "December 4, 2022 AT 2:00 pm\r\nNEW GUIDE: NeoPixel Remote: IR Control with WLED\r\nTake a look at this brand-new tutorial from Erin St Blaine: NeoPixel Remote: IR Control with WLED\r\nThis tutorial shows a… [+4080 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Zay",
+            "title": "Building Doctor Who’s Most Iconic Villains #SciFiSunday",
+            "description": "Sophie Croft and Ruth Nightingale Here’s more from the UK Science Museum:When checking the overall condition of the Dalek, I noted that the attachment points for the plunger were suffering from holding up the weight of such a long and surprisingly heavy piece…",
+            "url": "https://blog.adafruit.com/2022/12/04/building-doctor-whos-most-iconic-villains-scifisunday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/ATUN080922_0007-768x512-1.jpg",
+            "publishedAt": "2022-12-04T19:00:23Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Hiring a Cinema Crew to Shoot a Tabletop Sci-Fi Wargame #SciFiSunday",
+            "description": "Brent of Goobertown Hobbies and Dave of MiniWarGming have partnered with several other groups, including a video production company. Their goal is to create the most impressive video battle report in the history of the hobby.In this first video, Brent introdu…",
+            "url": "https://blog.adafruit.com/2022/12/04/hiring-a-cinema-crew-to-shoot-a-tabletop-sci-fi-wargame-scifisunday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-03-at-7.19.09-PM.png",
+            "publishedAt": "2022-12-04T18:30:24Z",
+            "content": "December 4, 2022 AT 1:30 pm\r\nHiring a Cinema Crew to Shoot a Tabletop Sci-Fi Wargame #SciFiSunday\r\nBrent of Goobertown Hobbies and Dave of MiniWarGming have partnered with several other groups, inclu… [+2901 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Making Adorably Evil Christmas Decorations",
+            "description": "I love that Ace of Clay has a theme going where he’s taking known Christmas tropes — Elf on a Shelf and Gingerbread Man — and playfully turns them to the dark side.",
+            "url": "https://blog.adafruit.com/2022/12/04/making-adorably-evil-christmas-decorations/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-03-at-6.06.11-PM.png",
+            "publishedAt": "2022-12-04T16:00:51Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Github.com"
+            },
+            "author": "nudpiedo",
+            "title": "Show HN: Whole Git repo was made with ChatGPT",
+            "description": "A repository fully generated by ChatGPT making it believed it checked out a this repository which I described like the first line of the README. - GitHub - vrescobar/chatGPT-python-elm: A repositor...",
+            "url": "https://github.com/vrescobar/chatGPT-python-elm",
+            "urlToImage": "https://opengraph.githubassets.com/6abf589028a2868c4a60c3e4e6f92592f0c6f681c3c273214a90a02967e8f930/vrescobar/chatGPT-python-elm",
+            "publishedAt": "2022-12-04T15:43:09Z",
+            "content": "NOTE: EVERYTHING this repositoriy wiht the exception of this own note ahs been\r\ngenerated integrally with chatGPT and asked gradually how to correct or refactor each one\r\nof the errors that showed up… [+1420 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Randomhacks.net"
+            },
+            "author": null,
+            "title": "Eric Kidd: Pair programming with ChatGPT: A simple dice roller",
+            "description": "Like many folks, I spent too much of the last couple days playing with the new release of ChatGPT. I’ve been trying discover what it’s good at, and how it breaks. At its best, it’s remarkable—I think it would actually pass many common “hiring screens” for pro…",
+            "url": "http://www.randomhacks.net/2022/12/04/pair-programming-with-chatgpt/",
+            "urlToImage": null,
+            "publishedAt": "2022-12-04T15:09:20Z",
+            "content": "Like many folks, I spent too much of the last couple days playing with the new release of ChatGPT. Ive been trying discover what its good at, and how it breaks. At its best, its remarkableI think it … [+21116 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "The Atlantic’s 2022 Space Telescope Advent Calendar",
+            "description": "On December 1 The Atlantic launched their 15th annual Space Telescope Advent Calendar featuring JWST’s new look at the Pillars of Creation. This year’s calendar will feature images from Hubble and JWST. If you need a little something special to get you throug…",
+            "url": "https://blog.adafruit.com/2022/12/04/the-atlantics-2022-space-telescope-advent-calendar/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/original.jpg.webp",
+            "publishedAt": "2022-12-04T15:00:08Z",
+            "content": "Stop breadboarding and soldering – start making immediately! Adafruit’s Circuit Playground is jam-packed with LEDs, sensors, buttons, alligator clip pads and more. Build projects with Circuit Playgro… [+2177 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hourups.com"
+            },
+            "author": "nandreev",
+            "title": "Show HN: I recreated Coursera with 150 free YouTube tutorials",
+            "description": "Article URL: https://hourups.com/\nComments URL: https://news.ycombinator.com/item?id=33853830\nPoints: 2\n# Comments: 1",
+            "url": "https://hourups.com/",
+            "urlToImage": null,
+            "publishedAt": "2022-12-04T14:09:56Z",
+            "content": "150 free crash courses from the best instructors on YouTube. Click on a topic to begin! \r\nPython Programming\r\n1.) Python in 100 seconds\r\n2 minsFireship · 1.7M subscribers\r\n2.) Python for Beginners\r\n1… [+11430 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Kelly",
+            "title": "Seven Very Short SF Stories That Can Be Read in Seven Minutes or Less",
+            "description": "If you’re already mulling over your forthcoming New Year’s resolutions and have landed on the classic to read more, may we suggest bookmarking this post from Tor.com? For must of us, starting off with a soft launch and lower commitment level can often lead to…",
+            "url": "https://blog.adafruit.com/2022/12/04/seven-very-short-sf-stories-that-can-be-read-in-seven-minutes-or-less/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/stopwatch-book.jpg.webp",
+            "publishedAt": "2022-12-04T13:00:43Z",
+            "content": "December 4, 2022 AT 8:00 am\r\nSeven Very Short SF Stories That Can Be Read in Seven Minutes or Less\r\nIf you’re already mulling over your forthcoming New Year’s resolutions and have landed on the class… [+3400 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Exploring the Strange World of Electromechanical Memory",
+            "description": "In this LOOK MUM NO COMPUTER video, Sam looks at analog phone switching networks and how electromechanical memory was built and used over the system.Then, Sam being Sam, he uses what he learned to create an amazing-sounding instrument that uses electromechani…",
+            "url": "https://blog.adafruit.com/2022/12/03/exploring-the-strange-world-of-electromechanical-memory/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-03-at-5.28.31-PM.png",
+            "publishedAt": "2022-12-04T03:00:00Z",
+            "content": "December 3, 2022 AT 10:00 pm\r\nExploring the Strange World of Electromechanical Memory\r\nIn this LOOK MUM NO COMPUTER video, Sam looks at analog phone switching networks and how electromechanical memor… [+2718 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "gareth branwyn",
+            "title": "Coopering a 36-Gallon Wooden Barrel by Hand",
+            "description": "Ever since posting about bucket coopering from Pask Makes, I’ve been fascinated by watching the practice.I love how, in this video, you see how a cooper uses the shavings from cutting the staves to heat-treat the inside of the barrel.",
+            "url": "https://blog.adafruit.com/2022/12/03/coopering-a-36-gallon-wooden-barrel-by-hand/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/Screen-Shot-2022-12-02-at-5.02.34-PM.png",
+            "publishedAt": "2022-12-04T02:30:24Z",
+            "content": "December 3, 2022 AT 9:30 pm\r\nCoopering a 36-Gallon Wooden Barrel by Hand\r\nEver since posting about bucket coopering from Pask Makes, I’ve been fascinated by watching the practice.\r\nI love how, in thi… [+2635 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "New Products 11/30/22 Featuring #Adafruit Feather #RP2040! @adafruit #newproducts",
+            "description": "Browse through all that’s new here!NEW PRODUCTS THIS WEEK4884Adafruit Feather RP2040: As of November 28, 2022 – we’ve updated this Feather with a right-angle tactile button for the Bootloader switch, so that you can press it even when a ‘wing is on the Feathe…",
+            "url": "https://blog.adafruit.com/2022/12/03/new-products-11-30-22-featuring-adafruit-feather-rp2040-adafruit-newproducts/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/new-products-11-30-22-featuring.jpg",
+            "publishedAt": "2022-12-04T01:00:05Z",
+            "content": "December 3, 2022 AT 8:00 pm\r\nNew Products 11/30/22 Featuring #Adafruit Feather #RP2040! @adafruit #newproducts\r\nBrowse through all that’s new here!\r\nNEW PRODUCTS THIS WEEK\r\n4884\r\nAdafruit Feather RP2… [+3474 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Karimarttila.fi"
+            },
+            "author": "Kari Marttila",
+            "title": "Using Babashka to Get Electricity Prices",
+            "description": "Kari Marttila’s Blog (e.g. cloud and Clojure related articles)",
+            "url": "http://www.karimarttila.fi/clojure/2022/12/04/using-babashka-to-get-electricity-prices.html",
+            "urlToImage": null,
+            "publishedAt": "2022-12-04T00:00:00Z",
+            "content": "Ordinary Clojure code - can be run in the REPL or in command line with Babashka.\n\nIntroduction\n\nIn my previous Babashka related blog post, Using Clojure in Command Line with Babashka, I told a short … [+6070 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Takara",
+            "title": "The First Text Message Was Sent 30 Years Ago Today",
+            "description": "Remember when you had to make phone calls for the most minuscule thoughts. Text messaging forever changed the way we communicate. 30 years ago today, the very first SMS was sent. We take a look back at Vodafone’s write-up back in 2017. In 1992, Neil Papworth,…",
+            "url": "https://blog.adafruit.com/2022/12/03/the-first-text-message-was-sent-30-years-ago-today/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/11/https-content.vodafone.com-sites-default-files-content-dam-vodcom-images-technology-blog-25years-since-the-worlds-25th_anniversary_text.jpg",
+            "publishedAt": "2022-12-03T23:00:04Z",
+            "content": "December 3, 2022 AT 6:00 pm\r\nThe First Text Message Was Sent 30 Years Ago Today\r\nRemember when you had to make phone calls for the most minuscule thoughts. Text messaging forever changed the way we c… [+3016 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5linux.com"
+            },
+            "author": "Marius Nestor",
+            "title": "Lightweight Distro 4MLinux 41 Arrives with Linux Kernel 6.0, Btrfs Support, and New Apps",
+            "description": "4MLinux 41 distribution is now available for download. This major release is powered by Linux kernel 6.0 and comes packed with some of the latest apps and GNU/Linux components. The post Lightweight Distro 4MLinux 41 Arrives with Linux Kernel 6.0, Btrfs Su",
+            "url": "https://9to5linux.com/lightweight-distro-4mlinux-41-arrives-with-linux-kernel-6-0-btrfs-support-and-new-apps",
+            "urlToImage": "https://9to5linux.com/wp-content/uploads/2022/12/4ml41.webp",
+            "publishedAt": "2022-12-03T22:37:49Z",
+            "content": "4MLinux developer Zbigniew Konojacki announced today the release and general availability for download of 4MLinux 41.0 as the latest stable version of this lightweight and independent GNU/Linux distr… [+2185 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Engraved.blog"
+            },
+            "author": "Jonas Degrave",
+            "title": "Building a Virtual Machine Inside ChatGPT",
+            "description": "Unless you have been living under a rock, you have heard of this new ChatGPT assistant made by OpenAI. Did you know, that you can run a whole virtual machine inside of ChatGPT?",
+            "url": "https://www.engraved.blog/building-a-virtual-machine-inside/",
+            "urlToImage": "https://www.engraved.blog/content/images/2022/12/deepmind-mbq0qL3ynMs-unsplash.jpg",
+            "publishedAt": "2022-12-03T21:19:45Z",
+            "content": "Unless you have been living under a rock, you have heard of this new ChatGPT assistant made by OpenAI. You might be aware of its capabilities for solving IQ tests, tackling leetcode problems or to he… [+3204 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Ben",
+            "title": "Time Circuits Timepiece",
+            "description": "It’s surprising how hard it can be to find a simple desk clock. This project from Stephen Holdaway on Hackaday.io hits a lot of sweet spots: it is easy to read and gives full time/date, its simple and aesthetically appealing (if your are into the vintage hack…",
+            "url": "https://blog.adafruit.com/2022/12/03/time-circuits-timepiece/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/6043111554551020602.jpg",
+            "publishedAt": "2022-12-03T21:00:00Z",
+            "content": "December 3, 2022 AT 4:00 pm\r\nTime Circuits Timepiece\r\nIt’s surprising how hard it can be to find a simple desk clock. This project from Stephen Holdaway on Hackaday.io hits a lot of sweet spots: it i… [+3057 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Perfplanet.com"
+            },
+            "author": "Aaron Hans",
+            "title": "Faster data visualizations",
+            "description": "You can deliver the same data story with dozens of different tools. Some have a lot more client-side weight than others. This is a case study of a couple different data visualization tools we used for the State of California’s COVID-19 site. Switching from Ta…",
+            "url": "https://calendar.perfplanet.com/2022/faster-data-visualizations/",
+            "urlToImage": "https://calendar.perfplanet.com/wp-content/uploads/2022/12/aaron/tableau-lighthouse-state-dash.png",
+            "publishedAt": "2022-12-03T19:00:58Z",
+            "content": "You can deliver the same data story with dozens of different tools. Some have a lot more client-side weight than others. This is a case study of a couple different data visualization tools we used fo… [+4984 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Zay",
+            "title": "The Plate Tectonics of Europa #SpaceSaturday",
+            "description": "Above: A complex pattern of ridges and bands named Arachne Linea is seen in this false-color image of Europa’s surface taken by the Galileo spacecraft on 26 September 1998. New research shows that this landscape was formed by the jostling of nearby tectonic p…",
+            "url": "https://blog.adafruit.com/2022/12/03/the-plate-tectonics-of-europa-spacesaturday/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2022/12/europas-plate-tectonic.jpg",
+            "publishedAt": "2022-12-03T19:00:32Z",
+            "content": "December 3, 2022 AT 2:00 pm\r\nThe Plate Tectonics of Europa #SpaceSaturday\r\nAbove: A complex pattern of ridges and bands named Arachne Linea is seen in this false-color image of Europa’s surface taken… [+4056 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Get the New nEw NEWs from Adafruit every week",
+            "description": "New nEw NEWs is Adafruit’s weekly newsletter that features new products, special offers and more. Sign up at Adafruit.com/Newsletter, by clicking “Newsletter Settings” in your Adafruit account or at mailchi.mp/adafruit/new-products-newsletterNew subscribers w…",
+            "url": "https://blog.adafruit.com/2022/12/03/get-the-new-new-news-from-adafruit-every-week/",
+            "urlToImage": "https://s0.wp.com/i/blank.jpg",
+            "publishedAt": "2022-12-03T18:00:49Z",
+            "content": "December 3, 2022 AT 1:00 pm\r\nGet the New nEw NEWs from Adafruit every week\r\nNew nEw NEWs is Adafruit’s weekly newsletter that features new products, special offers and more. Sign up at Adafruit.com/N… [+3322 chars]"
+        }
+    ]
+}
