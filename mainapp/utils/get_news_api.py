@@ -25,8 +25,8 @@ def make_news_json_from_api(news_as_dict: dict, news_file: WindowsPath = None) -
 
 def get_news_from_api() -> dict:
     request_url = f'https://newsapi.org/v2/everything?q=Python+Programming&' \
-                  f'sortBy=publishedAt&' \
-                  f'pageSize=100&page=1&' \
+                  f'sortBy=popularity&' \
+                  f'pageSize=50&page=1&' \
                   f'language=en&language=ru&' \
                   f'apiKey={NEWS_API_KEY}'
 
