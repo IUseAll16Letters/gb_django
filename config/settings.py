@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mainapp',
     'django_extensions',
+    'markdownify.apps.MarkdownifyConfig',
 ]
 
 MIDDLEWARE = [
