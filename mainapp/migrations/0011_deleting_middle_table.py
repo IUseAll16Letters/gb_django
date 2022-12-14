@@ -10,6 +10,11 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    print('I AM MIGRATION 11!')
+    dependencies = [
+        ('mainapp', '0010_returning_surnames_to_teachers'),
+    ]
+
     operations = [
         migrations.DeleteModel(
             name='TeachersSurnames',

@@ -19,7 +19,7 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-    print('I AM MIGRATION I GO FIRST!')
+    print('I AM MIGRATION 8 I GO FIRST!')
     dependencies = [
         ('mainapp', '0007_teachers_data_migration'),
     ]

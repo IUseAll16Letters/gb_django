@@ -6,10 +6,10 @@ def forward(apps, schema_editor):
     surnames = TeachersSurnames.objects.values_list("teacher_surname", 'teacher_id')
     TeachersCourse = apps.get_model('mainapp', 'TeachersCourse')
     with transaction.atomic():
-        for idx, surname in enumerate(surnames, 1):
+        for surname, idx in surnames:
             try:
-                teacher = TeachersCourse.objects.get(pk=surname[1])
-                teacher.name_second = surname[0]
+                teacher = TeachersCourse.objects.get(pk=idx)
+                teacher.name_second = surname
                 teacher.save()
             except TeachersCourse.DoesNotExist:
                 pass
@@ -23,10 +23,11 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
+    print('I AM MIGRATION 10!')
+    dependencies = [
+        ('mainapp', '0009_removing_surnames_at_teachers'),
+    ]
+
     operations = [
-        migrations.RemoveField(
-            model_name='teacherscourse',
-            name='name_second'
-        ),
         migrations.RunPython(forward, reverse)
     ]
