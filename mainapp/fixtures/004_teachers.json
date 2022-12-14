@@ -1,0 +1,105 @@
+[
+  {
+    "model": "mainapp.teachers",
+    "pk": 1,
+    "fields": {
+      "name_first": "Герасим",
+      "name_second": "Нечипарукошвили",
+      "birthday": "1991-11-11",
+      "deleted": false,
+      "course": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 2,
+    "fields": {
+      "name_first": "Андрей",
+      "name_second": "Уважаемый",
+      "birthday": "1988-05-24",
+      "deleted": false,
+      "course": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 3,
+    "fields": {
+      "name_first": "Сергей",
+      "name_second": "Трудовой",
+      "birthday": "1979-01-30",
+      "deleted": false,
+      "course": [
+        1,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 4,
+    "fields": {
+      "name_first": "Василий",
+      "name_second": "Василевский",
+      "birthday": "1990-07-17",
+      "deleted": false,
+      "course": [
+        3,
+        2,
+        8
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 5,
+    "fields": {
+      "name_first": "Валерий",
+      "name_second": "Валерьев",
+      "birthday": "1999-05-19",
+      "deleted": false,
+      "course": [
+        4,
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 6,
+    "fields": {
+      "name_first": "Семен",
+      "name_second": "Садачевич",
+      "birthday": "1997-11-05",
+      "deleted": false,
+      "course": [
+        7,
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "model": "mainapp.teachers",
+    "pk": 7,
+    "fields": {
+      "name_first": "Абстрактный",
+      "name_second": "Чувак",
+      "birthday": "1993-09-25",
+      "deleted": false,
+      "course": [
+        5,
+        4,
+        1
+      ]
+    }
+  }
+]

@@ -1,0 +1,802 @@
+[
+    {
+        "fields": {
+            "title": "OpenAI\u2019s new chatbot can hallucinate a Linux shell\u2014or calling a BBS",
+            "description": "ChatGPT-generated command line can create virtual files, execute code, play games.",
+            "author": "Benj Edwards",
+            "content": "Enlarge/ An AI-generated illustration of an AI-hallucinated computer.\r\n8 with 0 posters participating\r\nOver the weekend, experimenters discovered that OpenAI's new chatbot, ChatGPT, can hallucinate s\u2026 [+4572 chars]",
+            "content_as_md": false,
+            "url": "https://arstechnica.com/information-technology/2022/12/openais-new-chatbot-can-hallucinate-a-linux-shell-or-calling-a-bbs/",
+            "source": "Ars Technica",
+            "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/ai_terminal_hero_2-760x380.jpg",
+            "created": "2022-12-05T22:45:41Z",
+            "updated": "2022-12-05T22:45:41Z"
+        },
+        "model": "mainapp.news",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "title": "When Chips are Scarce: Maker Ingenuity in Uncertain Times",
+            "description": "The past few years have been \u2026 unprecedented.\u00a0Supply chain failures manifest themselves visibly around us, from parking lots in Detroit full of cars that can\u2019t be finished for lack of a single part, to immense backlogs of container ships at the Port of Long B\u2026",
+            "author": "David Groom",
+            "content": "The past few years have been unprecedented.\u00a0Supply chain failures manifest themselves visibly around us, from parking lots in Detroit full of cars that cant be finished for lack of a single part, to \u2026 [+13202 chars]",
+            "content_as_md": false,
+            "url": "https://makezine.com/article/maker-news/when-chips-are-scarce-maker-ingenuity-in-uncertain-times/",
+            "source": "Makezine.com",
+            "image_url": "https://i0.wp.com/makezine.com/wp-content/uploads/2022/11/PnP-reels-Diego-Fonstad-scaled.jpg?fit=1920%2C2560&ssl=1",
+            "created": "2022-11-15T16:00:00Z",
+            "updated": "2022-11-15T16:00:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "title": "Survey of 26K Developers Finds Java, Python, Kotlin, and Rust Growing Rapidly",
+            "description": "While the popularity of jQuery is decreasing, React.JS \"is currently the most widely used client-side framework,\" reports ZDNet, citing SlashData's 23rd State of the Developer Nation report (compiled from more than 26,000 developers last summer from 163 count\u2026",
+            "author": "EditorDavid",
+            "content": "While the popularity of jQuery is decreasing, React.JS \"is currently the most widely used client-side framework,\" reports ZDNet, citing SlashData's 23rd State of the Developer Nation report (compiled\u2026 [+1878 chars]",
+            "content_as_md": false,
+            "url": "https://developers.slashdot.org/story/22/11/13/2340221/survey-of-26k-developers-finds-java-python-kotlin-and-rust-growing-rapidly",
+            "source": "Slashdot.org",
+            "image_url": "https://a.fsdn.com/sd/topics/programming_64.png",
+            "created": "2022-11-14T00:04:00Z",
+            "updated": "2022-11-14T00:04:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "title": "AI-Assisted Coding Start-Up Kite Is Saying Farewell and Open-Sourcing Its Code",
+            "description": "Kite, a start-up that has been developing artificial intelligence technology to help developers write code for nearly a decade, is saying farewell and open-sourcing its code. Silicon Republic reports: Based in San Francisco, Kite was founded in 2014 as an ear\u2026",
+            "author": "BeauHD",
+            "content": "Based in San Francisco, Kite was founded in 2014 as an early pioneer in the emerging field of AI that assists software developers in writing code -- an 'autocomplete' for programming of sorts. But no\u2026 [+2306 chars]",
+            "content_as_md": false,
+            "url": "https://news.slashdot.org/story/22/11/22/2153257/ai-assisted-coding-start-up-kite-is-saying-farewell-and-open-sourcing-its-code",
+            "source": "Slashdot.org",
+            "image_url": "https://a.fsdn.com/sd/topics/opensource_64.png",
+            "created": "2022-11-22T22:40:00Z",
+            "updated": "2022-11-22T22:40:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "title": "Get a Robot Dog While It's on Sale",
+            "description": "Start a robotics hobby with this early Black Friday deal.",
+            "author": "Entrepreneur Store",
+            "content": "Entrepreneurship is hard work, but you can't reach the peak of your success without giving yourself an opportunity to relax from time to time. That's why having a hobby is so valuable for entrepreneu\u2026 [+1673 chars]",
+            "content_as_md": false,
+            "url": "https://www.entrepreneur.com/science-technology/get-a-robot-dog-while-its-on-sale/438801",
+            "source": "Entrepreneur",
+            "image_url": "https://assets.entrepreneur.com/content/3x2/2000/1668015134-Ent-PetoiBittleROBODog.jpeg",
+            "created": "2022-11-13T13:30:00Z",
+            "updated": "2022-11-13T13:30:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "title": "Want a new tech job in 2023? Here\u2019s what you need to know",
+            "description": "The areas of cloud computing, cyber security, AI and blockchain technology in particular will continue to grow and prosper in 2023.",
+            "author": "Aoibhinn McBride",
+            "content": "Despite big techs behemoths ending 2022 with fewer workers on the books, the tech industry as a whole remains robust and the areas of cloud computing, cyber security, AI and blockchain technology wil\u2026 [+4967 chars]",
+            "content_as_md": false,
+            "url": "https://venturebeat.com/programming-development/want-a-new-tech-job-in-2023-heres-what-you-need-to-know/",
+            "source": "VentureBeat",
+            "image_url": "https://venturebeat.com/wp-content/uploads/2022/12/GettyImages-1322050853.jpg?w=1200&strip=all",
+            "created": "2022-12-06T16:26:00Z",
+            "updated": "2022-12-06T16:26:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "title": "7 critical power skills you need to succeed at work",
+            "description": "Where hard skills are the nuts and bolts that define a job, soft skills provide the glide to make your day-to-day easier.",
+            "author": "Kirstie McDermott",
+            "content": "There are a lot of skills we need in life, and when it comes to our working lives, the ones we hear about needing the most are hard and soft skills. We also need functional skills, which are core Eng\u2026 [+5122 chars]",
+            "content_as_md": false,
+            "url": "https://venturebeat.com/programming-development/7-critical-power-skills-you-need-to-succeed-at-work/",
+            "source": "VentureBeat",
+            "image_url": "https://venturebeat.com/wp-content/uploads/2022/11/GettyImages-519434666.jpg?w=1200&strip=all",
+            "created": "2022-11-29T19:49:00Z",
+            "updated": "2022-11-29T19:49:00Z"
+        },
+        "model": "mainapp.news",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "title": "Carefully exploring Rust as a Python developer",
+            "description": "Trying out the Rust programming ecosystem as a 10+ years Python developer. How to do common programming tasks and how the tooling looks like.",
+            "author": "Karim Jedda",
+            "content": "I've recently joined a new company where one of the most used programming languages is Rust. \r\nAfter using Python for almost a decade now, mostly for data engineering, I thought I'd give this new (to\u2026 [+11603 chars]",
+            "content_as_md": false,
+            "url": "https://karimjedda.com/carefully-exploring-rust/",
+            "source": "Karimjedda.com",
+            "image_url": "https://karimjedda.com/content/images/2022/10/rust-for-python-developers.png",
+            "created": "2022-11-13T10:58:25Z",
+            "updated": "2022-11-13T10:58:25Z"
+        },
+        "model": "mainapp.news",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "title": "A Compiler Writing Playground",
+            "description": "Programming book reviews, programming tutorials,programming news, C#, Ruby, Python,C, C++, PHP, Visual Basic, Computer book reviews, computer history, programming history, joomla, theory, spreadsheets and more.",
+            "author": "Editor",
+            "content": "\"Create Your Own Compiler\" is an interactive tutorial that step by step shows how to write your own simple compiler\u00a0that transforms JavaScript into Lisp. Along with it, we take a look at what a compi\u2026 [+6749 chars]",
+            "content_as_md": false,
+            "url": "https://www.i-programmer.info/news/90-tools/15901-a-compiler-writing-playground.html",
+            "source": "I-programmer.info",
+            "image_url": null,
+            "created": "2022-11-26T13:31:27Z",
+            "updated": "2022-11-26T13:31:27Z"
+        },
+        "model": "mainapp.news",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "title": "The Origins of Python \u2013 Lambert Meertens",
+            "description": "Python is arguably the most popular programming language worldwide. Since its debut in 1991, Python\u2019s accessibility and rich functionality has helped it gather a huge userbase. Its design was influenced by creator Guido van Rossum\u2019s involvement with an earlie\u2026",
+            "author": "Lambert Meertens",
+            "content": "On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading HAPPY FAMILIES, the machine rattled out a sequence of English sentence\u2026 [+36243 chars]",
+            "content_as_md": false,
+            "url": "https://inference-review.com/article/the-origins-of-python",
+            "source": "Inference-review.com",
+            "image_url": "http://inference-review.com/assets/img/meta/the-origins-of-python.jpg",
+            "created": "2022-11-26T08:02:16Z",
+            "updated": "2022-11-26T08:02:16Z"
+        },
+        "model": "mainapp.news",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "title": "Common Lisp Object System (CLOS)",
+            "description": "I\u2019ve encountered Object-Oriented Programming when I was learning Python (which is my first language). I\u2019ve struggled with it because the paradigm is not as o...",
+            "author": "Unknown author",
+            "content": "Ive encountered Object-Oriented Programming when I was learning Python (which is my first language). Ive struggled with it because the paradigm is not as obvious as using functions and structures in \u2026 [+1056 chars]",
+            "content_as_md": false,
+            "url": "https://hescaide.me/clos/",
+            "source": "Hescaide.me",
+            "image_url": null,
+            "created": "2022-11-23T11:47:15Z",
+            "updated": "2022-11-23T11:47:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "title": "The cloudy layers of modern-day programming",
+            "description": "Is what we do development anymore?",
+            "author": "Unknown author",
+            "content": "Composition X, Kandinsky\r\nRecently, Ive come to the realization that much of what we do in modern software development is not true software engineering. We spend the majority of our days trying to co\u2026 [+24249 chars]",
+            "content_as_md": false,
+            "url": "https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/",
+            "source": "Vickiboykis.com",
+            "image_url": "https://veekaybee.github.io/images/logo.png",
+            "created": "2022-12-06T15:56:52Z",
+            "updated": "2022-12-06T15:56:52Z"
+        },
+        "model": "mainapp.news",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "title": "\u16a3 the Rune Programming Language",
+            "description": "Rune is a programming language developed to test ideas for improving security and efficiency. - GitHub - google/rune: Rune is a programming language developed to test ideas for improving security a...",
+            "author": "google",
+            "content": "A faster, safer, and more productive systems programming language\r\nThis is not an officially supported Google product.\r\nNOTE: Rune is an unfinished language. Feel free to kick tires and evaluate the\r\u2026 [+6937 chars]",
+            "content_as_md": false,
+            "url": "https://github.com/google/rune",
+            "source": "Github.com",
+            "image_url": "https://opengraph.githubassets.com/3e8f2de17a7ad95149eb8fb089363427e8cd2f5cf653f3529697d09ca45c34a4/google/rune",
+            "created": "2022-11-27T07:36:21Z",
+            "updated": "2022-11-27T07:36:21Z"
+        },
+        "model": "mainapp.news",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "title": "Compiler and Runtime Specializations for Accelerating Managed Languages on FPGAs",
+            "description": "In recent years, heterogeneous computing has emerged as the vital way to increase computers\u2019 performance and energy efficiency by combini...",
+            "author": "Papadimitriou, Michail, Fumero, Juan, Stratikopoulos, Athanasios, Zakkak, Foivos S., and Kotselidis, Christos",
+            "content": "Michail Papadimitriou1, Juan Fumero2, Athanasios Stratikopoulos3, Foivos S. Zakkak4, and Christos Kotselidis5\r\nThe Art, Science, and Engineering of Programming, 2021, Vol. 5, Issue 2, Article 8\r\nSubm\u2026 [+2639 chars]",
+            "content_as_md": false,
+            "url": "https://programming-journal.org/2021/5/8/",
+            "source": "Programming-journal.org",
+            "image_url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "created": "2022-11-26T16:48:37Z",
+            "updated": "2022-11-26T16:48:37Z"
+        },
+        "model": "mainapp.news",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "title": "Codon: A high-performance Python compiler using LLVM",
+            "description": "A high-performance, zero-overhead, extensible Python compiler using LLVM - GitHub - exaloop/codon: A high-performance, zero-overhead, extensible Python compiler using LLVM",
+            "author": "exaloop",
+            "content": "What is Codon?\r\nCodon is a high-performance Python compiler that compiles Python code to native machine code without any runtime overhead.\r\nTypical speedups over Python are on the order of 10-100x or\u2026 [+3133 chars]",
+            "content_as_md": false,
+            "url": "https://github.com/exaloop/codon",
+            "source": "Github.com",
+            "image_url": "https://opengraph.githubassets.com/23a38d0823a285e5b565c93926b9a87e60404f76becb7ddd75e18d2a246fd722/exaloop/codon",
+            "created": "2022-12-08T15:05:45Z",
+            "updated": "2022-12-08T15:05:45Z"
+        },
+        "model": "mainapp.news",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "title": "Dagger Python SDK: Develop Your CI/CD Pipelines as Code",
+            "description": "Dagger.io | Blog | Develop your pipelines as code with the Dagger Python SDK",
+            "author": "Unknown author",
+            "content": "Today we are proud to introduce the Dagger Python SDK: a new way to develop your CI/CD pipelines as code and run them anywhere.\r\nThe Dagger Python SDK may be a good fit if you are...\r\n<ul><li>A Pytho\u2026 [+2184 chars]",
+            "content_as_md": false,
+            "url": "https://dagger.io/blog/python-sdk",
+            "source": "Dagger.io",
+            "image_url": "https://dagger.io/img/dagger_python_sdk.jpg",
+            "created": "2022-11-10T17:23:20Z",
+            "updated": "2022-11-10T17:23:20Z"
+        },
+        "model": "mainapp.news",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "title": "Temporal Programming, a new name for an old paradigm",
+            "description": "A C++ to Verilog translation tool with some basic guarantees that your code will work. - Metron/TemporalTLDR.md at master \u00b7 aappleby/Metron",
+            "author": "aappleby",
+            "content": "Hi, my name is Austin Appleby and I'm the author of MurmurHash (a commonly used hash function), GateBoy (a gate-level Game Boy simulator), Metron (a very experimental C++ to SystemVerilog transpiler)\u2026 [+7031 chars]",
+            "content_as_md": false,
+            "url": "https://github.com/aappleby/Metron/blob/master/docs/TemporalTLDR.md",
+            "source": "Github.com",
+            "image_url": "https://opengraph.githubassets.com/fe08ea709a521a03354d9613eb7e076810e3284cd28baa97343cdbb6a3a598c7/aappleby/Metron",
+            "created": "2022-11-27T19:46:30Z",
+            "updated": "2022-11-27T19:46:30Z"
+        },
+        "model": "mainapp.news",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "title": "Go Framework: No Framework?",
+            "description": "While writing this blog and leading Go teams for a couple of years, the most common question I heard from beginners was &ldquo;What framework should I use?&rdquo;. One of the worst things you can do in Go is follow an approach from other programming languages\u2026",
+            "author": "Robert Laszczak",
+            "content": "While writing this blog and leading Go teams for a couple of years,\r\nthe most common question I heard from beginners was \u201cWhat framework should I use?\u201d.\r\nOne of the worst things you can do in Go is f\u2026 [+10084 chars]",
+            "content_as_md": false,
+            "url": "https://threedots.tech/post/best-go-framework/",
+            "source": "Threedots.tech",
+            "image_url": "https://threedots.tech/post/best-go-framework/cover-social.png",
+            "created": "2022-11-29T12:01:13Z",
+            "updated": "2022-11-29T12:01:13Z"
+        },
+        "model": "mainapp.news",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "title": "ChatGPT, the Abacus, and Education",
+            "description": "tags: #cs-education\nIntroduction\nI\u2019ve remained skeptical of AI code generation for a long time, until I began chatting with ChatGPT last week. It effortlessl...",
+            "author": "Unknown author",
+            "content": "tags: #cs-education\r\nIntroduction\r\nIve remained skeptical of AI code generation for a long time, until I began chatting with ChatGPT last week. It effortlessly worked through problems in Java, Python\u2026 [+3256 chars]",
+            "content_as_md": false,
+            "url": "https://blog.charliemeyer.co/chatgpt-the-abacus-and-education/",
+            "source": "Charliemeyer.co",
+            "image_url": null,
+            "created": "2022-12-09T14:02:15Z",
+            "updated": "2022-12-09T14:02:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "title": "I am disappointed by dynamic typing",
+            "description": "Here\u2019s weird thing about me: I\u2019m pro-dynamic types. This is weird because I\u2019m also pro-formal methods, in fact teach formal methods as a career, which seems...",
+            "author": "Unknown author",
+            "content": "Here\u2019s weird thing about me: I\u2019m pro-dynamic types. This is weird because I\u2019m also pro-formal methods, in fact teach formal methods as a career, which seems completely antithetical. So on one hand I \u2026 [+8422 chars]",
+            "content_as_md": false,
+            "url": "https://buttondown.email/hillelwayne/archive/i-am-disappointed-by-dynamic-typing/",
+            "source": "Buttondown.email",
+            "image_url": "https://buttondown.email/static/images/icons/icon-square@400.png",
+            "created": "2022-11-29T17:34:32Z",
+            "updated": "2022-11-29T17:34:32Z"
+        },
+        "model": "mainapp.news",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "title": "Ooh.directory",
+            "description": "A collection of 852 blogs about every topic",
+            "author": "Unknown author",
+            "content": "<li>Janet Reid, Literary Agent\"Never miss a chance to do good\"--David Stanley.\r\nUpdated 3 hours ago\r\nAm I A Delusional Nutbag?\r\nI have read your many posts on comps, and I am reading (even more) book\u2026 [+6219 chars]",
+            "content_as_md": false,
+            "url": "https://ooh.directory",
+            "source": "Ooh.directory",
+            "image_url": "https://ooh.directory/static/oohdir/img/site_icon.png",
+            "created": "2022-11-23T15:04:36Z",
+            "updated": "2022-11-23T15:04:36Z"
+        },
+        "model": "mainapp.news",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "title": "An Interview with Mickey Petersen, Author of Mastering Emacs",
+            "description": "An interview with Mickey Petersen, author of Mastering Emacs Who are you, and what do you do? I'm Mickey Petersen. I live in London, UK. I'm a professional software developer, and I have been programming since I was around 10 years old. I did not have friends\u2026",
+            "author": "Syntopikon",
+            "content": "An interview with Mickey Petersen, author of Mastering Emacs\r\nWho are you, and what do you do?\r\nI'm Mickey Petersen. I live in London, UK.\r\nI'm a professional software developer, and I have been prog\u2026 [+12518 chars]",
+            "content_as_md": false,
+            "url": "https://syntopikon.substack.com/p/an-interview-with-mickey-petersen",
+            "source": "Substack.com",
+            "image_url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbfc8c37-b81f-4779-97cb-276b5503215d_460x459.jpeg",
+            "created": "2022-11-19T18:28:54Z",
+            "updated": "2022-11-19T18:28:54Z"
+        },
+        "model": "mainapp.news",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "title": "Kite is saying farewell, and is open-sourcing all of its code.",
+            "description": "From 2014 to 2021, Kite was a startup using AI to help developers write code. We have stopped working on Kite, and are no longer supporting the Kite software. Thank you to everyone who used our product, and thank you to our team members and investors who made\u2026",
+            "author": "Unknown author",
+            "content": "From 2014 to 2021, Kite was a startup using AI to help developers write code. We have stopped working on Kite, and are no longer supporting the Kite software.\r\nThank you to everyone who used our prod\u2026 [+6044 chars]",
+            "content_as_md": false,
+            "url": "https://www.kite.com/blog/product/kite-is-saying-farewell/",
+            "source": "Kite.com",
+            "image_url": "https://www.kite.com/wp-content/uploads/2019/10/IMG_4936-1024x683.jpeg",
+            "created": "2022-11-20T20:57:33Z",
+            "updated": "2022-11-20T20:57:33Z"
+        },
+        "model": "mainapp.news",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "title": "Using Rust at a Startup: A Cautionary Tale",
+            "description": "Rust is awesome, for certain things. But think twice before picking it up for a startup that needs to move fast. I hesitated writing this post, because I don\u2019t want to start, or get into, a holy war\u2026",
+            "author": "Matt Welsh",
+            "content": "Using Rust at a startup: A cautionary tale\r\nRust is awesome, for certain things. But think twice before picking it up for a startup that needs to move fast.\r\nAll of the art for this post was generate\u2026 [+12627 chars]",
+            "content_as_md": false,
+            "url": "https://mdwdotla.medium.com/using-rust-at-a-startup-a-cautionary-tale-42ab823d9454",
+            "source": "Medium",
+            "image_url": "https://miro.medium.com/max/1024/1*vybmUMCSKd_OjJUO9Bwarg.png",
+            "created": "2022-11-23T01:38:22Z",
+            "updated": "2022-11-23T01:38:22Z"
+        },
+        "model": "mainapp.news",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "title": "Fly.io (YC W20) Is Hiring Ops Engineers",
+            "description": "Join our team!",
+            "author": "Unknown author",
+            "content": "Infrastructure Ops engineers are our human to metal interface. They manage the foundation that everything else is built on, and provide the tools to support our Platform team and Fly.io end customers\u2026 [+3120 chars]",
+            "content_as_md": false,
+            "url": "https://fly.io/jobs/infrastructure-ops-engineering/",
+            "source": "Fly.io",
+            "image_url": "https://fly.io/public/images/flyctl-preview.png",
+            "created": "2022-11-15T12:00:19Z",
+            "updated": "2022-11-15T12:00:19Z"
+        },
+        "model": "mainapp.news",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "title": "Building a Virtual Machine Inside ChatGPT",
+            "description": "Unless you have been living under a rock, you have heard of this new ChatGPT assistant made by OpenAI. Did you know, that you can run a whole virtual machine inside of ChatGPT?",
+            "author": "Jonas Degrave",
+            "content": "Unless you have been living under a rock, you have heard of this new ChatGPT assistant made by OpenAI. You might be aware of its capabilities for solving IQ tests, tackling leetcode problems or to he\u2026 [+3204 chars]",
+            "content_as_md": false,
+            "url": "https://www.engraved.blog/building-a-virtual-machine-inside/",
+            "source": "Engraved.blog",
+            "image_url": "https://www.engraved.blog/content/images/2022/12/deepmind-mbq0qL3ynMs-unsplash.jpg",
+            "created": "2022-12-03T21:19:45Z",
+            "updated": "2022-12-03T21:19:45Z"
+        },
+        "model": "mainapp.news",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "title": "Learning Rust with ChatGPT, Copilot and Advent of Code",
+            "description": "I\u2019m using this year\u2019s Advent of Code to learn Rust\u2014with the assistance of GitHub Copilot and OpenAI\u2019s new ChatGPT. I think one of the most exciting applications of large language \u2026",
+            "author": "Unknown author",
+            "content": "Im using this years Advent of Code to learn Rustwith the assistance of GitHub Copilot and OpenAIs new ChatGPT.\r\nI think one of the most exciting applications of large language models is to support se\u2026 [+13116 chars]",
+            "content_as_md": false,
+            "url": "https://simonwillison.net/2022/Dec/5/rust-chatgpt-copilot/",
+            "source": "Simonwillison.net",
+            "image_url": "https://static.simonwillison.net/static/2022/copilot-2.jpg",
+            "created": "2022-12-05T21:47:56Z",
+            "updated": "2022-12-05T21:47:56Z"
+        },
+        "model": "mainapp.news",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "title": "Tea: A new package manager from the creator of brew",
+            "description": "the unified package manager (brew2). Contribute to teaxyz/cli development by creating an account on GitHub.",
+            "author": "teaxyz",
+            "content": "tea is not a package manager.\r\ntea is unified packaging infrastructure.\r\nFrom the creator of brew, tea is a standalone, binary download for all\r\nplatforms that puts the entire open\r\nsource ecosystem \u2026 [+23548 chars]",
+            "content_as_md": false,
+            "url": "https://github.com/teaxyz/cli",
+            "source": "Github.com",
+            "image_url": "https://opengraph.githubassets.com/1f5c9bd19b044b2e4217959c73415366d0e180f10b3a940fadd50cad06759fdc/teaxyz/cli",
+            "created": "2022-11-20T14:39:56Z",
+            "updated": "2022-11-20T14:39:56Z"
+        },
+        "model": "mainapp.news",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "title": "Porting Doom to the 3D0 Console",
+            "description": "Today Rebecca Burger Becky Heineman shares the tale of porting Doom to the 3DO console under extreme conditions. There is an engine to tweak, deadlines to hit, hardware acceleration to get working, and dramatic rock anthems to record.We also learn about how g\u2026",
+            "author": "Adam Gordon Bell",
+            "content": "Introduction\r\nAdam:\r\nHi. This is CoRecursive, and Im Adam Gordon Bell. Each episode is the story of a piece of software being built. Why dont you tell me what you do and who you are?\r\nBecky:\r\nOkay. Y\u2026 [+43473 chars]",
+            "content_as_md": false,
+            "url": "https://corecursive.com/doomed-to-fail-with-burger-becky/",
+            "source": "Corecursive.com",
+            "image_url": "https://corecursive.com/assets/images/083/wide.png",
+            "created": "2022-12-04T19:44:04Z",
+            "updated": "2022-12-04T19:44:04Z"
+        },
+        "model": "mainapp.news",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "title": "WTF Is T_paamayim_nekudotayim (2013)",
+            "description": "Anyone who has mentioned PHP Fractal of Bad Design to me knows I don\u2019t give it much credit. It\u2019s a list of complaints about loose-typing in\u2026",
+            "author": "Unknown author",
+            "content": "Anyone who has mentioned PHP Fractal of Bad Design to me knows I dont give it much credit. Its a list of complaints about loose-typing in general, some its not Python rants, lots of complaints about \u2026 [+18679 chars]",
+            "content_as_md": false,
+            "url": "https://phil.tech/2013/wtf-is-t-paamayim-nekudotayim/",
+            "source": "Phil.tech",
+            "image_url": null,
+            "created": "2022-12-02T12:26:57Z",
+            "updated": "2022-12-02T12:26:57Z"
+        },
+        "model": "mainapp.news",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "title": "Building a Dynamic VRChat World",
+            "description": "VRChat, its idiosyncrasies, and things I learned",
+            "author": "Unknown author",
+            "content": "Background\r\nI first tried VRChat in 2021 after a friend showed it to me, and I saved up and bought a headset as soon as I could. It was pretty much love at first sight and my only regret is not getti\u2026 [+38264 chars]",
+            "content_as_md": false,
+            "url": "https://blog.natalie.ee/posts/building-dynamic-vrchat-world/",
+            "source": "Natalie.ee",
+            "image_url": null,
+            "created": "2022-11-18T13:30:55Z",
+            "updated": "2022-11-18T13:30:55Z"
+        },
+        "model": "mainapp.news",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "title": "The Uses of Friction",
+            "description": "Plus! Market-Making; Poaching and Equity Currency; China's Covid Economy; The Cost of AI; Friendshoring; Diff Jobs",
+            "author": "Byrne Hobart",
+            "content": "Welcome to the free weekly edition of The Diff! This newsletter goes out to 48,000+ readers. In this issue:\r\n<ul><li>The Uses of Friction\r\n</li><li>Market-Making\r\n</li><li>Poaching and Equity Currenc\u2026 [+17474 chars]",
+            "content_as_md": false,
+            "url": "https://www.thediff.co/p/the-uses-of-friction",
+            "source": "Thediff.co",
+            "image_url": "https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5b730ae4-aa35-496e-8198-965a187e2e43_600x600.png",
+            "created": "2022-12-05T13:52:08Z",
+            "updated": "2022-12-05T13:52:08Z"
+        },
+        "model": "mainapp.news",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "title": "Black Friday Deals (macOS apps, SaaS, Books, Courses, etc.)",
+            "description": "Awesome deals on Black Friday: Apps, SaaS, Books, Courses, etc. - GitHub - trungdq88/Awesome-Black-Friday-Cyber-Monday: Awesome deals on Black Friday: Apps, SaaS, Books, Courses, etc.",
+            "author": "trungdq88",
+            "content": "Curated list of deals on Black Friday 2022. Feel free to add your app's deal below with a Pull Request.\r\nMake sure you add your deal at the end of each category (first come, first merged).\r\nFollow th\u2026 [+77432 chars]",
+            "content_as_md": false,
+            "url": "https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday",
+            "source": "Github.com",
+            "image_url": "https://opengraph.githubassets.com/1e49f7fb42b363f6895a2ef059e73f512f6865c39b85d574fca9abb5a7e5ff27/trungdq88/Awesome-Black-Friday-Cyber-Monday",
+            "created": "2022-11-25T16:32:44Z",
+            "updated": "2022-11-25T16:32:44Z"
+        },
+        "model": "mainapp.news",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "title": "The 10 Best Discord Servers for Web Developers",
+            "description": "If you're a web developer looking for a place to connect with other developers, then these Discord servers offer an excellent platform for doing so.",
+            "author": "Joshua Adegoke",
+            "content": "Discord is a chatting app that used to be for gamers, but has recently evolved into a community where people with like interests converge online and discuss specific topics. The simplest way to grow \u2026 [+6707 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/discord-servers-for-web-developers/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/A-finger-pointing-at-the-Discord-logo-on-a-phone--(1).jpg",
+            "created": "2022-11-11T16:45:15Z",
+            "updated": "2022-11-11T16:45:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "title": "The 8 Best Coding Apps for Android",
+            "description": "Whether you're an experience programmer or just starting out, these Android coding apps will help you practice and develop your skills.",
+            "author": "Sajid Shaik",
+            "content": "Coding serves as the foundation for some of the most revolutionary technological developments. If you're already involved directly or indirectly in coding, you might want to level up your programming\u2026 [+7018 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/best-coding-apps-for-android/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/12/best-coding-apps-android.jpg",
+            "created": "2022-12-08T15:30:16Z",
+            "updated": "2022-12-08T15:30:16Z"
+        },
+        "model": "mainapp.news",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "title": "Why Should You Learn C++?",
+            "description": "C++ is a fast language, but a complicated one too. So should you really bother to learn it?",
+            "author": "Fatih K\u00fc\u00e7\u00fckkarakurt",
+            "content": "C++ is a very powerful programming language that is actively used in many areas. Those who are new to the C++ programming language or want to master the language often have one question: why bother?\r\u2026 [+7112 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/c-plus-plus-should-you-learn/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/is-it-difficult-to-master-the-C-language.jpg",
+            "created": "2022-11-19T16:00:14Z",
+            "updated": "2022-11-19T16:00:14Z"
+        },
+        "model": "mainapp.news",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "title": "Game Development Is Easy With Pygame Zero",
+            "description": "Pygame Zero simplifies game development by doing a lot of the work for you.",
+            "author": "Elijah Drown",
+            "content": "Programming can be a daunting prospect for anyone dipping their toe into the world of game development.\r\nPython is often revered as an excellent coding gateway as this language prioritizes readabilit\u2026 [+4604 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/pygame-zero-game-development-easy/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/retro-consoles--fi.jpg",
+            "created": "2022-11-15T11:00:14Z",
+            "updated": "2022-11-15T11:00:14Z"
+        },
+        "model": "mainapp.news",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "title": "Data Scientist vs. Data Engineer: How Do They Differ?",
+            "description": "Data scientists and data engineers are crucial roles in big data and analytics, but they have different skills and job duties. Here's how they differ!",
+            "author": "Joshua Adegoke",
+            "content": "Data is the new oil with many sides to its exploration. From the extraction of data down to the system infrastructure needed to contain this data flow, the concept of data organization continues to b\u2026 [+7593 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/data-scientist-vs-data-engineer/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/a-man-in-thoughts-standing-in-front-of-a-white-board-_.jpg",
+            "created": "2022-12-06T18:45:16Z",
+            "updated": "2022-12-06T18:45:16Z"
+        },
+        "model": "mainapp.news",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "title": "Beautiful Soup vs. Scrapy vs. Selenium: Which Web Scraping Tool Should You Use?",
+            "description": "When you start with Python web scraping, your choices eventually boil down to three tools: Beautiful Soup, Scrapy, and Selenium.",
+            "author": "Deepesh Sharma",
+            "content": "Want to learn web scraping with Python but are confused about whether to use Beautiful Soup, Selenium, or Scrapy for your next project? While all these Python libraries and frameworks are powerful in\u2026 [+6560 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/beautiful-soup-vs-scrapy-vs-selenium/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/12/beautifulsoup-vs-scrapy-vs-selenium.jpg",
+            "created": "2022-12-04T22:00:15Z",
+            "updated": "2022-12-04T22:00:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "title": "How to Become a Machine Learning Engineer: A Beginner\u2019s Guide",
+            "description": "Want to become a machine learning engineer? Here's the ultimate guide to help you pursue an ML career and get a job in this industry.",
+            "author": "Raji Oluwaniyi",
+            "content": "Machine learning is a critical component of artificial intelligence systems, with which AI is more effective today. Many big companies utilize machine learning to predict outcomes in their business, \u2026 [+6328 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/become-machine-learning-engineer/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/Man-in-Front-of-Monitor.jpg",
+            "created": "2022-11-25T13:30:15Z",
+            "updated": "2022-11-25T13:30:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "title": "How to Become a DevOps Engineer: A Step-by-Step Guide",
+            "description": "If you\u2019re interested in becoming a DevOps engineer, there are several things you should do to prepare yourself. Here's a step-by-step guide to help.",
+            "author": "Raji Oluwaniyi",
+            "content": "In a traditional organizational setting, a product undergoes several stages before it is launched, from the project initiation stage to the development and operation stages. However, forward-thinking\u2026 [+7454 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/how-to-become-devops-engineer/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/A-laptop-covered-with-DevOps--Agile-stickers.jpg",
+            "created": "2022-11-14T20:30:20Z",
+            "updated": "2022-11-14T20:30:20Z"
+        },
+        "model": "mainapp.news",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "title": "Connect to Your Wireless Network With a Raspberry Pi Pico W",
+            "description": "Make the most of the Raspberry Pi Pico W's wireless capability by getting it to connect to your Wi-Fi network.",
+            "author": "Elijah Drown",
+            "content": "Smartphones, tablets, and computers make connecting to your Wi-Fi at home, a coffee shop, or a local library painless and straightforward. That's because they have an operating system that comes with\u2026 [+4657 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/connect-wireless-network-with-raspberry-pi-pico-w/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/wireless-pico-FI.jpg",
+            "created": "2022-11-24T15:30:16Z",
+            "updated": "2022-11-24T15:30:16Z"
+        },
+        "model": "mainapp.news",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "title": "How to Use a Switch Statement in C#",
+            "description": "Tidy up awkward repeated if statements with the convenient language feature.",
+            "author": "Sharlene Khan",
+            "content": "In an application, it is common for certain events to only occur based on certain conditions. You can use different types of conditional statements to handle these events. This includes if-statements\u2026 [+6454 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/c-sharp-switch-statement/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/Code-switch-statement-on-laptop.jpg",
+            "created": "2022-11-15T17:00:14Z",
+            "updated": "2022-11-15T17:00:14Z"
+        },
+        "model": "mainapp.news",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "title": "How to Become a Database Engineer: A Beginner's Guide",
+            "description": "Do you want a career as a database engineer, but don't know where to begin? Here's a step-by-step guide you can follow.",
+            "author": "Raji Oluwaniyi",
+            "content": "Data is the lifeblood of many thriving organizations today, and very few establishments can afford to ignore its value in the modern economy. However, collating, storing, and utilizing data requires \u2026 [+6432 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/how-to-become-database-engineer/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/08/Software-Engineer-Standing-Beside-Server-Racks.jpg",
+            "created": "2022-11-14T18:30:14Z",
+            "updated": "2022-11-14T18:30:14Z"
+        },
+        "model": "mainapp.news",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "title": "4 Ways to Shorten Linux Commands and Save Time",
+            "description": "Improve your terminal experience and save more time by reducing the length of your Linux commands with these methods.",
+            "author": "Deepesh Sharma",
+            "content": "Linux commands are often known for being too long, and with excessive length comes increased complexity and comprehension issues. But there's always a way to shorten your Linux commands and turn them\u2026 [+6135 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/ways-to-shorten-linux-commands/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/shorten-linux-commands.jpg",
+            "created": "2022-11-30T21:30:15Z",
+            "updated": "2022-11-30T21:30:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "title": "The 7 Best Places to Host Your Developer Portfolio",
+            "description": "If you're a software developer looking for a place to host your portfolio or showcase your skills, check out these sites that can help you create one.",
+            "author": "Raji Oluwaniyi",
+            "content": "As a developer, building a strong portfolio is vital for your career development, as it's a great way to attract employers and get job opportunities. However, using a platform to display your portfol\u2026 [+8610 chars]",
+            "content_as_md": false,
+            "url": "https://www.makeuseof.com/best-places-to-host-developer-portfolio/",
+            "source": "MakeUseOf",
+            "image_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/11/Multiple-Monitors-Turned-On.jpg",
+            "created": "2022-12-01T13:45:15Z",
+            "updated": "2022-12-01T13:45:15Z"
+        },
+        "model": "mainapp.news",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "title": "C++ zooms past Java in programming popularity contest",
+            "description": "TIOBE or not TIOBE, that is the question\nJava is no longer among the top three most popular programming languages in the TIOBE Index, one of several not particularly definitive yardsticks by which such things are measured.\u2026<!--#include virtual='/data_centre/_\u2026",
+            "author": "Thomas Claburn",
+            "content": "Java is no longer among the top three most popular programming languages in the TIOBE Index, one of several not particularly definitive yardsticks by which such things are measured.\r\nAccording to Pau\u2026 [+3392 chars]",
+            "content_as_md": false,
+            "url": "https://www.theregister.com/2022/12/10/java_slips_behind_c_in/",
+            "source": "Theregister.com",
+            "image_url": "https://regmedia.co.uk/2022/12/09/shutterstock_coffee.jpg",
+            "created": "2022-12-10T08:50:09Z",
+            "updated": "2022-12-10T08:50:09Z"
+        },
+        "model": "mainapp.news",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "title": "An Introduction To Using R For SEO via @sejournal, @TaylorDanRW",
+            "description": "Leave a bigger impact on your business. Discover how to connect R to your SEO work, plus how you can learn it in-depth (for free).\nThe post An Introduction To Using R For SEO appeared first on Search Engine Journal.",
+            "author": "Dan Taylor",
+            "content": "Predictive analysis refers to the use of historical data and analyzing it using statistics to predict future events.\r\n It takes place in seven steps, and these are: defining the project, data collect\u2026 [+10142 chars]",
+            "content_as_md": false,
+            "url": "https://www.searchenginejournal.com/an-introduction-to-using-r-for-seo/470277/",
+            "source": "Search Engine Journal",
+            "image_url": "https://cdn.searchenginejournal.com/wp-content/uploads/2022/11/beginners-guide-to-r-analytics-637631fff3950-sej.png",
+            "created": "2022-11-23T10:00:04Z",
+            "updated": "2022-11-23T10:00:04Z"
+        },
+        "model": "mainapp.news",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "title": "Transitioning From Excel To Python: Essential Functions For SEO Data Analysis via @sejournal, @williamjnye",
+            "description": "Learn the Python equivalents of your favorite Excel formulas to speed up your data analysis and automate repetitive tasks.\nThe post Transitioning From Excel To Python: Essential Functions For SEO Data Analysis appeared first on Search Engine Journal.",
+            "author": "Will Nye",
+            "content": "Learning to code, whether with\u00a0Python,\u00a0JavaScript, or another programming language, has a whole host of benefits, including the ability to work with larger datasets and automate repetitive tasks.\r\nBu\u2026 [+19025 chars]",
+            "content_as_md": false,
+            "url": "https://www.searchenginejournal.com/transitioning-from-excel-to-python-essential-functions-for-seo-data-analysis/472147/",
+            "source": "Search Engine Journal",
+            "image_url": "https://cdn.searchenginejournal.com/wp-content/uploads/2022/11/excel-to-python-for-data-analysis-637f4d8b66fb7-sej.png",
+            "created": "2022-12-02T09:15:42Z",
+            "updated": "2022-12-02T09:15:42Z"
+        },
+        "model": "mainapp.news",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "title": "A Practical Guide To Multi-Touch Attribution",
+            "description": "Learn the difference between 4 multi-touch attribution models to leverage them, and ultimately create better conversion rate optimation. Here's how to do it step-by-step.\nThe post A Practical Guide To Multi-Touch Attribution appeared first on Search Engine Jo\u2026",
+            "author": "Wilson Lau",
+            "content": "The customer journey involves multiple interactions between the customer and the merchant or service provider.\r\nWe call each interaction in the customer journey a touch point.\r\nAccording to Salesforc\u2026 [+17420 chars]",
+            "content_as_md": false,
+            "url": "https://www.searchenginejournal.com/practical-guide-multi-touch-attribution/471022/",
+            "source": "Search Engine Journal",
+            "image_url": "https://cdn.searchenginejournal.com/wp-content/uploads/2022/11/multi-touch-attribution-637b8f47e79ad-sej.png",
+            "created": "2022-11-23T09:15:08Z",
+            "updated": "2022-11-23T09:15:08Z"
+        },
+        "model": "mainapp.news",
+        "pk": 50
+    }
+]
