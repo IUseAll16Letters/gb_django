@@ -1,4 +1,4 @@
-from django.db import migrations, models
+from django.db import migrations
 
 
 def forward(apps, schema_editor):
@@ -10,7 +10,6 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-    print('I AM MIGRATION 11!')
     dependencies = [
         ('mainapp', '0010_returning_surnames_to_teachers'),
     ]
@@ -19,4 +18,6 @@ class Migration(migrations.Migration):
         migrations.DeleteModel(
             name='TeachersSurnames',
         ),
+
+        migrations.RunPython(forward, reverse)
     ]

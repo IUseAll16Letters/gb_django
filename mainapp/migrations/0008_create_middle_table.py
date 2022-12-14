@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 def forward(apps, schema_editor):
-    print('I AM FORWARD. I AM TJE SECOND GUY!')
     surnames = apps.get_model('mainapp', 'TeachersCourse')
     surnames = surnames.objects.values_list("name_second", "id").order_by('pk')
 
@@ -19,7 +18,6 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-    print('I AM MIGRATION 8 I GO FIRST!')
     dependencies = [
         ('mainapp', '0007_teachers_data_migration'),
     ]

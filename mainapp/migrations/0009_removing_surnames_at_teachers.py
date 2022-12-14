@@ -23,8 +23,6 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-    print('I AM MIGRATION 9 I GO FIRST!')
-
     dependencies = [
         ('mainapp', '0008_create_middle_table'),
     ]

@@ -23,7 +23,6 @@ def reverse(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-    print('I AM MIGRATION 10!')
     dependencies = [
         ('mainapp', '0009_removing_surnames_at_teachers'),
     ]
