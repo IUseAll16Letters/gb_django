@@ -250,8 +250,6 @@ fabric.properties
 
 
 bin/
-lesson_1/
-
 Scripts/
 
 # DJANGO self
