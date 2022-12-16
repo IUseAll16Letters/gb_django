@@ -32,8 +32,7 @@ NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS").split('|')
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS") or ['127.0.0.1', 'localhost']
 
 INTERNAL_IPS = ['127.0.0.1', ]
 
