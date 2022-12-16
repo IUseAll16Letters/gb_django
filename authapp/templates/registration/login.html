@@ -40,7 +40,7 @@
                     <input type="text" name="username" autofocus=""
                         autocapitalize="none" autocomplete="username"
                         maxlength="150" class="textinput textInput form-control"
-                        required="" id="id_username" placeholder="Username">
+                        required="" id="id_username" placeholder="Email">
                 </p>
                 <p>
                     <input type="password" name="password"
@@ -56,8 +56,7 @@
             <p>
             <div class="row justify-content-between">
                 <div class="col">
-                    <a
-                        href="{% url 'authapp:register' %}"><small>Регистрация</small></a>
+                    <a href="{% url 'authapp:register' %}"><small>Регистрация</small></a>
                 </div>
                 <div class="col">
                     <a href="#"><small>Забыли пароль?</small></a>
@@ -68,9 +67,9 @@
             <p>
             <div class="btn-group btn-block" role="group">
                 <a class="btn btn-primary"
-                    href="#" role="button"><i
+                    href="{% url 'social:begin' 'vk-oauth2' %}" role="button"><i
                         class="fab fa-vk"></i></a>
-                <a class="btn btn-primary" href="#" role="button"><i
+                <a class="btn btn-primary" href="{% url 'social:begin' 'github' %}" role="button"><i
                         class="fab fa-github"></i></a>
                 <a class="btn btn-primary" href="#" role="button"><i
                         class="fab fa-facebook"></i></a>

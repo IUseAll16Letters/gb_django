@@ -2,6 +2,7 @@ __all__ = ['RegisterView']
 
 from django.contrib.auth.hashers import make_password
 from django.contrib import messages
+from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
@@ -10,6 +11,7 @@ from django.urls import reverse_lazy
 from django.contrib.auth import get_user_model
 
 from authapp.models import CustomUser
+from authapp.exceptions import UserExistsError
 # from authapp.forms import CustomUserCreationForm
 
 
@@ -17,7 +19,11 @@ class RegisterView(TemplateView):
     template_name = "registration/register.html"
 
     def post(self, request, *args, **kwargs):
+        print(request, request.POST)
         try:
+            if CustomUser.objects.filter(email__iexact=request.POST.get("email")).exists():
+                raise UserExistsError(f'Email {request.POST.get("email").lower()} is occupied')
+
             if all(
                     (request.POST.get('username'),
                      request.POST.get('email'),
@@ -33,9 +39,10 @@ class RegisterView(TemplateView):
                     age=request.POST.get('age') if request.POST.get('age') else 0,
                     avatar=request.FILES.get("avatar"),
                     email=request.POST.get('email'),
-                    password=make_password(request.POST.get('password1')),
-                    _password=request.POST.get('password1')
+                    password=make_password(request.POST.get("password1")),
+                    # _password=request.POST.get("password1"),
                 )
+                new_user.set_password(request.POST.get("password1"))
                 new_user.save()
                 messages.add_message(
                     request, messages.INFO, _('Registration success')

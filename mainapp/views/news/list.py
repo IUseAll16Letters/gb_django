@@ -1,6 +1,6 @@
 __all__ = ['NewsPageView']
 
-from mainapp.utils.get_news_api import get_news
+from mainapp.models import News
 from django.views.generic import TemplateView
 
 
@@ -11,8 +11,8 @@ class NewsPageView(TemplateView):
         context = super().get_context_data(**kwargs)
 
         ## TODO MOVE PAGINATION LOGICS TO PAGINATOR CLASS IF POSSIBLE
-        all_news = get_news()
-        pages_total = len(all_news) // 5
+        all_news = News.objects.filter(pk__gte=(page * 5 - 4)).filter(pk__lte=(page * 5)).filter(deleted=False)
+        pages_total = News.objects.filter(deleted=False).count()
 
         page = pages_total if page > pages_total else page
 
@@ -29,8 +29,6 @@ class NewsPageView(TemplateView):
             next_page = page + 1
         else:
             end_range = pages_total
-
-        all_news = all_news[page * 5 - 5: page * 5]
 
         context.update({
             "news": all_news,

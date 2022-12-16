@@ -15,6 +15,12 @@ def users_avatars_path(instance, filename):
     return f"user_{instance.username}/avatars/pic_{num}{suff}"
 
 
+class CustomUserManager(UserManager):
+    def get_by_natural_key(self, email):
+        resp = self.get(email__iexact=email)
+        return resp
+
+
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     username_validator = ASCIIUsernameValidator()
 
@@ -36,7 +42,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     avatar = models.ImageField(
         upload_to=users_avatars_path, blank=True, null=True
     )
-    email = models.CharField(
+    email = models.EmailField(
         _("email address"),
         max_length=256,
         unique=True,
@@ -61,11 +67,11 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     )
     date_joined = models.DateTimeField(_("date joined"), auto_now_add=True)
 
-    objects = UserManager()
+    objects = CustomUserManager()
 
     EMAIL_FIELD = "email"
-    USERNAME_FIELD = "username"
-    REQUIRED_FIELDS = ["email"]
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = ["username"]
 
     class Meta:
         verbose_name = _("user")

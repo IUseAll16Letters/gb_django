@@ -254,3 +254,4 @@ Scripts/
 
 # DJANGO self
 /django_one
+.env_social
