@@ -157,8 +157,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-/django_one
-
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -252,7 +250,8 @@ fabric.properties
 
 
 bin/
-lesson_1/
-
 Scripts/
 
+# DJANGO self
+/django_one
+.env_social
