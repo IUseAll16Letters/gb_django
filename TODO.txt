@@ -1,0 +1,8 @@
+Major:
+    1. Create docker file + postgres dump
+    2. Clean code from prints
+    3. Figure out with Users, social_out, select/prefetch related
+Minor:
+    1. Clean templates
+    2. Clean views/models/forms
+    
