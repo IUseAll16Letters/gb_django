@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'debug_toolbar',
     'markdownify.apps.MarkdownifyConfig',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -184,3 +185,5 @@ SOCIAL_AUTH_GITHUB_SECRET = os.getenv("SOCIAL_AUTH_GITHUB_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_KEY = os.getenv("SOCIAL_AUTH_VK_OAUTH2_KEY")
 SOCIAL_AUTH_VK_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_VK_OAUTH2_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_API_VERSION = os.getenv("SOCIAL_AUTH_VK_OAUTH2_API_VERSION")
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"  #  form style pack
