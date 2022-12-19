@@ -1,6 +1,7 @@
 __all__ = ['Courses']
 
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class Courses(models.Model):
@@ -23,3 +24,7 @@ class Courses(models.Model):
         self.deleted = True
         self.save()
 
+    class Meta:
+        verbose_name = _("Course")
+        verbose_name_plural = _("Courses")
+        ordering = ("-created", )

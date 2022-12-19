@@ -1,0 +1,11 @@
+FROM python:3.8-slim-buster
+RUN apt-get update --fix-missing
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libgl1-mesa-dev python3-pip git
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+COPY ./requirements.txt /usr/src/app/requirements.txt
+RUN pip3 install -U setuptools
+RUN pip3 install --upgrade pip
+RUN pip3 install -r ./requirements.txt --use-feature=2020-resolver
+COPY . /usr/src/app
+CMD ["python3", "/usr/src/app/main.py"]
