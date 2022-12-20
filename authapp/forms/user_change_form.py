@@ -23,10 +23,6 @@ class CustomUserChangeForm(ModelForm):
         field_classes = {"username": UsernameField}
 
     def clean_avatar(self, arg_as_str="avatar"):
-        print(arg_as_str)
-        print(self.instance)
-        print(self.instance.avatar)
-        print(self.instance.avatar.path)
         if arg_as_str in self.changed_data and self.instance.avatar:
             if os.path.exists(self.instance.avatar.path):
                 os.remove(self.instance.avatar.path)
@@ -34,6 +30,9 @@ class CustomUserChangeForm(ModelForm):
 
     def clean_age(self):
         data = self.cleaned_data.get("age")
+        print(f'AGE: {data = }')
+        if not data:
+            return 0
         if data < 10 or data > 100:
             raise ValidationError(_("Please enter a valid age (10, 100)!"))
         return data

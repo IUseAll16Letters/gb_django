@@ -24,7 +24,7 @@
                         {{ news.author }}
                     {% endif %}
                     </h6>
-                    {% if news.image_url != 'no_image.svg' %}
+                    {% if news.image_url and news.image_url != 'no_image.svg' %}
                         <a class="figure-img" href="{{ news.url }}" target="_blank">
                             <img src="{{ news.image_url }}" alt="..." style="max-width: 350px"
                                  class="rounded float-md-none">
