@@ -2,9 +2,12 @@ __all__ = ['Courses']
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from mainapp.models.managers import CoursesManager
 
 
 class Courses(models.Model):
+    objects = CoursesManager()
+
     name = models.CharField(max_length=255, verbose_name='Name')
     description = models.TextField(verbose_name='Description', null=True, blank=True)
     description_as_md = models.BooleanField(verbose_name='As markdown', default=False)
@@ -18,7 +21,7 @@ class Courses(models.Model):
     deleted = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.pk} {self.name} del:{self.deleted}'
+        return f'{self.name}'
 
     def delete(self, *args):
         self.deleted = True
@@ -27,4 +30,4 @@ class Courses(models.Model):
     class Meta:
         verbose_name = _("Course")
         verbose_name_plural = _("Courses")
-        ordering = ("-created", )
+        # ordering = ("-created")

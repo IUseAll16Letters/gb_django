@@ -18,7 +18,7 @@ class Lessons(models.Model):
     deleted = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.pk} {self.title} course: {self.course.name} del:{self.deleted}'
+        return f'{self.pk} {self.title}'
 
     def delete(self, *args):
         self.deleted = True
@@ -27,4 +27,4 @@ class Lessons(models.Model):
     class Meta:
         verbose_name = _("Lesson")
         verbose_name_plural = _("Lessons")
-        ordering = ("course", "number")
+        ordering = ("course", )

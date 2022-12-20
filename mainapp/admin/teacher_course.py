@@ -14,9 +14,6 @@ class TeachersCourseAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
     list_select_related = True
 
     def get_courses(self, obj):
-        print(f">>>> \n ")
-        print(dir(obj))
-        print(f"<<<< \n")
         return ", ".join(i.name for i in obj.course.all())
 
     get_courses.short_description = _("Courses")

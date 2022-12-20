@@ -1,0 +1,44 @@
+{% load stringify %}
+
+<div class="card my-2">
+    <div class="card-body">
+        <h5 class="card-title">
+            <a href="{% url 'mainapp:news_detail' pk=news.pk%}">{{ news.title }}</a>
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+            {{ news.created|date:"Y-m-d H-i-s" }}
+        </h6>
+        <h6 class="card-subtitle mb-2 text-muted">
+            Автор:
+            {% if news.author != 'Unknown author' %}
+                <a href="{% url 'mainapp:google_redirect' news.author|stringify  %}">{{ news.author }}</a>
+            {% else %}
+                {{ news.author }}
+            {% endif %}
+        </h6>
+        <p class="card-text">{{ news.description }}</p>
+        <div class="row">
+            <div class="col">
+                <a href="{% url 'mainapp:news_detail' pk=news.pk %}" class="card-link">Подробнее</a>
+                <a href="{{ news.url }}" target="_blank" class="card-link">
+                    Читать на сайте источника
+                </a>
+            </div>
+            {% if perms.mainapp.change_news %}
+                <div class="col-1 text-center">
+                    <a href="{% url 'mainapp:news_update' pk=news.pk %}">
+                        <i class="far fa-edit"></i> {# Что за тэг? #}
+                    </a>
+                </div>
+            {% endif %}
+            {% if perms.mainapp.delete_news %}
+                <div class="col-1 text-center">
+                    <a href="{% url 'mainapp:news_delete' pk=news.pk %}">
+                        <i class="far fa-trash-alt"></i>
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+</div>
