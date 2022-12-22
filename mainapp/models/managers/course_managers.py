@@ -5,11 +5,9 @@ from django.db import models
 
 class CoursesManager(models.Manager):
     def get_queryset(self):
-        print('I am Courses Manager descriptor')
         return super().get_queryset().filter(deleted=False)
 
 
 class AllCoursesManger(models.Manager):
     def get_queryset(self):
-        print('I am all Courses manager')
         return super().get_queryset()

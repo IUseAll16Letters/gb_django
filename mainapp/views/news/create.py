@@ -1,5 +1,7 @@
 __all__ = ["NewsCreateView"]
 
+from django import forms
+
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
@@ -17,3 +19,8 @@ class NewsCreateView(PermissionRequiredMixin, CreateView):
     def get_context_data(self, **kwargs):
         c = super().get_context_data(**kwargs)
         return c
+
+    class Meta:
+        widgets = {
+            "user": forms.HiddenInput()
+        }

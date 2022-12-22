@@ -32,14 +32,12 @@ def forward_func(apps, schema_editor):
     for teacher in teachers_data:
         Teachers.objects.filter(name_first=teacher[0])[0].course.set(teacher[3])
 
-    Teachers.objects.create(
-        name_first='Авшалом', name_second='Цигельман', birthday='1977-06-29',  # course=[3, 4]
-    )
+    # Teachers.objects.create(
+    #     name_first='Авшалом', name_second='Цигельман', birthday='1977-06-29',  # course=[3, 4]
+    # )
 
 
 def reverse_func(apps, schema_editor):
-    print(apps, apps.__class__)
-
     Teachers = apps.get_model('mainapp', 'TeachersCourse')
     Teachers.objects.all().delete()
 

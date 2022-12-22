@@ -28,6 +28,6 @@ class LessonAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
         count = queryset.update(updated=datetime.now())
         message = _(f"Updated time at: {count}")
         messages.add_message(request, messages.INFO, message)
-
+    #
     # mark_deleted.short_description = _("Mark deleted")
     # un_delete.short_description = _("Remove deletion")
