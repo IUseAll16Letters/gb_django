@@ -46,9 +46,6 @@
             </form>
           </div>
         </div>
-        {{ request.get_full_path }}
-        {{ request.user }}
-        {{ perms }}
         {% if perms.mainapp.add_news %}
             <a class="btn btn-primary btn-block" role="button"
               href="{% url 'mainapp:news_create'%}">Добавить новость</a>

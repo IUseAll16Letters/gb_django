@@ -46,6 +46,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'authapp:login' %}">Войти</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if request.resolver_match.view_name == 'authapp:register' %}active{% endif %}"
+                               href="{% url 'authapp:register' %}">
+                                Регистрация
+                            </a>
+                        </li>
                     {% endif %}
                     <li class="nav-item {% if request.resolver_match.view_name == 'mainapp:contacts' %}active{% endif %}">
                         <a class="nav-link" href="{% url 'mainapp:contacts' %}">Контакты</a>

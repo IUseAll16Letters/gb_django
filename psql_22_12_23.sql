@@ -928,6 +928,7 @@ ALTER TABLE ONLY public.social_auth_usersocialauth ALTER COLUMN id SET DEFAULT n
 --
 
 COPY public.auth_group (id, name) FROM stdin;
+1	authors
 \.
 
 
@@ -936,6 +937,10 @@ COPY public.auth_group (id, name) FROM stdin;
 --
 
 COPY public.auth_group_permissions (id, group_id, permission_id) FROM stdin;
+1	1	33
+2	1	34
+3	1	35
+4	1	36
 \.
 
 
@@ -1016,6 +1021,12 @@ COPY public.auth_permission (id, name, content_type_id, codename) FROM stdin;
 --
 
 COPY public.authapp_customuser (id, password, last_login, is_superuser, username, first_name, last_name, age, avatar, email, is_staff, is_active, date_joined) FROM stdin;
+2	pbkdf2_sha256$260000$8VvuWYHZszG8FrG2m9pKJP$NpTmXevo6sHAv/Hw5TZMTvFZx93OfF3oMa4zYfegluE=	\N	f	user1			\N		u1@ru.ru	f	t	2022-12-23 12:21:49.819871+00
+3	pbkdf2_sha256$260000$mRCAUG00tMzpKMs9Q4UpYl$jM8T8PrD7KkfI1rkPUOnRAHnyo4eP4UZEqeJu66rzc8=	2022-12-23 12:47:27.425302+00	f	user_2			\N		u2@ru.ru	f	t	2022-12-23 12:22:41.563213+00
+4	pbkdf2_sha256$260000$Ax9g8wPG2ql39hgBgJLkCs$fza4jx9ocudfXEYt2fjLXT6KTDTGBc1HsP71PPTEv0A=	2022-12-23 13:19:16.268936+00	f	handy_dandy			\N		handy@dandy.com	f	t	2022-12-23 13:19:05.650974+00
+5	pbkdf2_sha256$260000$4Qpu7QjcTo3rnKEPF2bGmK$cUMXW7HHXxm+WYUWGDR40nX4K6Hj4UKqwodkoA7r9sk=	\N	f	user3			\N		u3@ru.ru	f	t	2022-12-23 14:29:31.960794+00
+6	pbkdf2_sha256$260000$yz6zP70tyjF2MkYbdm7agn$Rq6wfbf/XOze7NI1NmRhQnNJ+hhvJwMnlR0LqUvRXRw=	2022-12-23 14:31:38.338112+00	f	user4			\N		u4@ru.ru	f	t	2022-12-23 14:30:08.979519+00
+1	pbkdf2_sha256$260000$Ddbbn8VGK7q2EoTQWpLnOV$g7zz66S87O9dX8dmKBE/pbcmcJlQzCHzrlwDBne0bi0=	2022-12-23 14:31:52.02748+00	t	admin			\N		admin@admin.ru	t	t	2022-12-22 15:30:15.780074+00
 \.
 
 
@@ -1024,6 +1035,7 @@ COPY public.authapp_customuser (id, password, last_login, is_superuser, username
 --
 
 COPY public.authapp_customuser_groups (id, customuser_id, group_id) FROM stdin;
+1	6	1
 \.
 
 
@@ -1040,6 +1052,11 @@ COPY public.authapp_customuser_user_permissions (id, customuser_id, permission_i
 --
 
 COPY public.django_admin_log (id, action_time, object_id, object_repr, action_flag, change_message, content_type_id, user_id) FROM stdin;
+1	2022-12-23 13:37:38.757943+00	57	57 Lesson 1	2	[{"changed": {"fields": ["Deleted"]}}]	7	1
+2	2022-12-23 13:38:06.200572+00	58	58 Lesson 2	2	[{"changed": {"fields": ["Deleted"]}}]	7	1
+3	2022-12-23 14:31:13.465762+00	1	authors	1	[{"added": {}}]	3	1
+4	2022-12-23 14:31:25.007271+00	6	u4@ru.ru	2	[{"changed": {"fields": ["Groups"]}}]	11	1
+5	2022-12-23 14:31:30.207831+00	6	u4@ru.ru	2	[]	11	1
 \.
 
 
@@ -1128,6 +1145,7 @@ COPY public.django_migrations (id, app, name, applied) FROM stdin;
 --
 
 COPY public.django_session (session_key, session_data, expire_date) FROM stdin;
+92r1as9czypixe4veoe3i2pk8qu1lzq1	.eJxVjDsOwjAQBe_iGln2Bv8o6XMGa-1d4wBypDipEHeHSCmgfTPzXiLitta4dV7iROIitDj9bgnzg9sO6I7tNss8t3WZktwVedAux5n4eT3cv4OKvX5r65NDskM6A6A1lLVXToFXwbFFX1ShzMRgQg4m-JJYE7CxhAQD5iTeH-SmOJg:1p8j5U:wW4RhWFiisG-flYuUadE4gyuzxPtREkhioCfdE-vut4	2023-01-06 14:31:52.164458+00
 \.
 
 
@@ -1136,6 +1154,16 @@ COPY public.django_session (session_key, session_data, expire_date) FROM stdin;
 --
 
 COPY public.mainapp_coursefeedback (id, feedback, rating, created, deleted, course_id, user_id) FROM stdin;
+1	Pretty meh, but hey... could have been worse!	5	2022-12-23 11:59:12.688303+00	f	2	1
+2	Mkay!	4	2022-12-23 12:07:49.739+00	f	6	1
+3	The best course ever!!\r\nHighly recomended!	1	2022-12-23 12:47:47.896921+00	f	1	3
+4	Go go, golang!	3	2022-12-23 12:54:31.457449+00	f	2	3
+5	too much kachestvo!	3	2022-12-23 13:19:32.81066+00	f	1	4
+6	GOOOOO, GOOLANG GO!!!	1	2022-12-23 13:19:56.687987+00	f	2	4
+7	THE BEST RATING EVER! FRIEND!	5	2022-12-23 13:20:20.837317+00	f	6	4
+9	The javiest script ever!	5	2022-12-23 13:21:04.433941+00	f	3	1
+8	java script as always!	5	2022-12-23 13:20:41.66794+00	f	3	4
+11	To much gutten!	5	2022-12-23 13:32:21.697126+00	f	6	3
 \.
 
 
@@ -1216,14 +1244,14 @@ COPY public.mainapp_lessons (id, number, title, description, description_as_md, 
 54	6	Lesson 6	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	7
 55	7	Lesson 7	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	7
 56	8	Lesson 8	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	7
-57	1	Lesson 1	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
-58	2	Lesson 2	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 59	3	Lesson 3	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 60	4	Lesson 4	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 61	5	Lesson 5	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 62	6	Lesson 6	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 63	7	Lesson 7	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
 64	8	Lesson 8	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-22 04:32:10.161413+00	f	8
+57	1	Lesson 1	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-23 13:37:38.755972+00	t	8
+58	2	Lesson 2	Описание урока	f	2022-12-22 04:32:10.161413+00	2022-12-23 13:38:06.19857+00	t	8
 \.
 
 
@@ -1371,14 +1399,14 @@ COPY public.social_auth_usersocialauth (id, provider, uid, extra_data, user_id, 
 -- Name: auth_group_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.auth_group_id_seq', 1, false);
+SELECT pg_catalog.setval('public.auth_group_id_seq', 1, true);
 
 
 --
 -- Name: auth_group_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.auth_group_permissions_id_seq', 1, false);
+SELECT pg_catalog.setval('public.auth_group_permissions_id_seq', 4, true);
 
 
 --
@@ -1392,14 +1420,14 @@ SELECT pg_catalog.setval('public.auth_permission_id_seq', 64, true);
 -- Name: authapp_customuser_groups_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.authapp_customuser_groups_id_seq', 1, false);
+SELECT pg_catalog.setval('public.authapp_customuser_groups_id_seq', 1, true);
 
 
 --
 -- Name: authapp_customuser_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.authapp_customuser_id_seq', 1, false);
+SELECT pg_catalog.setval('public.authapp_customuser_id_seq', 6, true);
 
 
 --
@@ -1413,7 +1441,7 @@ SELECT pg_catalog.setval('public.authapp_customuser_user_permissions_id_seq', 1,
 -- Name: django_admin_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.django_admin_log_id_seq', 1, false);
+SELECT pg_catalog.setval('public.django_admin_log_id_seq', 5, true);
 
 
 --
@@ -1434,7 +1462,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 48, true);
 -- Name: mainapp_coursefeedback_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.mainapp_coursefeedback_id_seq', 1, false);
+SELECT pg_catalog.setval('public.mainapp_coursefeedback_id_seq', 11, true);
 
 
 --

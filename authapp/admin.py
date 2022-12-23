@@ -5,5 +5,6 @@ from authapp.models import CustomUser
 
 @admin.register(CustomUser)
 class CustomUserAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["id", "username", "email", "is_active", "date_joined"]
+    ordering = ["-date_joined"]
 

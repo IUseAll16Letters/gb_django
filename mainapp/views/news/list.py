@@ -3,7 +3,6 @@ __all__ = ['NewsListView']
 import datetime
 
 from django.views.generic import ListView
-from django.db.models import F, Q
 
 from mainapp.models import News
 

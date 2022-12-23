@@ -28,3 +28,7 @@ class CourseFeedback(models.Model):
 
     def __str__(self):
         return f"{self.course}: {self.user}|{self.rating}"
+
+    class Meta:
+        verbose_name = _("CourseFeedback")
+        verbose_name_plural = _("CourseFeedbacks")

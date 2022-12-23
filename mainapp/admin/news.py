@@ -30,9 +30,10 @@ class CourseNameTextFilter(admin.SimpleListFilter):
 
 @admin.register(News)
 class NewsAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
-    list_display = ("id", "title", "author", "url", "source")
+    list_display = ("id", "title", "author", "url", "source", "deleted")
     list_display_links = ("id", )
     list_filter = (CourseNameTextFilter, "author")
+    actions = ("mark_deleted", "un_delete", "time_updated")
     ordering = ("-created", "author")
 
     search_fields = ("title", "content", "author", "source")
