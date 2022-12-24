@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static markdownify stringify %}
+
+{% block title %}
+    {{ news.title|default:"Новости" }}
+{% endblock title %}
+
+{% block content %}
+    <div class="row justify-content-center pt-3">
+        <div class="col-md-12 col-lg-8">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        {{ news.title }}
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Posted: {{ news.created }}
+                    </h6>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Author:
+                    {% if news.author != 'Unknown author' %}
+                        <a href="{% url 'mainapp:google_redirect' news.author|stringify  %}">{{ news.author }}</a>
+                    {% else %}
+                        {{ news.author }}
+                    {% endif %}
+                    </h6>
+                    {% if news.image_url and news.image_url != 'no_image.svg' %}
+                        <a class="figure-img" href="{{ news.url }}" target="_blank">
+                            <img src="{{ news.image_url }}" alt="..." style="max-width: 350px"
+                                 class="rounded float-md-none">
+                        </a>
+                    {% else %}
+                        <img class="rounded mx-auto d-block" src="{% static 'img/not_found.svg' %}" style="width: 150px">
+                        <h6 class="card-subtitle mb-lg-3 text-muted text-center">No image found</h6>
+                    {% endif %}
+
+                    <p class="card-text">
+                        {% if news.content_as_md %}
+                            {{ news.content|markdownify }}
+                        {% else %}
+                            {{ news.content }}
+                        {% endif %}
+                    </p>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        Updated: {{ news.updated }}
+                    </h6>
+
+                    <a href="{% url 'mainapp:news' %}" class="btn btn-primary">
+                        Назад
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

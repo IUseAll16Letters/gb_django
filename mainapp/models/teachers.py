@@ -1,6 +1,7 @@
 __all__ = ['TeachersCourse']
 
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class TeachersCourse(models.Model):
@@ -13,8 +14,12 @@ class TeachersCourse(models.Model):
     deleted = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.pk} {self.name_first} {self.name_second} del:{self.deleted}'
+        return f'{self.pk:>03} {self.name_first} {self.name_second}'
 
     def delete(self, *args):
         self.deleted = True
         self.save()
+
+    class Meta:
+        verbose_name = _("Teacher")
+        verbose_name_plural = _("Teachers")

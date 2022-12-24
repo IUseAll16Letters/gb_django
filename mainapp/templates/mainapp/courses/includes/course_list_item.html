@@ -1,0 +1,9 @@
+{% load static %}
+<div class="card col-sm-12 col-md-6 col-lg-4 border-0">
+    <a href="{% url 'mainapp:course_detail' pk=course.pk %}">
+        <img src="{% static course.image %}" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ course.name }}</h5>
+        </div>
+    </a>
+</div>

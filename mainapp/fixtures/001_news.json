@@ -18,7 +18,7 @@
     {
         "fields": {
             "title": "When Chips are Scarce: Maker Ingenuity in Uncertain Times",
-            "description": "The past few years have been \u2026 unprecedented.\u00a0Supply chain failures manifest themselves visibly around us, from parking lots in Detroit full of cars that can\u2019t be finished for lack of a single part, to immense backlogs of container ships at the Port of Long B\u2026",
+            "description": "The past few years have been \u2026 unprecedented.\u00a0Supply chain failures manifest themselves visibly around us, from parking lots in Detroit...",
             "author": "David Groom",
             "content": "The past few years have been unprecedented.\u00a0Supply chain failures manifest themselves visibly around us, from parking lots in Detroit full of cars that cant be finished for lack of a single part, to \u2026 [+13202 chars]",
             "content_as_md": false,
@@ -211,7 +211,7 @@
         "fields": {
             "title": "Compiler and Runtime Specializations for Accelerating Managed Languages on FPGAs",
             "description": "In recent years, heterogeneous computing has emerged as the vital way to increase computers\u2019 performance and energy efficiency by combini...",
-            "author": "Papadimitriou, Michail, Fumero, Juan, Stratikopoulos, Athanasios, Zakkak, Foivos S., and Kotselidis, Christos",
+            "author": "Papadimitriou, Michail, Fumero, Juan, Stratikopoulos, Athanasios, Zakk",
             "content": "Michail Papadimitriou1, Juan Fumero2, Athanasios Stratikopoulos3, Foivos S. Zakkak4, and Christos Kotselidis5\r\nThe Art, Science, and Engineering of Programming, 2021, Vol. 5, Issue 2, Article 8\r\nSubm\u2026 [+2639 chars]",
             "content_as_md": false,
             "url": "https://programming-journal.org/2021/5/8/",

@@ -251,6 +251,7 @@ fabric.properties
 
 bin/
 Scripts/
+/dump
 
 # DJANGO self
 /django_one

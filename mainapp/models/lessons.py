@@ -2,6 +2,8 @@ __all__ = ['Lessons']
 
 from django.db import models
 
+from django.utils.translation import gettext_lazy as _
+
 
 class Lessons(models.Model):
     course = models.ForeignKey('mainapp.Courses', on_delete=models.CASCADE)
@@ -16,8 +18,13 @@ class Lessons(models.Model):
     deleted = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.pk} {self.title} course: {self.course.name} del:{self.deleted}'
+        return f'{self.pk} {self.title}'
 
     def delete(self, *args):
         self.deleted = True
         self.save()
+
+    class Meta:
+        verbose_name = _("Lesson")
+        verbose_name_plural = _("Lessons")
+        ordering = ("course", )

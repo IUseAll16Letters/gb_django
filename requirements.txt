@@ -5,3 +5,5 @@ django-markdownify
 pillow
 django-debug-toolbar
 social-auth-app-django
+django-crispy-forms
+psycopg2

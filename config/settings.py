@@ -32,7 +32,8 @@ NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS") or ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+# ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split('|')
 
 INTERNAL_IPS = ['127.0.0.1', ]
 
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'debug_toolbar',
     'markdownify.apps.MarkdownifyConfig',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -92,24 +94,26 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if DEBUG:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
-        }
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': os.getenv("DB_NAME"),
-            'USER': os.getenv("DB_USER"),
-            'PASSWORD': os.getenv("DB_PASSWORD"),
-            'HOST': os.getenv("DB_HOST"),
-            'PORT': '',
-        },
-    }
+
+# ай ай ай!
+# if not DEBUG:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': BASE_DIR / 'db.sqlite3',
+#         }
+#     }
+# else:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.getenv("DB_NAME"),
+        'USER': os.getenv("DB_USER"),
+        'PASSWORD': os.getenv("DB_PASSWORD"),
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
+}
 
 AUTH_USER_MODEL = 'authapp.CustomUser'
 
@@ -183,3 +187,5 @@ SOCIAL_AUTH_GITHUB_SECRET = os.getenv("SOCIAL_AUTH_GITHUB_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_KEY = os.getenv("SOCIAL_AUTH_VK_OAUTH2_KEY")
 SOCIAL_AUTH_VK_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_VK_OAUTH2_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_API_VERSION = os.getenv("SOCIAL_AUTH_VK_OAUTH2_API_VERSION")
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"  #  form style pack
