@@ -5,3 +5,4 @@ from mainapp.views.doc_site import *
 from mainapp.views.google_redirect import *
 from mainapp.views.index import *
 from mainapp.views.news import *
+from mainapp.views.log_viewer import *

@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import *
+from mainapp.views import *
 from mainapp.apps import MainappConfig
 
 
@@ -55,4 +55,7 @@ urlpatterns = [
 
     # Фича редиректа на гугл
     path('google_redirect/<str:param>', redirect_page, name='google_redirect'),
+    
+    path('log_view/<int:tail>', LogView.as_view(), name='log_view'),
+    path('log_download', LogDownloadView.as_view(), name='log_download'),
 ]

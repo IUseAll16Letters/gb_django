@@ -24,8 +24,6 @@ load_dotenv(BASE_DIR / 'config/.env_social')
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
-
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
@@ -38,7 +36,6 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 INTERNAL_IPS = ['127.0.0.1', ]
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -188,4 +185,29 @@ SOCIAL_AUTH_VK_OAUTH2_KEY = os.getenv("SOCIAL_AUTH_VK_OAUTH2_KEY")
 SOCIAL_AUTH_VK_OAUTH2_SECRET = os.getenv("SOCIAL_AUTH_VK_OAUTH2_SECRET")
 SOCIAL_AUTH_VK_OAUTH2_API_VERSION = os.getenv("SOCIAL_AUTH_VK_OAUTH2_API_VERSION")
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"  #  form style pack
+CRISPY_TEMPLATE_PACK = "bootstrap4"  # form style pack
+
+LOG_FILE = BASE_DIR / "var" / "log" / "main_log.log"
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "console": {
+            "format": "[%(asctime)s] | %(levelname)s | %(name)s | (%(lineno)d) | %(message)s"
+        },
+    },
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": LOG_FILE,
+            "formatter": "console",
+        },
+        "console": {"class": "logging.StreamHandler", "formatter": "console"},
+    },
+    "loggers": {
+        "django": {"level": "INFO", "handlers": ["file", "console"]},
+        "mainapp": {"level": "DEBUG", "handlers": ["file"]},
+    },
+}
