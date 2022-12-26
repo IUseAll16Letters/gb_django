@@ -7,9 +7,9 @@
             <a href="{% url 'mainapp:log_download' %}" class="btn btn-primary btn-block" role="button">
                 Скачать
             </a>
-            <a href="{% url 'mainapp:log_view' tail=1 %}" class="btn btn-primary">TAIL</a>
-            <a href="{% url 'mainapp:log_view' tail=0 %}" class="btn btn-primary">HEAD</a>
         </div>
+        <a href="{% url 'mainapp:log_view' tail=1 %}" class="btn btn-success btn-sm">TAIL</a>
+        <a href="{% url 'mainapp:log_view' tail=0 %}" class="btn btn-success btn-sm">HEAD</a>
     </div>
     <p>
         <div class="text-center text-muted">

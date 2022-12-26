@@ -11,13 +11,8 @@ class CoursesListView(ListView):
 
     def get_queryset(self):
         qs = super().get_queryset().filter(deleted=False)
-        print(f'{qs = }')
         return qs
 
     def get_context_data(self, **kwargs):
         c = super().get_context_data(**kwargs)
-        print('>>>>')
-        for k, v in c.items():
-            print(f'{k}: {v}')
-        print('>>>>')
         return c

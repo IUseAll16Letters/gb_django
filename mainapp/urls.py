@@ -1,4 +1,5 @@
 from django.urls import path
+from django.views.decorators.cache import cache_page
 
 from mainapp.views import *
 from mainapp.apps import MainappConfig
@@ -16,7 +17,7 @@ urlpatterns = [
     # Курсы, просмотр, рейтинг
     path(
         'courses/',
-        CoursesListView.as_view(),
+        cache_page(60 * 5)(CoursesListView.as_view()),
         name='courses'
     ),
     path(
@@ -55,7 +56,7 @@ urlpatterns = [
 
     # Фича редиректа на гугл
     path('google_redirect/<str:param>', redirect_page, name='google_redirect'),
-    
+
     path('log_view/<int:tail>', LogView.as_view(), name='log_view'),
     path('log_download', LogDownloadView.as_view(), name='log_download'),
 ]
