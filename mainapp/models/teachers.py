@@ -23,4 +23,4 @@ class TeachersCourse(models.Model):
     class Meta:
         verbose_name = _("Teacher")
         verbose_name_plural = _("Teachers")
-        ordering = ('-name_first', )
+        # ordering = ('-name_first', )
