@@ -27,4 +27,4 @@ class Lessons(models.Model):
     class Meta:
         verbose_name = _("Lesson")
         verbose_name_plural = _("Lessons")
-        ordering = ("course", )
+        # ordering = ("course", )

@@ -3,7 +3,7 @@ COMMANDS REFERENCE / Команды, используемые в проекте 
 # Docker containers #
 >> Rabbitmq on p:5672 with manager on p:15672:
     docker run -d --rm -p 5672:5672 -p 15672:15672 --hostname localhost --name gb_rabbit -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest rabbitmq:3.11-management
->> Postgres from database dump with env (!!!! USE DOCKERFILE !!!!):
+>> Postgres from database dump with env (!!!! USE DOCKERFILE FOR IMAGE !!!!):
     docker run --name post_gb -e POSTGRES_PASSWORD=password -e POSTGRES_USER=postgres -e POSTGRES_DB=gb_django -p 5432:5432 -d --rm gb_postgres
 
 # Celery #
