@@ -1,6 +1,8 @@
 __all__ = ['CoursesListView']
 
 from django.views.generic import ListView
+from django.core.cache import cache
+
 from mainapp.models import Courses
 
 

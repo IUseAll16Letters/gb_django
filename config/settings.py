@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'debug_toolbar',  # django-debug-toolbar  | django-redis | sudo apt install redis-server
     'markdownify.apps.MarkdownifyConfig',
     'crispy_forms',
+    'django_celery_beat',
 
     'mainapp',
     'authapp',
@@ -227,3 +228,26 @@ CACHES = {
         },
     }
 }
+
+
+# Redis
+# CELERY_BROKER_URL = "redis://127.0.0.1:6379"          # Как Celery читает откуда брать задачи?
+# CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379"
+
+# RabbitMq
+CELERY_BROKER_URL = "amqp://localhost"
+
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_FILE_PATH = "var/email-messages/"
+
+# gmail_settings
+EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_PORT = os.getenv('EMAIL_PORT')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+SERVER_EMAIL = EMAIL_HOST_USER

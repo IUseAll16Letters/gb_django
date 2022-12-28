@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
-{% load static %}
-{% load mailto %}
+{% load static mailto crispy_forms_tags %}
 
 
 {% block content %}
@@ -87,10 +86,20 @@
     </div>
 
 </div>
-</p>
-
-
-
 </div>
+
+</p>
+{% if form %}
+    <p>
+        <h3>Отправить сообщение в техподдержку</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary btn-block">
+                Отправить
+            </button>
+        </form>
+    </p>
+{% endif %}
 
 {% endblock content %}

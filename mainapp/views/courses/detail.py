@@ -33,7 +33,6 @@ class CoursesDetailView(TemplateView):
                 context["feedback_form"] = CourseFeedbackForm(
                     course=context["course_object"], user=self.request.user
                 )
-        print(dir(cache))
         cached_feedback = cache.get(f"feedback_list_{pk}")
         if not cached_feedback:
             context["feedback_list"] = CourseFeedback.objects.filter(course=context["course_object"]).order_by(
