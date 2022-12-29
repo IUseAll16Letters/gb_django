@@ -19,7 +19,6 @@ class CoursesAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
     _courses_have_lessons_data = None
     _courses_have_rating = None
 
-    # TODO optimize this trunk to 1 request!!@
     def get_courses_data(self):
         request = Lessons.objects.values('course_id').filter(deleted=False).annotate(lessons_total=Count("pk"))
         request: dict = {dataset['course_id']: dataset['lessons_total'] for dataset in request}
@@ -47,13 +46,9 @@ class CoursesAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
                                      )
 
     def total_lessons(self, obj):
-        lessons = self._courses_have_lessons_data.get(obj.pk)
-        if lessons is not None:
-            return lessons
-        return 0
+        lessons = self._courses_have_lessons_data.get(obj.pk, 0)
+        return lessons
 
     def average_rating(self, obj):
-        rating = self._courses_have_rating.get(obj.pk)
-        if rating is not None:
-            return rating
-        return 0
+        rating = self._courses_have_rating.get(obj.pk, 0)
+        return rating

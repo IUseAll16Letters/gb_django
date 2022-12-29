@@ -13,6 +13,7 @@ class CourseFeedbackProcessFormView(LoginRequiredMixin, CreateView):
     model = CourseFeedback
     form_class = CourseFeedbackForm
 
+    # TODO figure this out!
     def form_valid(self, form):
         self.object = form.save()
         rendered_card = render_to_string(

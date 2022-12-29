@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static markdownify crispy_forms_tags%}
+{% load static markdownify crispy_forms_tags cache %}
 
 <!-- Title -->
 {% block title %}
@@ -47,21 +47,10 @@
                 </div>
             </div>
         </div>
-{#        <div class="col-sm-12 d-md-none order-3 order-sm-3">#}
-{#            <p class="text-center">#}
-{#                <small class="text-uppercase">цена</small>#}
-{#                <br>#}
-{#                <span style="font-size: 30pt;">#}
-{#                    {{ course_object.cost}}#}
-{#                </span>#}
-{#                <br>#}
-{#                <a href="#" class="btn btn-outline-primary btn-block"#}
-{#                role="button">Купить</a>#}
-{#            </p>#}
-{#        </div>#}
     </div>
     <div class="accordion" id="accordionLessons">
     <!-- Тоже можно вынести в отдельный инклюд -->
+    {% cache 300 lessons %}
         {% for item in lessons %}
             <div class="card">
                 <div class="card-header" id="headLessonPk{{ item.pk }}">
@@ -95,8 +84,9 @@
             </div>
         {% endfor %}
     </div>
-
+    {% endcache %}
     <h3>Отзывы</h3>
+
 <div id="feedback_list">
     {% if feedback_list %}
         {% for item in feedback_list %}
