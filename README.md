@@ -3,7 +3,9 @@
 ## stack:
 	- A lot of something on django
 	- Python
-	- Celery
+	- Celery, celery-beat (with eventlet for win)
+    - RabbitMQ, Redis, postgres
+
 
 
 
