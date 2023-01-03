@@ -37,7 +37,7 @@ class ContactsPageView(TemplateView):
                     timeout=300,
                 )
                 messages.add_message(
-                    self.request, messages.INFO, _("Message sended")
+                    self.request, messages.INFO, _("Message sent")
                 )
                 send_feedback_mail.delay(
                     {

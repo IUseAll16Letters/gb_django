@@ -11,3 +11,4 @@ celery
 eventlet
 django-smtp-ssl
 django-celery-beat
+selenium

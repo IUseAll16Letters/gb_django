@@ -38,6 +38,11 @@ class CoursesDetailView(TemplateView):
             context["feedback_list"] = CourseFeedback.objects.filter(course=context["course_object"]).order_by(
                 "-created", "-rating").select_related('user')[:5]
             cache.set(f"feedback_list_{pk}", context["feedback_list"])
+
+            # Cache for tests
+            import pickle
+            with open(f"mainapp/tests/fixtures/006_feedback_list_{pk}.bin", "wb") as outf:
+                pickle.dump(context["feedback_list"], outf)
         else:
             context["feedback_list"] = cached_feedback
         return context

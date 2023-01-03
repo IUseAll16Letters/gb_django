@@ -1,6 +1,6 @@
 [
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 1,
     "fields": {
       "name_first": "Герасим",
@@ -14,7 +14,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 2,
     "fields": {
       "name_first": "Андрей",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 3,
     "fields": {
       "name_first": "Сергей",
@@ -43,7 +43,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 4,
     "fields": {
       "name_first": "Василий",
@@ -58,7 +58,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 5,
     "fields": {
       "name_first": "Валерий",
@@ -73,7 +73,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 6,
     "fields": {
       "name_first": "Семен",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "model": "mainapp.teachers",
+    "model": "mainapp.teacherscourse",
     "pk": 7,
     "fields": {
       "name_first": "Абстрактный",
