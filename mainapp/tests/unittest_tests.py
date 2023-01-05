@@ -84,7 +84,6 @@ class TestPageNews(TestCase):
             path, data=data,
         )
         self.assertEqual(result.status_code, http.HTTPStatus.FOUND)
-
         self.assertGreater(News.objects.count(), news_before_creation)
 
     def test_page_open_update_deny_access(self):
