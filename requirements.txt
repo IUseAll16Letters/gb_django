@@ -1,14 +1,10 @@
 Django<3.3
-requests
 python-dotenv
 django-markdownify
 pillow
-django-debug-toolbar
 social-auth-app-django
 django-crispy-forms
 psycopg2
 celery
-eventlet
 django-smtp-ssl
 django-celery-beat
-selenium
