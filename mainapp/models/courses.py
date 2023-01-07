@@ -14,7 +14,7 @@ class Courses(models.Model):
 
     cost = models.DecimalField(max_digits=8, decimal_places=2, verbose_name='Cost', default=0)
 
-    image = models.CharField(max_length=25, default='no_image.svg', verbose_name='Image')
+    image = models.CharField(max_length=25, default='not_found.gif', verbose_name='Image')
 
     created = models.DateTimeField(auto_now_add=True, verbose_name='Created', editable=False)
     updated = models.DateTimeField(auto_now=True, verbose_name='Edited', editable=False)
