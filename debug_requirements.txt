@@ -1,0 +1,4 @@
+django-debug-toolbar
+requests
+selenium
+eventlet
