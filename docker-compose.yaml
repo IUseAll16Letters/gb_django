@@ -1,0 +1,121 @@
+version: "3.9"
+services:
+  postgres:
+    container_name: gb_postgres
+    image: postgres:13.3
+    command:
+      - "postgres"
+      - "-c"
+      - "max_connections=50"
+      - "-c"
+      - "shared_buffers=1GB"
+      - "-c"
+      - "effective_cache_size=4GB"
+      - "-c"
+      - "work_mem=16MB"
+      - "-c"
+      - "maintenance_work_mem=512MB"
+      - "-c"
+      - "random_page_cost=1.1"
+      - "-c"
+      - "temp_file_limit=2GB"
+      - "-c"
+      - "log_min_duration_statement=200ms"
+      - "-c"
+      - "idle_in_transaction_session_timeout=10s"
+      - "-c"
+      - "lock_timeout=1s"
+      - "-c"
+      - "statement_timeout=60s"
+      - "-c"
+      - "shared_preload_libraries=pg_stat_statements"
+      - "-c"
+      - "pg_stat_statements.max=10000"
+      - "-c"
+      - "pg_stat_statements.track=all"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+#      PGDATA: "/var/lib/postgresql/data/pgdata"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U django_postgres_user -d django_postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+    networks:
+      - postgres
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4:5.7
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "ch1ck3n@mail.ru"
+      PGADMIN_DEFAULT_PASSWORD: "Ntktdbpjh1_1"
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    ports:
+      - "5050:80"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1G
+    networks:
+      - postgres
+
+  redis:
+    image: "redis:alpine"
+    networks:
+      - postgres
+
+  rabbit:
+    container_name: rabbit
+    image: rabbitmq:3-management-alpine
+    ports:
+      - '15672:15672'
+    environment:
+      RABBITMQ_SECURE_PASSWORD: ${RABBITMQ_SECURE_PASSWORD}
+      RABBITMQ_LOGS: ${RABBITMQ_LOGS}
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+    networks:
+      - rabbit
+
+#  django:
+#    build:
+#      dockerfile: ./Dockerfile
+#    container_name: django
+#    env_file:
+#      - ./config/.env
+#      - ./config/.env_social
+#    command:
+#      - python manage.py migrate
+#      - python manage.py runserver localhost:8000
+#    volumes:
+#      - .:/usr/src/app
+#    ports:
+#      - "8000:8000"
+#    environment:
+#      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1
+#    depends_on:
+#      - postgres
+#      - pgadmin
+#      - redis
+#      - rabbit
+#    networks:
+#      - postgres
+#      - rabbit
+
+networks:
+  postgres:
+    driver: bridge
+  rabbit:
+    driver: bridge
