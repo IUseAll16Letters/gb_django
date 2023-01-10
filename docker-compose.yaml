@@ -57,9 +57,9 @@ services:
     container_name: pgadmin_container
     image: dpage/pgadmin4:5.7
     environment:
-      PGADMIN_DEFAULT_EMAIL: "ch1ck3n@mail.ru"
-      PGADMIN_DEFAULT_PASSWORD: "Ntktdbpjh1_1"
-      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+      PGADMIN_CONFIG_SERVER_MODE: ${PGADMIN_CONFIG_SERVER_MODE}
     ports:
       - "5050:80"
     restart: unless-stopped
