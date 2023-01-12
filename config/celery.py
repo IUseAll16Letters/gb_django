@@ -4,7 +4,7 @@ from random import randrange
 from celery import Celery
 
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings	")
 
 # New app
 celery_app = Celery("braniac")

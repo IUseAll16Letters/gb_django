@@ -226,7 +226,7 @@ CACHES = {
 # CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379"
 
 # RabbitMq
-CELERY_BROKER_URL = f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
+CELERY_BROKER_URL = f'amqp://rabbitmq:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
