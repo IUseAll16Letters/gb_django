@@ -253,3 +253,7 @@ Scripts/
 /django_one
 .env_social
 include
+rabbitmq
+static/admin
+static/debug_toolbar/
+static/django_extensions/

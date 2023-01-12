@@ -1,4 +1,4 @@
-version: "3.9"
+version: "2.1"
 services:
   postgres:
     container_name: gb_postgres
@@ -37,19 +37,19 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-#      PGDATA: "/var/lib/postgresql/data/pgdata"
+    ports:
+      - "127.0.0.1:5432:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U django_postgres_user -d django_postgres"]
       interval: 10s
       timeout: 5s
       retries: 5
-      start_period: 10s
     restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '1'
-          memory: 1G
+#    deploy:
+#      resources:
+#        limits:
+#          cpus: '1'
+#          memory: 1G
     networks:
       - postgres
 
@@ -63,59 +63,48 @@ services:
     ports:
       - "5050:80"
     restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 1G
+    depends_on:
+      - postgres
+#    deploy:
+#      resources:
+#        limits:
+#          cpus: '0.5'
+#          memory: 1G
     networks:
       - postgres
 
   redis:
-    image: "redis:alpine"
+    restart: unless-stopped
+    image: redis:7.0.5-alpine 
+    depends_on:
+      - postgres   
+    ports:
+      - "127.0.0.1:6379:6379"
     networks:
       - postgres
 
   rabbit:
     container_name: rabbit
-    image: rabbitmq:3-management-alpine
+    image: rabbitmq:3.10.7-management
+    hostname: rabbitmq
+    restart: always
     ports:
-      - '15672:15672'
+       - "127.0.0.1:5672:5672"
+       - "15672:15672"
     environment:
-      RABBITMQ_SECURE_PASSWORD: ${RABBITMQ_SECURE_PASSWORD}
-      RABBITMQ_LOGS: ${RABBITMQ_LOGS}
-      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
-      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+      - RABBITMQ_SECURE_PASSWORD=${RABBITMQ_SECURE_PASSWORD}
+      - RABBITMQ_LOGS=${RABBITMQ_LOGS}
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS}
+    volumes:
+      - ./rabbitmq:/var/lib/rabbitmq
+    depends_on:
+      - postgres
     networks:
-      - rabbit
-
-#  django:
-#    build:
-#      dockerfile: ./Dockerfile
-#    container_name: django
-#    env_file:
-#      - ./config/.env
-#      - ./config/.env_social
-#    command:
-#      - python manage.py migrate
-#      - python manage.py runserver localhost:8000
-#    volumes:
-#      - .:/usr/src/app
-#    ports:
-#      - "8000:8000"
-#    environment:
-#      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1
-#    depends_on:
-#      - postgres
-#      - pgadmin
-#      - redis
-#      - rabbit
-#    networks:
-#      - postgres
-#      - rabbit
+      - postgres
 
 networks:
   postgres:
     driver: bridge
-  rabbit:
-    driver: bridge
+#  rabbit:
+#    driver: bridge

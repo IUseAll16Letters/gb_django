@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 # Build paths inside the config like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-load_dotenv()
-load_dotenv(BASE_DIR / 'config/.env_social')
+# load_dotenv()
+# load_dotenv(BASE_DIR / 'config/.env_social')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -102,10 +102,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv("DB_NAME"),
-        'USER': os.getenv("DB_USER"),
-        'PASSWORD': os.getenv("DB_PASSWORD"),
-        'HOST': '127.0.0.1',
+        'NAME': os.getenv("POSTGRES_DB"),
+        'USER': os.getenv("POSTGRES_USER"),
+        'PASSWORD': os.getenv("POSTGRES_PASSWORD"),
+        'HOST': 'localhost',
         'PORT': '5432',
     },
 }
@@ -226,7 +226,7 @@ CACHES = {
 # CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379"
 
 # RabbitMq
-CELERY_BROKER_URL = "amqp://localhost"
+CELERY_BROKER_URL = f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
