@@ -7,7 +7,10 @@ from celery import Celery
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 
 # New app
-celery_app = Celery("braniac")
+celery_app = Celery(
+    "braniac",
+    broker=f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost/',
+)
 celery_app.config_from_object("django.conf:settings", namespace="CELERY")
 celery_app.autodiscover_tasks()
 

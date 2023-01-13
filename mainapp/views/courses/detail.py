@@ -1,9 +1,13 @@
 __all__ = ['CoursesDetailView']
 
+import os
+import datetime
+
 from django.shortcuts import get_object_or_404
 from django.views.generic import TemplateView
 from django.core.cache import cache
 
+from config import settings
 from mainapp.forms import CourseFeedbackForm
 from mainapp.models import Courses, Lessons, TeachersCourse, CourseFeedback
 
@@ -14,9 +18,8 @@ class CoursesDetailView(TemplateView):
     def get_context_data(self, pk=None, **kwargs):
         context = super(CoursesDetailView, self).get_context_data(**kwargs)
         # объект курса по пк
-        context["course_object"] = get_object_or_404(
-            Courses, pk=pk
-        )
+        context["course_object"] = get_object_or_404(Courses, pk=pk)
+
         # Lessons
         context["lessons"] = Lessons.objects.filter(
             course=context["course_object"]
@@ -39,10 +42,10 @@ class CoursesDetailView(TemplateView):
                 "-created", "-rating").select_related('user')[:5]
             cache.set(f"feedback_list_{pk}", context["feedback_list"])
 
-            # Cache for tests
+            # Cache for tests in DEBUG
             import pickle
-            with open(f"mainapp/tests/fixtures/006_feedback_list_{pk}.bin", "wb") as outf:
-                pickle.dump(context["feedback_list"], outf)
+            with open(f"mainapp/tests/fixtures/006_feedback_list_{pk}.bin", "wb") as f_pickle:
+                pickle.dump(context["feedback_list"], f_pickle)
         else:
             context["feedback_list"] = cached_feedback
         return context

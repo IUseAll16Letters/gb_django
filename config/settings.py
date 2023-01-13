@@ -23,12 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-m4#o!)_32%$llif6peg++cz(yr_1lr-_!eio14z0_ziajycb29"
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv("DJANGO_DEBUG", False)
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,7 +36,6 @@ if DEBUG:
     ]
 
 
-# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -97,8 +94,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -120,8 +115,6 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.vk.VKAppOAuth2',
 ]
 
-# Password validation
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -174,6 +167,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
+# My Custom settings and keys
+
 LOGIN_REDIRECT_URL = 'mainapp:index'
 LOGOUT_REDIRECT_URL = 'mainapp:index'
 
@@ -188,6 +183,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"  # form style pack
 
 LOG_FILE = BASE_DIR / "var" / "log" / "main_log.log"
 
+# TODO: change loggign type for celery calls
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
@@ -222,19 +218,20 @@ CACHES = {
 }
 
 
-# Redis
+# Redis as message broker
 # CELERY_BROKER_URL = "redis://127.0.0.1:6379"          # Как Celery читает откуда брать задачи?
 # CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379"
 
-# RabbitMq
-CELERY_BROKER_URL = f'amqp://rabbitmq:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
+# RabbitMq as message broker
+CELERY_BROKER_URL = f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
+print(f"{CELERY_BROKER_URL = }")
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_FILE_PATH = "var/email-messages/"
 
-# gmail_settings
+# currently using yandex as smtp service
 EMAIL_HOST = os.getenv('EMAIL_HOST')
 EMAIL_PORT = os.getenv('EMAIL_PORT')
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
