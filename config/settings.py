@@ -24,13 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+SECRET_KEY = "django-insecure-m4#o!)_32%$llif6peg++cz(yr_1lr-_!eio14z0_ziajycb29"
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
 if DEBUG:
     INTERNAL_IPS = [
         '127.0.0.1',
@@ -105,7 +106,7 @@ DATABASES = {
         'NAME': os.getenv("POSTGRES_DB"),
         'USER': os.getenv("POSTGRES_USER"),
         'PASSWORD': os.getenv("POSTGRES_PASSWORD"),
-        'HOST': 'localhost',
+        'HOST': '172.20.0.10',
         'PORT': '5432',
     },
 }

@@ -1,7 +1,7 @@
-version: "2.1"
+version: "2.4"
+
 services:
-  postgres:
-    container_name: gb_postgres
+  db:
     image: postgres:13.3
     command:
       - "postgres"
@@ -33,25 +33,21 @@ services:
       - "pg_stat_statements.max=10000"
       - "-c"
       - "pg_stat_statements.track=all"
+    ports:
+      - "5432:5432"
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-    ports:
-      - "127.0.0.1:5432:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U django_postgres_user -d django_postgres"]
       interval: 10s
       timeout: 5s
       retries: 5
     restart: unless-stopped
-#    deploy:
-#      resources:
-#        limits:
-#          cpus: '1'
-#          memory: 1G
     networks:
-      - postgres
+      db_net:
+        ipv4_address: 172.20.0.10
 
   pgadmin:
     container_name: pgadmin_container
@@ -64,29 +60,25 @@ services:
       - "5050:80"
     restart: unless-stopped
     depends_on:
-      - postgres
-#    deploy:
-#      resources:
-#        limits:
-#          cpus: '0.5'
-#          memory: 1G
+      - db
     networks:
-      - postgres
+      - db_net
 
   redis:
     restart: unless-stopped
     image: redis:7.0.5-alpine 
     depends_on:
-      - postgres   
+      - db   
     ports:
       - "127.0.0.1:6379:6379"
+    depends_on:
+      - db
     networks:
-      - postgres
+      - db_net
+        
 
   rabbit:
-    container_name: rabbit
     image: rabbitmq:3.10.7-management
-    hostname: rabbitmq
     restart: always
     ports:
        - "127.0.0.1:5672:5672"
@@ -99,12 +91,14 @@ services:
     volumes:
       - ./rabbitmq:/var/lib/rabbitmq
     depends_on:
-      - postgres
+      - db
     networks:
-      - postgres
+      - db_net
 
 networks:
-  postgres:
+  db_net:
     driver: bridge
-#  rabbit:
-#    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+          gateway: 172.20.0.1

@@ -257,3 +257,5 @@ rabbitmq
 static/admin
 static/debug_toolbar/
 static/django_extensions/
+.gunicornenv
+/media/*
