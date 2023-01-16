@@ -1,0 +1,15 @@
+[Unit]
+Description=Celery beat daemon
+After=network.target
+
+[Service]
+Type=simple
+User=django
+Group=django
+WorkingDirectory=/home/django/gb_django
+EnvironmentFile=/home/django/gb_django/.gunicornenv
+ExecStart=/home/django/gb_django/venv/bin/celery -A config beat -l INFO --logfile=/home/django/gb_django/var/log/celery_beat.log
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
