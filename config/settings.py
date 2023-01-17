@@ -229,7 +229,7 @@ print(f"{CELERY_BROKER_URL = }")
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_FILE_PATH = "var/email-messages/"
+# EMAIL_FILE_PATH = "var/email-messages/"
 
 # currently using yandex as smtp service
 EMAIL_HOST = os.getenv('EMAIL_HOST')
