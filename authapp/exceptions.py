@@ -1,4 +1,4 @@
-__all__ = ['UserExistsError']
+__all__ = ('UserExistsError', )
 
 
 class UserExistsError(Exception):

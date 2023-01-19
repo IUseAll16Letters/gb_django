@@ -10,7 +10,7 @@
     {% else %}
         <h3>Редактировать профиль</h3>
         {% if user.avatar %}
-            <img class="mx-auto d-block" src="{{ user.avatar.url }}" alt="avatar" style="border-radius: 50px"> {# inline style #}
+            <img class="mx-auto d-block" src="{{ user.avatar.url }}" alt="avatar" style="border-radius: 50px; max-height: 300px"> {# inline style #}
         {% else %}
             <img class="rounded mx-auto d-block" src="{{ MEDIA_URL }}avatar_default.svg" alt="default_avatar">
         {% endif %}

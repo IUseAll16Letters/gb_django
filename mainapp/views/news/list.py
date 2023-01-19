@@ -3,8 +3,6 @@ __all__ = ['NewsListView']
 import datetime
 
 from django.contrib import messages
-from django.shortcuts import redirect
-from django.urls import reverse_lazy
 from django.views.generic import ListView
 
 from mainapp.models import News

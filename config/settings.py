@@ -12,13 +12,14 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+from django.utils.translation import gettext_lazy as _
 
 
 # Build paths inside the config like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# load_dotenv()
-# load_dotenv(BASE_DIR / 'config/.env_social')
+load_dotenv()
+load_dotenv(BASE_DIR / 'config/.env_social')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -101,7 +102,7 @@ DATABASES = {
         'NAME': os.getenv("POSTGRES_DB"),
         'USER': os.getenv("POSTGRES_USER"),
         'PASSWORD': os.getenv("POSTGRES_PASSWORD"),
-        'HOST': '172.20.0.10',
+        'HOST': 'localhost',
         'PORT': '5432',
     },
 }
@@ -137,6 +138,10 @@ if not DEBUG:
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
+LANGUAGES = (
+    ('en-us', _('English')),
+    ('ru', _('Russian')),
+)
 
 DEFAULT_CHARSET = 'utf-8'
 
@@ -219,12 +224,11 @@ CACHES = {
 
 
 # Redis as message broker
-# CELERY_BROKER_URL = "redis://127.0.0.1:6379"          # Как Celery читает откуда брать задачи?
+# CELERY_BROKER_URL = "redis://127.0.0.1:6379"
 # CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379"
 
 # RabbitMq as message broker
 CELERY_BROKER_URL = f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RABBITMQ_DEFAULT_PASS")}@localhost:5672'
-print(f"{CELERY_BROKER_URL = }")
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
