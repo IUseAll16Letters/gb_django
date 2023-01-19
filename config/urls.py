@@ -14,6 +14,7 @@ urlpatterns = [
     path("social_auth/", include("social_django.urls", namespace="social")),
 ]
 
+handler500 = 'mainapp.views.error_handlers.handler500'
 
 if settings.DEBUG:
     import debug_toolbar

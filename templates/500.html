@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static i18n %}
+
+{% block title %}{% translate 'Server error (500)' %}{% endblock %}
+
+{% block content %}
+    <div class="row justify-content-end my-2">
+        <div class="col-sm-4 col-lg-2">
+            <h1>{% translate 'Server Error <em>(500)</em>' %}</h1>
+            <hr>
+            <p>This is totally our fault, we will try to take all the responsibility for that issue, and we will try to do something about it!</p>
+            <h3>Sorry :(</h3>
+            <a href="{% url 'mainapp:index' %}">Return home page</a>
+        </div>
+    </div>
+{% endblock content %}
