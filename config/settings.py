@@ -233,7 +233,7 @@ CELERY_BROKER_URL = f'amqp://{os.getenv("RABBITMQ_DEFAULT_USER")}:{os.getenv("RA
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_FILE_PATH = "var/email-messages/"
+# EMAIL_FILE_PATH = "var/email-messages/"
 
 # currently using yandex as smtp service
 EMAIL_HOST = os.getenv('EMAIL_HOST')
