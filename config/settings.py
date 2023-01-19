@@ -112,8 +112,8 @@ AUTH_USER_MODEL = 'authapp.CustomUser'
 AUTHENTICATION_BACKENDS = [
     'social_core.backends.github.GithubOAuth2',
     'social_core.backends.vk.VKOAuth2',
-    'django.contrib.auth.backends.ModelBackend',
     'social_core.backends.vk.VKAppOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
 ]
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -176,6 +176,8 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 LOGIN_REDIRECT_URL = 'mainapp:index'
 LOGOUT_REDIRECT_URL = 'mainapp:index'
+
+# SOCIAL_AUTH_LOGIN_ERROR_URL = 'mainapp:index'
 
 SOCIAL_AUTH_GITHUB_KEY = os.getenv("SOCIAL_AUTH_GITHUB_KEY")
 SOCIAL_AUTH_GITHUB_SECRET = os.getenv("SOCIAL_AUTH_GITHUB_SECRET")
