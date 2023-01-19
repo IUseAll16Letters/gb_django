@@ -1,3 +1,5 @@
+__all__ = ("handler500", )
+
 from django.shortcuts import render
 
 

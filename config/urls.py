@@ -2,6 +2,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import RedirectView
+from mainapp.views import errors_handlers
 
 from config import settings
 
@@ -14,7 +15,7 @@ urlpatterns = [
     path("social_auth/", include("social_django.urls", namespace="social")),
 ]
 
-handler500 = 'mainapp.views.error_handlers.handler500'
+handler500 = errors_handlers.handler500
 
 if settings.DEBUG:
     import debug_toolbar
