@@ -17,8 +17,8 @@ celery_app.autodiscover_tasks()
 
 @celery_app.on_after_configure.connect
 def setup_periodic_example(sender, **kwargs):
-    sender.add_periodic_task(5.0, randomize_number.s('GUAKAMOLE MUCHACHOS'), name='time every 5')
-    sender.add_periodic_task(60.0 * 60 * 5, get_news_wrapper.s(), name='task to get news')
+    sender.add_periodic_task(60.0, randomize_number.s('GUAKAMOLE MUCHACHOS'), name='~~ Heartbeat random number task (60 seconds)')
+    sender.add_periodic_task(18000.0, get_news_wrapper.s(), name='+++ Get news and insert db task (5 hours)')
 
 
 @celery_app.task
