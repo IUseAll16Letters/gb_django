@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-18 17:11+0300\n"
+"POT-Creation-Date: 2023-01-19 14:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1689,99 +1689,172 @@ msgstr ""
 msgid "Teachers"
 msgstr ""
 
+#: .\mainapp\templates\mainapp\contacts.html:10
+#: .\templates\includes\menu.html:56
+msgid "Contacts"
+msgstr "Our Contacts"
+
+#: .\mainapp\templates\mainapp\contacts.html:11
+msgid "ContactUsPlease"
+msgstr "Please contact us via phone or email"
+
+#: .\mainapp\templates\mainapp\contacts.html:22
+msgid "PetroPavlFort"
+msgstr "Petropavlovsky fortress"
+
+#: .\mainapp\templates\mainapp\contacts.html:23
+msgid "SaintP"
+msgstr "Saint-Petersburg"
+
+#: .\mainapp\templates\mainapp\contacts.html:26
+#: .\mainapp\templates\mainapp\contacts.html:49
+#: .\mainapp\templates\mainapp\contacts.html:72
+msgid "Phone"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\contacts.html:34
+#: .\mainapp\templates\mainapp\contacts.html:57
+#: .\mainapp\templates\mainapp\contacts.html:80
+msgid "Address"
+msgstr "Address"
+
+#: .\mainapp\templates\mainapp\contacts.html:35
+msgid "PetroPavlFortAddr"
+msgstr "Petropavlovsky fortress territory, 3J"
+
+#: .\mainapp\templates\mainapp\contacts.html:45
+msgid "KazanKremlin"
+msgstr "Kremlin of Kazan"
+
+#: .\mainapp\templates\mainapp\contacts.html:46
+msgid "Kazan"
+msgstr "Kazan"
+
+#: .\mainapp\templates\mainapp\contacts.html:58
+msgid "KazanKremlAddr"
+msgstr "Kremlin of Kazan, 11, Kazan, Tatarstan republic, Russia"
+
+#: .\mainapp\templates\mainapp\contacts.html:69
+msgid "Moscow"
+msgstr "Moscow"
+
+#: .\mainapp\templates\mainapp\contacts.html:81
+msgid "MoscowAddr"
+msgstr "Krasnaya Ploschad 7, Moscow, Russia"
+
+#: .\mainapp\templates\mainapp\contacts.html:94
+msgid "ContactTechSUpportViaEm"
+msgstr "Contact the technical support via email"
+
+#: .\mainapp\templates\mainapp\contacts.html:99
+msgid "Send"
+msgstr ""
+
 #: .\mainapp\templates\mainapp\index.html:18
 msgid "BeProactive"
-msgstr ""
+msgstr "Become proactive"
 
 #: .\mainapp\templates\mainapp\index.html:19
 msgid "StudyTrends"
-msgstr ""
+msgstr "Learn only cutting-edge trends in modern IT"
 
 #: .\mainapp\templates\mainapp\index.html:25
 msgid "StudyAnywhere"
-msgstr ""
+msgstr "Study anywhere"
 
 #: .\mainapp\templates\mainapp\index.html:26
 msgid "ParkLibraryWarmBlanket"
 msgstr ""
+"Park, library or even at home, covered with the warm blanket alongside with "
+"cat - you are free to choose the time and place of study yourself"
 
 #: .\mainapp\templates\mainapp\index.html:32
 msgid "BraniacIsUs"
-msgstr ""
+msgstr "We - the Braniac!"
 
 #: .\mainapp\templates\mainapp\index.html:33
 msgid "JoinOurTeam"
-msgstr ""
+msgstr "Join our team - we are already over 5,000 brainiacs"
 
 #: .\mainapp\templates\mainapp\index.html:48
 msgid "GreetingsHeader"
 msgstr "Greetings traveller!"
 
 #: .\mainapp\templates\mainapp\index.html:50
-#, fuzzy
-#| msgid "GreetingsHeader"
 msgid "GreetingMessage"
-msgstr "Greetings traveller!"
+msgstr ""
+"This network is created in order to unite those who are willing to improve "
+"and get new knowledge! It is impossible to imagine a single person who "
+"doesn't interact with computer. The ubiquity of the Internet allowed us to "
+"bring people together and make knowledge more accessible than ever before! "
+"You have the unique possibility to obtain cutting-edge knowledge using the "
+"modern technologies. Do not miss your chance got to Courses and sign-up! "
+"Become a sought-after professional."
 
 #: .\mainapp\templates\mainapp\index.html:54
 msgid "MembersFeedback"
-msgstr ""
+msgstr "Members feedback"
 
 #: .\mainapp\templates\mainapp\index.html:60
 msgid "Lera"
-msgstr ""
+msgstr "Lera"
 
 #: .\mainapp\templates\mainapp\index.html:61
 msgid "LeraFeed"
-msgstr ""
+msgstr "Learned Python - having 300k$/sec! Thank you Braniac!"
 
 #: .\mainapp\templates\mainapp\index.html:66
 msgid "Anthony"
-msgstr ""
+msgstr "Anthony"
 
 #: .\mainapp\templates\mainapp\index.html:67
 msgid "AnthonyFeed"
-msgstr ""
+msgstr "No more boredom with excel - only DB, only hardcore!"
 
 #: .\mainapp\templates\mainapp\index.html:72
 msgid "Leonard"
-msgstr ""
+msgstr "Leonard"
 
 #: .\mainapp\templates\mainapp\index.html:73
 msgid "LeonardFeed"
-msgstr ""
+msgstr "How to patch KDE at FreeBSD?!"
 
 #: .\mainapp\templates\mainapp\index.html:78
 msgid "Venia"
-msgstr ""
+msgstr "Veniamin Petrovich Shpack"
 
 #: .\mainapp\templates\mainapp\index.html:79
 msgid "VeniaFeed"
-msgstr ""
+msgstr "How do you join IT after 130? It's easy! I am the living example!"
 
 #: .\mainapp\templates\mainapp\index.html:91
 msgid "HundredsOfCourses"
-msgstr ""
+msgstr "Hundreds of prepared courses"
 
 #: .\mainapp\templates\mainapp\index.html:92
 msgid "HundredsOfCourseDesc"
 msgstr ""
+"Choose from a huge collection of well built solutions for self-education"
 
 #: .\mainapp\templates\mainapp\index.html:108
 msgid "TurnKnowledgeToGold"
-msgstr ""
+msgstr "Turn your knowledge into gold"
 
 #: .\mainapp\templates\mainapp\index.html:109
 msgid "TurnKnowDesc"
 msgstr ""
+"An expert in your field? Come join us! Advantageous conditions for you and "
+"users from all over the world on our platform"
 
 #: .\mainapp\templates\mainapp\index.html:119
 msgid "StrongUnited"
-msgstr ""
+msgstr "We are strong united!"
 
 #: .\mainapp\templates\mainapp\index.html:120
 msgid "StrongUnitedDesc"
 msgstr ""
+"Projects of any complexity are simpler when you are the part of the company "
+"with like-minded people. Join us!"
 
 #: .\mainapp\templates\mainapp\news\news_list.html:46
 msgid "Filter"
@@ -1792,8 +1865,8 @@ msgid "Message sent"
 msgstr ""
 
 #: .\mainapp\views\contacts\list.py:59
-msgid "You can send only one message per 5 minutes"
-msgstr ""
+msgid "SendMessageTimeout"
+msgstr "You can send only one message per 1 hour"
 
 #: .\templates\admin\base_site.html:4
 msgid "Django site admin"
@@ -1806,35 +1879,35 @@ msgstr ""
 
 #: .\templates\includes\footer.html:13
 msgid "HomePage"
-msgstr ""
+msgstr "Home"
 
 #: .\templates\includes\footer.html:15 .\templates\includes\menu.html:48
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: .\templates\includes\footer.html:25
 msgid "TermsConditions"
-msgstr ""
+msgstr "Terms and conditions"
 
 #: .\templates\includes\footer.html:26
 msgid "PrivacyCookies"
-msgstr ""
+msgstr "Privacy and Cookies"
 
 #: .\templates\includes\footer.html:27
 msgid "APIDocs"
-msgstr ""
+msgstr "API Documentation"
 
 #: .\templates\includes\footer.html:28
 msgid "Documentation"
-msgstr ""
+msgstr "Site documentation"
 
 #: .\templates\includes\footer.html:34
 msgid "WeAtSocials"
-msgstr ""
+msgstr "Our socials"
 
 #: .\templates\includes\footer.html:45
 msgid "OurApp"
-msgstr ""
+msgstr "Our application"
 
 #: .\templates\includes\menu.html:26
 msgid "Profile"
@@ -1858,16 +1931,12 @@ msgstr ""
 
 #: .\templates\includes\menu.html:39
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #: .\templates\includes\menu.html:43
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 #: .\templates\includes\menu.html:52
 msgid "Register"
-msgstr ""
-
-#: .\templates\includes\menu.html:56
-msgid "Contacts"
-msgstr ""
+msgstr "Register"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-18 17:19+0300\n"
+"POT-Creation-Date: 2023-01-19 14:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1157,122 +1157,122 @@ msgstr ""
 #: .\Lib\site-packages\django\utils\dates.py:23
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "Янв."
 
 #: .\Lib\site-packages\django\utils\dates.py:24
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Фев."
 
 #: .\Lib\site-packages\django\utils\dates.py:25
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: .\Lib\site-packages\django\utils\dates.py:26
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "Апр."
 
 #: .\Lib\site-packages\django\utils\dates.py:27
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: .\Lib\site-packages\django\utils\dates.py:28
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #: .\Lib\site-packages\django\utils\dates.py:29
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 #: .\Lib\site-packages\django\utils\dates.py:30
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Авг."
 
 #: .\Lib\site-packages\django\utils\dates.py:31
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Сент."
 
 #: .\Lib\site-packages\django\utils\dates.py:32
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Окт."
 
 #: .\Lib\site-packages\django\utils\dates.py:33
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Ноя."
 
 #: .\Lib\site-packages\django\utils\dates.py:34
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Дек."
 
 #: .\Lib\site-packages\django\utils\dates.py:37
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "Январь"
 
 #: .\Lib\site-packages\django\utils\dates.py:38
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "Февраль"
 
 #: .\Lib\site-packages\django\utils\dates.py:39
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "Март"
 
 #: .\Lib\site-packages\django\utils\dates.py:40
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "Апрель"
 
 #: .\Lib\site-packages\django\utils\dates.py:41
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #: .\Lib\site-packages\django\utils\dates.py:42
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 #: .\Lib\site-packages\django\utils\dates.py:43
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 #: .\Lib\site-packages\django\utils\dates.py:44
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 #: .\Lib\site-packages\django\utils\dates.py:45
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "Сентябрь"
 
 #: .\Lib\site-packages\django\utils\dates.py:46
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 #: .\Lib\site-packages\django\utils\dates.py:47
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "Ноябрь"
 
 #: .\Lib\site-packages\django\utils\dates.py:48
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "Декабрь"
 
 #: .\Lib\site-packages\django\utils\ipv6.py:8
 msgid "This is not a valid IPv6 address."
@@ -1506,12 +1506,12 @@ msgstr "Подключиться, получить помощь или внес�
 #: .\Lib\site-packages\kombu\transport\qpid.py:1309
 #, python-format
 msgid "Attempting to connect to qpid with SASL mechanism %s"
-msgstr "Попытка подключиться к qpid при помощи SASL"
+msgstr "Попытка подключиться к qpid при помощи SASL %s"
 
 #: .\Lib\site-packages\kombu\transport\qpid.py:1314
 #, python-format
 msgid "Connected to qpid with SASL mechanism %s"
-msgstr "Подключено к qpid при помощи SASL"
+msgstr "Подключено к qpid при помощи SASL %s"
 
 #: .\Lib\site-packages\kombu\transport\qpid.py:1332
 #, python-format
@@ -1597,11 +1597,11 @@ msgstr "Увидимся позже!"
 
 #: .\config\settings.py:142
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: .\config\settings.py:143
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: .\mainapp\admin\admin_mixins\delete_undelete_mixin.py:13
 #, python-brace-format
@@ -1693,6 +1693,71 @@ msgstr "Учитель"
 msgid "Teachers"
 msgstr "Учителя"
 
+# .\templates\includes\menu.html:56
+#: .\mainapp\templates\mainapp\contacts.html:10
+#: .\templates\includes\menu.html:56
+msgid "Contacts"
+msgstr "Контакты"
+
+# .\templates\includes\menu.html:56
+#: .\mainapp\templates\mainapp\contacts.html:11
+msgid "ContactUsPlease"
+msgstr "Контакты"
+
+#: .\mainapp\templates\mainapp\contacts.html:22
+msgid "PetroPavlFort"
+msgstr "Петропавловская крепость"
+
+#: .\mainapp\templates\mainapp\contacts.html:23
+msgid "SaintP"
+msgstr "Санкт-Петербург"
+
+#: .\mainapp\templates\mainapp\contacts.html:26
+#: .\mainapp\templates\mainapp\contacts.html:49
+#: .\mainapp\templates\mainapp\contacts.html:72
+msgid "Phone"
+msgstr "Телефон"
+
+#: .\mainapp\templates\mainapp\contacts.html:34
+#: .\mainapp\templates\mainapp\contacts.html:57
+#: .\mainapp\templates\mainapp\contacts.html:80
+#, fuzzy
+#| msgid "email address"
+msgid "Address"
+msgstr "Адрес"
+
+#: .\mainapp\templates\mainapp\contacts.html:35
+msgid "PetroPavlFortAddr"
+msgstr "Территория Петропавловская крепость, 3Ж"
+
+#: .\mainapp\templates\mainapp\contacts.html:45
+msgid "KazanKremlin"
+msgstr "Казанский Кремль"
+
+#: .\mainapp\templates\mainapp\contacts.html:46
+msgid "Kazan"
+msgstr "Казань"
+
+#: .\mainapp\templates\mainapp\contacts.html:58
+msgid "KazanKremlAddr"
+msgstr "Территория Кремль, 11, Казань, Республика Татарстан, Россия"
+
+#: .\mainapp\templates\mainapp\contacts.html:69
+msgid "Moscow"
+msgstr "Москва"
+
+#: .\mainapp\templates\mainapp\contacts.html:81
+msgid "MoscowAddr"
+msgstr "Красная площадь, 7, Москва, Россия"
+
+#: .\mainapp\templates\mainapp\contacts.html:94
+msgid "ContactTechSUpportViaEm"
+msgstr "Отправить сообщение в техподдержку"
+
+#: .\mainapp\templates\mainapp\contacts.html:99
+msgid "Send"
+msgstr "Отправить"
+
 #: .\mainapp\templates\mainapp\index.html:18
 msgid "BeProactive"
 msgstr "Будь проактивен"
@@ -1724,7 +1789,9 @@ msgstr "Приветствую, путник!"
 
 #: .\mainapp\templates\mainapp\index.html:50
 msgid "GreetingMessage"
-msgstr "На данном портале мы собрали сообщество людей объединённых одной целью - получать знания! В современном мире уже сложно представить человека не "
+msgstr ""
+"На данном портале мы собрали сообщество людей объединённых одной целью - "
+"получать знания! В современном мире уже сложно представить человека не "
 "общающегося с компьютером. Повсеместное проникновение интернета дало "
 "возможность объеденить людей и сделать знания доступными как никогда ранее. "
 "У тебя есть уникальная возможность получить актуальные знания используя "
@@ -1781,7 +1848,9 @@ msgstr "Монетизируй знания"
 
 #: .\mainapp\templates\mainapp\index.html:109
 msgid "TurnKnowDesc"
-msgstr "Эксперт в свой области - давай к нам! Выгодные условия для тебя и пользователи со всего мира на нашей платформы"
+msgstr ""
+"Эксперт в свой области - давай к нам! Выгодные условия для тебя и "
+"пользователи со всего мира на нашей платформы"
 
 #: .\mainapp\templates\mainapp\index.html:119
 msgid "StrongUnited"
@@ -1789,7 +1858,9 @@ msgstr "Вместе мы сила!"
 
 #: .\mainapp\templates\mainapp\index.html:120
 msgid "StrongUnitedDesc"
-msgstr "Проекты любой сложности становятся легче, если ты в компании единомышленников. Присоединяйся!"
+msgstr ""
+"Проекты любой сложности становятся легче, если ты в компании "
+"единомышленников. Присоединяйся!"
 
 #: .\mainapp\templates\mainapp\news\news_list.html:46
 msgid "Filter"
@@ -1800,8 +1871,8 @@ msgid "Message sent"
 msgstr "Сообщение отправлено"
 
 #: .\mainapp\views\contacts\list.py:59
-msgid "You can send only one message per 5 minutes"
-msgstr "Вы можете отправить сообщения не чаще чем 1 раз в 5 минут"
+msgid "SendMessageTimeout"
+msgstr "Вы можете отправить сообщения не чаще чем 1 раз час"
 
 #: .\templates\admin\base_site.html:4
 msgid "Django site admin"
@@ -1885,8 +1956,3 @@ msgstr "Выйти"
 #: .\templates\includes\menu.html:52
 msgid "Register"
 msgstr "Регистрация"
-
-# .\templates\includes\menu.html:56
-#: .\templates\includes\menu.html:56
-msgid "Contacts"
-msgstr "Контакты"

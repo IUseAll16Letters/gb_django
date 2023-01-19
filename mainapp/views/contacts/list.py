@@ -1,9 +1,7 @@
 __all__ = ['ContactsPageView']
 
-from config import settings
 from django.contrib import messages
 from django.core.cache import cache
-from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
 from django.utils.translation import gettext_lazy as _
@@ -34,7 +32,7 @@ class ContactsPageView(TemplateView):
                 cache.set(
                     f"mail_feedback_lock_{self.request.user.pk}",
                     "lock",
-                    timeout=300,
+                    timeout=3600,
                 )
                 messages.add_message(
                     self.request, messages.INFO, _("Message sent")
@@ -56,7 +54,7 @@ class ContactsPageView(TemplateView):
                 messages.add_message(
                     self.request,
                     messages.WARNING,
-                    _("You can send only one message per 5 minutes"),
+                    _("SendMessageTimeout"),
                 )
             return HttpResponseRedirect(reverse_lazy("mainapp:contacts"))
         print('USER NOT AUTHED!S')
