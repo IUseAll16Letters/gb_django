@@ -17,7 +17,8 @@ urlpatterns = [
     # Курсы, просмотр, рейтинг
     path(
         'courses/',
-        cache_page(60 * 5)(CoursesListView.as_view()),
+        # cache_page(60 * 5)(CoursesListView.as_view()),
+        (CoursesListView.as_view()),
         name='courses'
     ),
     path(
