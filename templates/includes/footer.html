@@ -22,8 +22,8 @@
                 </p>
                 <p>
                 <ul class="list-unstyled">
-                    <li><a href="#">{% translate "TermsConditions" %}</a></li>
-                    <li><a href="#">{% translate "PrivacyCookies" %}</a></li>
+                    <li><a href="{% url 'mainapp:rules_regulations' %}">{% translate "TermsConditions" %}</a></li>
+                    <li><a href="{% url 'mainapp:rules_regulations' %}">{% translate "PrivacyCookies" %}</a></li>
                     <li><a href="#">{% translate "APIDocs" %}</a></li>
                     <li><a href="{% url 'mainapp:doc_site' %}">{% translate "Documentation" %}</a></li>
                 </ul>
