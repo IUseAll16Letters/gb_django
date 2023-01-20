@@ -86,15 +86,11 @@ msgstr "пользователи"
 
 # .\templates\includes\menu.html:52
 #: .\authapp\templates\authapp\customuser_form.html:9
-#, fuzzy
-#| msgid "Register"
 msgid "NewRegistration"
 msgstr "Регистрация"
 
 # .\templates\includes\menu.html:30
 #: .\authapp\templates\authapp\customuser_form.html:11
-#, fuzzy
-#| msgid "Edit profile"
 msgid "EditProfile"
 msgstr "Редактировать профиль"
 
@@ -118,10 +114,8 @@ msgstr ""
 
 # .\templates\includes\menu.html:26
 #: .\authapp\templates\registration\profile_edit.html:7
-#, fuzzy
-#| msgid "Profile"
 msgid "ProfileEdit"
-msgstr "Профиль"
+msgstr "Редактировать профиль"
 
 #: .\authapp\views\login.py:17
 #, python-brace-format
