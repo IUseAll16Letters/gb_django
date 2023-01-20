@@ -7,3 +7,4 @@ from mainapp.views.index import *
 from mainapp.views.news import *
 from mainapp.views.log_viewer import *
 from mainapp.views.errors_handlers import *
+from mainapp.views.rules_regulations import *

@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
-{% load crispy_forms_tags static %}
+{% load crispy_forms_tags static i18n %}
 
 
 {% block content %}
 <div class="row justify-content-center my-2">
   <div class="col-lg-6">
     {% if user.is_anonymous %}
-        <h3>Регистрация нового пользователя</h3>
+        <h3>{% translate "NewRegistration" %}</h3> {# Регистрация нового пользователя #}
     {% else %}
-        <h3>Редактировать профиль</h3>
+        <h3>{% translate "EditProfile" %}</h3> {# Редактировать профиль #}
         {% if user.avatar %}
             <img class="mx-auto d-block" src="{{ user.avatar.url }}" alt="avatar" style="border-radius: 50px; max-height: 300px"> {# inline style #}
         {% else %}
@@ -21,11 +21,18 @@
 
         {% csrf_token %}
         {{ form|crispy }}
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="confirm_personal_data" required="required">
+          <label class="form-check-label mb-2" for="confirm_personal_data">
+            {% translate "ByThisIConfirm" %} {# By this I confirm with site #}
+              <a href="{% url 'mainapp:rules_regulations' %}" target="_blank">{% translate "RulesRegulationsPolicyText" %}</a>.
+          </label>
+        </div>
             <button type="submit" class="btn btn-primary btn-block">
                 {% if user.is_anonymous %}
-                    Зарегистрироваться
+                    {% translate "Register" %}
                 {% else %}
-                    Сохранить
+                    {% translate "Save" %}
                 {% endif %}
             </button>
         </form>

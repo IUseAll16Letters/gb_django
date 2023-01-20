@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load static i18n %}
 
+{% block title %}{% translate "WelcomeLanding" %}{% endblock title %}
 {% block content %}
     <div class="container-md">
 
@@ -16,13 +17,13 @@
                 <img src="{% static 'img/slider001.jpg' %}" class="d-block w-100" alt="" style="opacity: 0.3;">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>{% translate "BeProactive" %}</h3>
-                    <p>{% translate "StudyTrends" %}</p> {# Only study cutting-edge trends of modern IT /  #}
+                    <p>{% translate "StudyTrends" %}</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{% static 'img/slider002.jpg' %}" class="d-block w-100" alt="" style="opacity: 0.3;">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>{% translate "StudyAnywhere" %}</h3> {# Study anywhere you like /  #}
+                    <h3>{% translate "StudyAnywhere" %}</h3>
                     <p>{% translate "ParkLibraryWarmBlanket" %}</p>
                 </div>
             </div>
@@ -116,7 +117,7 @@
 
     <div class="row justify-content-center align-items-center">
         <div class="col-md-7">
-            <h1>{% translate "StrongUnited" %}</h1> {# Together we stand strong! /  #}
+            <h1>{% translate "StrongUnited" %}</h1>
             <p>{% translate "StrongUnitedDesc" %}</p>
         </div>
         <div class="col-md-5">
