@@ -1,11 +1,11 @@
-__all__ = ['CustomUserChangeForm']
+__all__ = ('CustomUserChangeForm', )
 
 import os
 
+from django.core.exceptions import ValidationError
 from django.forms import ModelForm
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UsernameField
-from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
 
 
@@ -30,10 +30,6 @@ class CustomUserChangeForm(ModelForm):
 
     def clean_age(self):
         data = self.cleaned_data.get("age")
-        print(f'AGE: {data = }')
-        if not data:
-            return 0
-        if data < 10 or data > 100:
+        if (data is not None) and (data < 10 or data > 100):
             raise ValidationError(_("Please enter a valid age (10, 100)!"))
         return data
-

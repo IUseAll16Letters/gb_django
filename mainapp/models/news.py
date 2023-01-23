@@ -6,14 +6,16 @@ from django.utils.translation import gettext_lazy as _
 
 class News(models.Model):
     title = models.CharField(max_length=255, verbose_name='Title')
-    description = models.CharField(max_length=300, verbose_name='Preview', null=True)
-    author = models.CharField(max_length=70, verbose_name='Author', default='Unknown author')
-    content = models.TextField(blank=True, null=True, verbose_name='Content')
+    description = models.CharField(max_length=300, verbose_name='Preview', null=True, blank=True)
+    author = models.CharField(max_length=70, verbose_name='Author', null=True, blank=True)
+    content = models.TextField(verbose_name='Content', blank=True, null=True)
     content_as_md = models.BooleanField(default=False, verbose_name='As markdown')
-    url = models.CharField(max_length=350, verbose_name='Source', default='no_url')
-    source = models.CharField(max_length=55, verbose_name='Source name', default='unknown_source')
+    url = models.CharField(max_length=350, verbose_name='Source', default='No url provided', null=True, blank=True)
+    source = models.CharField(
+        max_length=55, verbose_name='Source name', default='unknown_source', null=True, blank=True
+    )
 
-    image_url = models.CharField(max_length=250, null=True, default='not_found.gif', verbose_name='Image')
+    image_url = models.CharField(max_length=250, default='not_found.svg', verbose_name='Image', null=True, blank=True)
 
     created = models.DateTimeField(auto_now_add=True, verbose_name='Created', editable=False)
     updated = models.DateTimeField(auto_now=True, verbose_name='Edited', editable=False)

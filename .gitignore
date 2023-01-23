@@ -195,10 +195,6 @@ cython_debug/
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
-
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
@@ -256,3 +252,12 @@ Scripts/
 # DJANGO self
 /django_one
 .env_social
+include
+rabbitmq
+static/admin
+static/debug_toolbar/
+static/django_extensions/
+.gunicornenv
+/media/*
+mainapp/tests/fixtures
+README-2.md

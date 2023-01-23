@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static i18n %}
+
+{% block title %}{% translate 'Server error (500)' %}{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">{% translate 'Server Error <em>(500)</em>' %}</h1>        
+        <hr>
+        <p class="lead">This is totally our fault, we will try to take all the responsibility for that issue, and we will try to do something about it!</p>
+        <p class="lead">Sorry :(</p>
+            <img class ="rounded mx-auto d-bloc" src="{% static "img/not_found.gif" %}" alt="not_found.gif">
+        <br>
+        <form action="{% url 'mainapp:index' %}">
+            <button type="submit" class="btn btn-primary btn-lg">Return homepage</button>
+        </form>
+    </div>
+{% endblock content %}

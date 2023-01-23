@@ -1,4 +1,4 @@
-{% load static %}
+{% load static i18n %}
 
 
 <div class="container-lg mt-auto">
@@ -10,28 +10,28 @@
                 </p>
                 <p>
                 <ul class="list-unstyled">
-                    <li><a href="{% url 'mainapp:index' %}">Домашняя</a></li>
-                    <li><a href="{% url 'mainapp:news' %}">Новости</a></li>
-                    <li><a href="{% url 'authapp:login' %}">Войти</a></li>
+                    <li><a href="{% url 'mainapp:index' %}">{% translate "HomePage" %}</a></li>
+                    <li><a href="{% url 'mainapp:news' %}">{% translate "News" %}</a></li>
+                    <li><a href="{% url 'authapp:login' %}">{% translate "Enter" %}</a></li>
                 </ul>
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 text-center">
                 <p>
-                    <strong>Полезное</strong>
+                    <strong>{% transalte "UsefullLinks" %}</strong>
                 </p>
                 <p>
                 <ul class="list-unstyled">
-                    <li><a href="#">Положения &amp; Условия</a></li>
-                    <li><a href="#">Конфиденциальность &amp; Cookies</a></li>
-                    <li><a href="#">Документация по API</a></li>
-                    <li><a href="{% url 'mainapp:doc_site' %}">Документация по сайту</a></li>
+                    <li><a href="{% url 'mainapp:rules_regulations' %}">{% translate "TermsConditions" %}</a></li>
+                    <li><a href="{% url 'mainapp:rules_regulations' %}">{% translate "PrivacyCookies" %}</a></li>
+                    <li><a href="#">{% translate "APIDocs" %}</a></li>
+                    <li><a href="{% url 'mainapp:doc_site' %}">{% translate "Documentation" %}</a></li>
                 </ul>
                 </p>
             </div>
             <div class="col-sm-6 col-md-3 text-center">
                 <p>
-                    <strong>Мы в социальных сетях</strong>
+                    <strong>{% translate "WeAtSocials" %}</strong>
                 </p>
                 <p>
                 <div class="row justify-content-around">
@@ -42,7 +42,7 @@
                 </div>
                 </p>
                 <p>
-                    <strong>Наше приложение</strong>
+                    <strong>{% translate "OurApp" %}</strong>
                 </p>
                 <p>
                 <div class="row justify-content-around">
@@ -55,7 +55,7 @@
         </div>
         <div class="row justify-content-center">
             <div>
-                <p><small>&copy; GeekBrains 2021</small></p>
+                <p><small>&copy; GeekBrains 2022</small></p>
             </div>
         </div>
     </div>

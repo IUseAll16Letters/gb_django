@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 13:37+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\authapp\forms\user_change_form.py:34
+msgid "Please enter a valid age (10, 100)!"
+msgstr "Пожалуйста введите реальный возраст (10, 100)!"
+
+#: .\authapp\models.py:28
+msgid "username"
+msgstr "имя пользователя"
+
+#: .\authapp\models.py:32
+msgid "Required. 150 characters or fewer. ASCII letters and digits only."
+msgstr "Обязательно. Менее 150 символов. Только символы ASCII и цифры"
+
+#: .\authapp\models.py:36
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким ником уже существует"
+
+#: .\authapp\models.py:39
+msgid "first name"
+msgstr "имя"
+
+#: .\authapp\models.py:40
+msgid "last name"
+msgstr "фамилия"
+
+#: .\authapp\models.py:46
+msgid "email address"
+msgstr "почтовый адрес"
+
+#: .\authapp\models.py:50
+msgid "A user with that email address already exists."
+msgstr "Пользователь с таким почтовым адресом уже существует"
+
+#: .\authapp\models.py:54
+msgid "staff status"
+msgstr "статус сотрудника"
+
+#: .\authapp\models.py:57
+msgid "Designates whether the user can log into this admin site."
+msgstr "Определяет может ли пользователь логинится в админ панель"
+
+#: .\authapp\models.py:61
+msgid "active"
+msgstr "активен"
+
+#: .\authapp\models.py:64
+msgid ""
+"Designates whether this user should be treated as active.             "
+"Unselect this instead of deleting accounts."
+msgstr ""
+"Определяет следует ли расценивать пользователя как активного.Выберите этот "
+"пункт вместо удаления аккаунта"
+
+#: .\authapp\models.py:68
+msgid "date joined"
+msgstr "присоединился"
+
+#: .\authapp\models.py:77
+msgid "user"
+msgstr "пользователь"
+
+#: .\authapp\models.py:78
+msgid "users"
+msgstr "пользователи"
+
+# .\templates\includes\menu.html:52
+#: .\authapp\templates\authapp\customuser_form.html:9
+msgid "NewRegistration"
+msgstr "Регистрация"
+
+# .\templates\includes\menu.html:30
+#: .\authapp\templates\authapp\customuser_form.html:11
+msgid "EditProfile"
+msgstr "Редактировать профиль"
+
+#: .\authapp\templates\authapp\customuser_form.html:27
+msgid "ByThisIConfirm"
+msgstr ""
+
+#: .\authapp\templates\authapp\customuser_form.html:28
+msgid "RulesRegulationsPolicyText"
+msgstr ""
+
+# .\templates\includes\menu.html:52
+#: .\authapp\templates\authapp\customuser_form.html:33
+#: .\templates\includes\menu.html:52
+msgid "Register"
+msgstr "Регистрация"
+
+#: .\authapp\templates\authapp\customuser_form.html:35
+msgid "Save"
+msgstr ""
+
+# .\templates\includes\menu.html:26
+#: .\authapp\templates\registration\profile_edit.html:7
+msgid "ProfileEdit"
+msgstr "Редактировать профиль"
+
+#: .\authapp\views\login.py:17
+#, python-brace-format
+msgid "Login success!<br>Hi, %{username}"
+msgstr "Успешный вход!<br> Приве %{username}"
+
+#: .\authapp\views\logout.py:10
+msgid "See you later!"
+msgstr "Увидимся позже!"
+
+#: .\config\settings.py:141
+msgid "English"
+msgstr "Английский"
+
+#: .\config\settings.py:142
+msgid "Russian"
+msgstr "Русский"
+
+#: .\mainapp\admin\admin_mixins\delete_undelete_mixin.py:13
+#, python-brace-format
+msgid "Delete lessons, {count}"
+msgstr "Удалить уроки, {count}"
+
+#: .\mainapp\admin\admin_mixins\delete_undelete_mixin.py:20
+#, python-brace-format
+msgid "Unmark deleted, {count}"
+msgstr "Отметить как не удаленное, {count}"
+
+#: .\mainapp\admin\admin_mixins\delete_undelete_mixin.py:23
+msgid "Mark as deleted"
+msgstr "Добавить отметку 'Удалено'"
+
+#: .\mainapp\admin\admin_mixins\delete_undelete_mixin.py:24
+msgid "Remove deletion"
+msgstr "Убрать отметку 'Удалено'"
+
+#: .\mainapp\admin\lessons.py:24 .\mainapp\models\course_feedback.py:17
+#: .\mainapp\models\courses.py:31
+msgid "Course"
+msgstr "Курс"
+
+#: .\mainapp\admin\lessons.py:29
+#, python-brace-format
+msgid "Updated time at: {count}"
+msgstr "Обновлен в: {count}"
+
+#: .\mainapp\admin\teacher_course.py:19 .\mainapp\models\courses.py:32
+#: .\templates\includes\menu.html:19
+msgid "Courses"
+msgstr "Курсы"
+
+#: .\mainapp\forms\mail_feedback_form.py:11
+msgid "Enter your message"
+msgstr "Введите сообщение"
+
+#: .\mainapp\forms\mail_feedback_form.py:12
+msgid "Message"
+msgstr "Сообщение"
+
+#: .\mainapp\models\course_feedback.py:18
+msgid "User"
+msgstr "Пользователь"
+
+#: .\mainapp\models\course_feedback.py:19
+msgid "No feedback"
+msgstr "Нет отзыва"
+
+#: .\mainapp\models\course_feedback.py:19
+msgid "Feedback"
+msgstr "Отзыв"
+
+#: .\mainapp\models\course_feedback.py:24
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: .\mainapp\models\course_feedback.py:26
+msgid "Created"
+msgstr "Создан"
+
+#: .\mainapp\models\course_feedback.py:33
+msgid "CourseFeedback"
+msgstr "Отзыв к курсам"
+
+#: .\mainapp\models\course_feedback.py:34
+msgid "CourseFeedbacks"
+msgstr "Отзывы к курсам"
+
+#: .\mainapp\models\lessons.py:28
+msgid "Lesson"
+msgstr "Урок"
+
+#: .\mainapp\models\lessons.py:29
+msgid "Lessons"
+msgstr "Уроки"
+
+#: .\mainapp\models\news.py:32 .\mainapp\models\news.py:33
+#: .\templates\includes\footer.html:14 .\templates\includes\menu.html:16
+msgid "News"
+msgstr "Новости"
+
+#: .\mainapp\models\teachers.py:24
+msgid "Teacher"
+msgstr "Учитель"
+
+#: .\mainapp\models\teachers.py:25
+msgid "Teachers"
+msgstr "Учителя"
+
+# .\templates\includes\menu.html:56
+#: .\mainapp\templates\mainapp\contacts.html:10
+#: .\templates\includes\menu.html:56
+msgid "Contacts"
+msgstr "Контакты"
+
+# .\templates\includes\menu.html:56
+#: .\mainapp\templates\mainapp\contacts.html:11
+msgid "ContactUsPlease"
+msgstr "Контакты"
+
+#: .\mainapp\templates\mainapp\contacts.html:22
+msgid "PetroPavlFort"
+msgstr "Петропавловская крепость"
+
+#: .\mainapp\templates\mainapp\contacts.html:23
+msgid "SaintP"
+msgstr "Санкт-Петербург"
+
+#: .\mainapp\templates\mainapp\contacts.html:26
+#: .\mainapp\templates\mainapp\contacts.html:49
+#: .\mainapp\templates\mainapp\contacts.html:72
+msgid "Phone"
+msgstr "Телефон"
+
+#: .\mainapp\templates\mainapp\contacts.html:34
+#: .\mainapp\templates\mainapp\contacts.html:57
+#: .\mainapp\templates\mainapp\contacts.html:80
+#, fuzzy
+#| msgid "email address"
+msgid "Address"
+msgstr "Адрес"
+
+#: .\mainapp\templates\mainapp\contacts.html:35
+msgid "PetroPavlFortAddr"
+msgstr "Территория Петропавловская крепость, 3Ж"
+
+#: .\mainapp\templates\mainapp\contacts.html:45
+msgid "KazanKremlin"
+msgstr "Казанский Кремль"
+
+#: .\mainapp\templates\mainapp\contacts.html:46
+msgid "Kazan"
+msgstr "Казань"
+
+#: .\mainapp\templates\mainapp\contacts.html:58
+msgid "KazanKremlAddr"
+msgstr "Территория Кремль, 11, Казань, Республика Татарстан, Россия"
+
+#: .\mainapp\templates\mainapp\contacts.html:69
+msgid "Moscow"
+msgstr "Москва"
+
+#: .\mainapp\templates\mainapp\contacts.html:81
+msgid "MoscowAddr"
+msgstr "Красная площадь, 7, Москва, Россия"
+
+#: .\mainapp\templates\mainapp\contacts.html:94
+msgid "ContactTechSUpportViaEm"
+msgstr "Отправить сообщение в техподдержку"
+
+#: .\mainapp\templates\mainapp\contacts.html:99
+msgid "Send"
+msgstr "Отправить"
+
+#: .\mainapp\templates\mainapp\index.html:4
+msgid "WelcomeLanding"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\index.html:19
+msgid "BeProactive"
+msgstr "Будь проактивен"
+
+#: .\mainapp\templates\mainapp\index.html:20
+msgid "StudyTrends"
+msgstr "Изучай только актуальные тренды современного IT"
+
+#: .\mainapp\templates\mainapp\index.html:26
+msgid "StudyAnywhere"
+msgstr "Учись где угодно"
+
+#: .\mainapp\templates\mainapp\index.html:27
+msgid "ParkLibraryWarmBlanket"
+msgstr ""
+"Парк, библиотека или дома под тёплым пледом - выбирай время и место учёбы сам"
+
+#: .\mainapp\templates\mainapp\index.html:33
+msgid "BraniacIsUs"
+msgstr "Braniac - это МЫ"
+
+#: .\mainapp\templates\mainapp\index.html:34
+msgid "JoinOurTeam"
+msgstr "Вливайся в нашу IT-тусовку - нас уже более 5000 брайниаков"
+
+#: .\mainapp\templates\mainapp\index.html:49
+msgid "GreetingsHeader"
+msgstr "Приветствую, путник!"
+
+#: .\mainapp\templates\mainapp\index.html:51
+msgid "GreetingMessage"
+msgstr ""
+"На данном портале мы собрали сообщество людей объединённых одной целью - "
+"получать знания! В современном мире уже сложно представить человека не "
+"общающегося с компьютером. Повсеместное проникновение интернета дало "
+"возможность объеденить людей и сделать знания доступными как никогда ранее. "
+"У тебя есть уникальная возможность получить актуальные знания используя "
+"современные технологии. Не упусти свой шанс и переходи на вкладку \"Курсы\", "
+"записывайся на курсы и становись востребованным специалистом."
+
+#: .\mainapp\templates\mainapp\index.html:55
+msgid "MembersFeedback"
+msgstr "Отзывы участников сообщества"
+
+#: .\mainapp\templates\mainapp\index.html:61
+msgid "Lera"
+msgstr "Лера"
+
+#: .\mainapp\templates\mainapp\index.html:62
+msgid "LeraFeed"
+msgstr "Выучила Python и получаю 300кк в секунду! Спасибо Браниаку!"
+
+#: .\mainapp\templates\mainapp\index.html:67
+msgid "Anthony"
+msgstr "Антоша"
+
+#: .\mainapp\templates\mainapp\index.html:68
+msgid "AnthonyFeed"
+msgstr "Больше не туплю в excel - только БД только хардкор!"
+
+#: .\mainapp\templates\mainapp\index.html:73
+msgid "Leonard"
+msgstr "Леонард"
+
+#: .\mainapp\templates\mainapp\index.html:74
+msgid "LeonardFeed"
+msgstr "Как пропатчить KDE под FreeBSD?!"
+
+#: .\mainapp\templates\mainapp\index.html:79
+msgid "Venia"
+msgstr "Венниамин Петрович Шпак"
+
+#: .\mainapp\templates\mainapp\index.html:80
+msgid "VeniaFeed"
+msgstr "Как войти в айти после 130? Легко! Я тому - живой пример!"
+
+#: .\mainapp\templates\mainapp\index.html:92
+msgid "HundredsOfCourses"
+msgstr "Сотни готовых курсов от лучших авторов"
+
+#: .\mainapp\templates\mainapp\index.html:93
+msgid "HundredsOfCourseDesc"
+msgstr "Выбирай из огромной коллекции готовых решений для самообразования"
+
+#: .\mainapp\templates\mainapp\index.html:109
+msgid "TurnKnowledgeToGold"
+msgstr "Монетизируй знания"
+
+#: .\mainapp\templates\mainapp\index.html:110
+msgid "TurnKnowDesc"
+msgstr ""
+"Эксперт в свой области - давай к нам! Выгодные условия для тебя и "
+"пользователи со всего мира на нашей платформы"
+
+#: .\mainapp\templates\mainapp\index.html:120
+msgid "StrongUnited"
+msgstr "Вместе мы сила!"
+
+#: .\mainapp\templates\mainapp\index.html:121
+msgid "StrongUnitedDesc"
+msgstr ""
+"Проекты любой сложности становятся легче, если ты в компании "
+"единомышленников. Присоединяйся!"
+
+#: .\mainapp\templates\mainapp\news\news_list.html:46
+msgid "Filter"
+msgstr "Фильтровать"
+
+#: .\mainapp\templates\mainapp\rules_and_regulations.html:4
+msgid "RegulationsTitle"
+msgstr "Правила и политика безопасности"
+
+#: .\mainapp\templates\mainapp\rules_and_regulations.html:8
+msgid "RulesRegulationsHeading"
+msgstr "Правила и политика безопасности"
+
+#: .\mainapp\templates\mainapp\rules_and_regulations.html:11
+msgid "MainRulesRegulationsText"
+msgstr ""
+"Данный ресурс является учебным проектом и не ставит целью сбор или обработку "
+"данных пользователей. Тем не менее, в связи с наличием в архитектуре проекта "
+"базы данных - при регистрации данные фиксируются и хранятся на сервере, "
+"расположенном на территории РФ и используются исключительно для "
+"идентификации пользователя на проекте. Пароли хранятся в зашифрованной "
+"форме, а сами данные могут быть удалены по запросу пользователя из формы "
+"обратной связи по адресу /mainapp/contacts/ в течение скольки-то там дней с "
+"момента обращения. Функционал проекта на 20 Января 23 не предполагает "
+"распространение персональных данных в какой-либо форме. В случае несогласия "
+"пользователя предоставить информацию - рекомендуется покинуть сайт или "
+"продолжить его использование без регистрации. "
+
+#: .\mainapp\views\contacts\list.py:38
+msgid "Message sent"
+msgstr "Сообщение отправлено"
+
+#: .\mainapp\views\contacts\list.py:57
+msgid "SendMessageTimeout"
+msgstr "Вы можете отправить сообщения не чаще чем 1 раз час"
+
+#: .\templates\500.html:4
+msgid "Server error (500)"
+msgstr ""
+
+#: .\templates\500.html:8
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: .\templates\admin\base_site.html:4
+msgid "Django site admin"
+msgstr "Административный раздел"
+
+#: .\templates\admin\textinput_filter.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " По %(filter_title)s"
+
+#: .\templates\includes\footer.html:13
+msgid "HomePage"
+msgstr "Домашняя"
+
+# .\templates\includes\menu.html:48
+#: .\templates\includes\footer.html:15 .\templates\includes\menu.html:48
+msgid "Enter"
+msgstr "Войти"
+
+#: .\templates\includes\footer.html:25
+msgid "TermsConditions"
+msgstr "Положения и Условия"
+
+#: .\templates\includes\footer.html:26
+msgid "PrivacyCookies"
+msgstr "Конфиденциальность и Cookies"
+
+#: .\templates\includes\footer.html:27
+msgid "APIDocs"
+msgstr "Документация по API"
+
+#: .\templates\includes\footer.html:28
+msgid "Documentation"
+msgstr "Документация по сайту"
+
+#: .\templates\includes\footer.html:34
+msgid "WeAtSocials"
+msgstr "Мы в социальных сетях"
+
+#: .\templates\includes\footer.html:45
+msgid "OurApp"
+msgstr "Наше приложение"
+
+# .\templates\includes\menu.html:26
+#: .\templates\includes\menu.html:26
+msgid "Profile"
+msgstr "Профиль"
+
+# .\templates\includes\menu.html:30
+#: .\templates\includes\menu.html:30
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: .\templates\includes\menu.html:31
+#, fuzzy
+#| msgid "Courses"
+msgid "My Courses"
+msgstr "Курсы"
+
+# .\templates\includes\menu.html:34
+#: .\templates\includes\menu.html:34
+msgid "Moderation"
+msgstr "Модерация"
+
+# .\templates\includes\menu.html:37
+#: .\templates\includes\menu.html:37
+msgid "Admin section"
+msgstr "Административный раздел"
+
+# .\templates\includes\menu.html:39
+#: .\templates\includes\menu.html:39
+msgid "Logs"
+msgstr "Логи"
+
+# .\templates\includes\menu.html:43
+#: .\templates\includes\menu.html:43
+msgid "Exit"
+msgstr "Выйти"
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Jan."
+#~ msgstr "Янв."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Feb."
+#~ msgstr "Фев."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgctxt "abbrev. month"
+#~ msgid "April"
+#~ msgstr "Апр."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgctxt "abbrev. month"
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgctxt "abbrev. month"
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Aug."
+#~ msgstr "Авг."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Sept."
+#~ msgstr "Сент."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Oct."
+#~ msgstr "Окт."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Nov."
+#~ msgstr "Ноя."
+
+#~ msgctxt "abbrev. month"
+#~ msgid "Dec."
+#~ msgstr "Дек."
+
+#~ msgctxt "alt. month"
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgctxt "alt. month"
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgctxt "alt. month"
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgctxt "alt. month"
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgctxt "alt. month"
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgctxt "alt. month"
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgctxt "alt. month"
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgctxt "alt. month"
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgctxt "alt. month"
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgctxt "alt. month"
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgctxt "alt. month"
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgctxt "alt. month"
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Django Documentation"
+#~ msgstr "Документация Django"
+
+#~ msgid "Topics, references, &amp; how-to’s"
+#~ msgstr "Темы, сноски, &amp, how-to’s"
+
+#~ msgid "Tutorial: A Polling App"
+#~ msgstr "Руководство: Приложение для проведения опросов"
+
+#~ msgid "Get started with Django"
+#~ msgstr "Введение в Django!"
+
+#~ msgid "Django Community"
+#~ msgstr "Сообщество Django"
+
+#~ msgid "Connect, get help, or contribute"
+#~ msgstr "Подключиться, получить помощь или внести вклад"
+
+#, python-format
+#~ msgid "Attempting to connect to qpid with SASL mechanism %s"
+#~ msgstr "Попытка подключиться к qpid при помощи SASL %s"
+
+#, python-format
+#~ msgid "Connected to qpid with SASL mechanism %s"
+#~ msgstr "Подключено к qpid при помощи SASL %s"
+
+#, python-format
+#~ msgid "Unable to connect to qpid with SASL mechanism %s"
+#~ msgstr "Не удается подключиться к qpid при помощи SASL %s"
+
+#~ msgid "A valid timezone is required."
+#~ msgstr "Требуется указать валидный часовой пояс"

@@ -1,0 +1,16 @@
+[Unit]
+Description=GUnicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/django/gb_django
+EnvironmentFile=/home/django/gb_django/.gunicornenv
+ExecStart=/home/django/gb_django/venv/bin/gunicorn \
+--access-logfile /var/log/gunicorn/access.log --error-logfile /var/log/gunicorn/error.log --log-level DEBUG --workers 3 --bind unix:/run/gunicorn.sock config.wsgi:application
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

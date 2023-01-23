@@ -1,0 +1,13 @@
+[Unit]
+Description=Celery daemon
+After=network.target
+
+[Service]
+User=django
+Group=django
+WorkingDirectory=/home/django/gb_django
+EnvironmentFile=/home/django/gb_django/.gunicornenv
+ExecStart=/home/django/gb_django/venv/bin/celery -A config worker -l INFO --logfile=/home/django/gb_django/var/log/celery.log
+
+[Install]
+WantedBy=multi-user.target

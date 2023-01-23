@@ -1,3 +1,4 @@
+import os
 import logging
 import smtplib
 
@@ -13,7 +14,7 @@ from django.core.mail import send_mail
 logger = logging.getLogger(__name__)
 
 
-@shared_task()
+@shared_task
 def send_feedback_mail(message_form: Dict[str, Union[int, str]]) -> None:
     logger.info(f"Send message: '{message_form}'")
     model_user = get_user_model()
@@ -22,7 +23,7 @@ def send_feedback_mail(message_form: Dict[str, Union[int, str]]) -> None:
         send_mail(
             "TechSupport Help",               # title
             message_form["message"],          # body
-            user_obj.email,                   # from
+            os.getenv("EMAIL_HOST_USER"),     # from
             [settings.DEFAULT_FROM_EMAIL, ],  # to: ch1ck3n@mail.ru
             fail_silently=False,
         )
@@ -37,3 +38,4 @@ def i_pee_freely(*args, **kwargs) -> int:
     a, b = randrange(1, 100), randrange(1, 100)
     print(f'I.P.Freely! {a = } {b = } {args = } {kwargs = }')
     return a + b
+

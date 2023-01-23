@@ -9,15 +9,14 @@ app_name = MainappConfig.name
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
+    path('rules_regulations', RulesRegulationsView.as_view(), name='rules_regulations'),
     path('contacts/', ContactsPageView.as_view(), name='contacts'),
     path('doc_site/', DocPageView.as_view(), name='doc_site'),
-    # Надо удалять? auth теперь на другйо вьюхе
-    path('login/', LoginPageView.as_view(), name='login'),
+    #path('login/', LoginPageView.as_view(), name='login'),
 
-    # Курсы, просмотр, рейтинг
     path(
         'courses/',
-        cache_page(60 * 5)(CoursesListView.as_view()),
+        (CoursesListView.as_view()),
         name='courses'
     ),
     path(

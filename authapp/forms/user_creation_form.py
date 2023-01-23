@@ -1,4 +1,4 @@
-__all__ = ['CustomUserCreationForm']
+__all__ = ('CustomUserCreationForm', )
 
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm, UsernameField

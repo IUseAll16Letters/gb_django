@@ -32,6 +32,7 @@ class CoursesAdmin(admin.ModelAdmin, DeleteUndeleteMixin):
         request = CourseFeedback.objects.values('course_id').filter(deleted=False).annotate(
             average_rating=Avg('rating'))
         request: dict = {dataset['course_id']: round(dataset['average_rating']) for dataset in request}
+
         if self._courses_have_rating is None:
             self._courses_have_rating = request
         else:

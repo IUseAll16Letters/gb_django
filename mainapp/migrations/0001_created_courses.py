@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('description', models.TextField(blank=True, null=True, verbose_name='Description')),
                 ('description_as_md', models.BooleanField(default=False, verbose_name='As markdown')),
                 ('cost', models.DecimalField(decimal_places=2, default=0, max_digits=8, verbose_name='Cost')),
-                ('image', models.CharField(default='no_image.svg', max_length=25, verbose_name='Image')),
+                ('image', models.CharField(default='not_found.gif', max_length=25, verbose_name='Image')),
                 ('created', models.DateTimeField(auto_now_add=True, verbose_name='Created')),
                 ('updated', models.DateTimeField(auto_now=True, verbose_name='Edited')),
                 ('deleted', models.BooleanField(default=False)),
