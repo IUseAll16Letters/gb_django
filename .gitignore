@@ -260,3 +260,4 @@ static/django_extensions/
 .gunicornenv
 /media/*
 mainapp/tests/fixtures
+README-2.md
