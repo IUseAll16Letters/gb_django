@@ -27,6 +27,8 @@ You can check it on: http://185.137.234.221/, if the hosting is still paid.
 ### python and its infrastructure (as daemons)
 ![](https://img.shields.io/badge/python-3.10-blue)![](https://img.shields.io/badge/django-3.2-blue)
 ![](https://img.shields.io/badge/nginx-1.18-blue)![](https://img.shields.io/badge/gunicorn-20.1-blue)
+### Tests:
+![](https://img.shields.io/badge/selenium-4.7.2-blue)
 ### Task managers (as daemons) 
 ![](https://img.shields.io/badge/celery-5.2.7-green)
 ![](https://img.shields.io/badge/celery_beat-green)
