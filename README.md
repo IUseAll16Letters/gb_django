@@ -1,16 +1,27 @@
 <p id="high-upon-high"></p>
 <br/>
 <div>
-    <a href="https://github.com/github_username/repo_name">
+    <a href="#">
         <img src="readme_front/heading.JPG">
     </a>
     <h3 align="center">Django project for geekbrains</h3>
         <p align="center">
             A simple website to practice some django architecture skills on.
         </p>
-        <a href="#structure">Structure section</a>
+        <p align="center" >
+            <a href="#scheme">Structure scheme</a>
+        </p>
     <br>
 </div>
+
+# Project overall description
+## Purpose
+The main purpose of this course is to take more than <a href="https://gb.ru">Geekbrains</a> can offer, and learn a lot of features such as celery, celery cron, django-rest (by 23.01.23 still not implemented, well done, Pavel) and many more tasty stuff.
+This exact project (including huge part of the frontend) was provided by  learning platform as a part of a Pythoing developer course.
+You can also find my async client-server application in one of my repos: https://github.com/IUseAll16Letters/gb_client_server.
+<br>As a result I've deployed a website on one of <a href="https://selectel.ru/">Selectel</a> VDS'es, god bless them for that!
+You can check it on: http://185.137.234.221/, if the hosting is still paid.
+
 
 ## Technology stack
 ### python and its infrastructure (as daemons)
@@ -25,18 +36,10 @@
 ![](https://img.shields.io/badge/redis-7.0.5:alpine-red)
 ![](https://img.shields.io/badge/rabbitMQ-3.10.7-orange)
 <div align="center">
-    <a href="https://github.com/github_username/repo_name">
+    <a id="scheme" href="">
         <img src="readme_front/docker_scheme.drawio.png">
     </a>
 </div>
-
-# Project overall description
-## Purpose
-The main purpose of this course is to take more than <a href="https://gb.ru">Geekbrains</a> can offer, and learn a lot of features such as celery, celery cron, django-rest (by 23.01.23 still not implemented, well done, Pavel) and many more tasty stuff.
-This exact project (including huge part of the frontend) was provided by  learning platform as a part of a Pythoing developer course.
-You can also find my async client-server application in one of my repos: https://github.com/IUseAll16Letters/gb_client_server.
-<br>As a result I've deployed a website on one of <a href="https://selectel.ru/">Selectel</a> VDS'es, god bless them for that!
-You can check it on: http://185.137.234.221/, if the hosting is still paid.
 
 
 # Getting deployed
