@@ -74,7 +74,7 @@ $ RABBITMQ_SECURE_PASSWORD, RABBITMQ_LOGS, RABBITMQ_DEFAULT_USER, RABBITMQ_DEFAU
    ```
 2. Install required dependencies
    ```shell
-   $ cd gb_django && python3.10 -m venv venv && source venv/bin/activate && pip install -r req.txt
+   $ cd gb_django && python3.10 -m venv venv && source venv/bin/activate && pip install -r req.txt && mkdir -p /var/log/
    ```
 3. Time to start docker containers!
    ```shell
@@ -82,7 +82,7 @@ $ RABBITMQ_SECURE_PASSWORD, RABBITMQ_LOGS, RABBITMQ_DEFAULT_USER, RABBITMQ_DEFAU
    ```
 4. Apply migrations and load news fixture
    ```shell
-   $ python manage.py makemigrations && python manage.py ./mainapp/fixtures/001_news.json
+   $ python manage.py migrate && python manage.py loaddata ./mainapp/fixtures/001_news.json
    ```
 5. Make messages translation .mo file
    ```shell
@@ -94,7 +94,7 @@ $ RABBITMQ_SECURE_PASSWORD, RABBITMQ_LOGS, RABBITMQ_DEFAULT_USER, RABBITMQ_DEFAU
    ```
 6. Time to release all your daemons! <br>
    Copy systemd configuration files from ./dev to corresponding folders
-   .service and .socker files to: ```shell $ /etc/systemd/system```
+   .service and .socket files to: ```$ /etc/systemd/system```
    braniaclms to /etc/nginx/sites-available, after that create a soft link
    ```shell
    $ sudo ln -s /etc/nginx/sites-available/braniaclms /etc/nginx/sites-enabled/braniaclms 
