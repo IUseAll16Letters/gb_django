@@ -93,9 +93,16 @@ $ RABBITMQ_SECURE_PASSWORD, RABBITMQ_LOGS, RABBITMQ_DEFAULT_USER, RABBITMQ_DEFAU
    $ sudo apt install gettext
    ```
 6. Time to release all your daemons! <br>
-   Copy systemd configuration files from ./dev to corresponding folders
-   .service and .socket files to: ```$ /etc/systemd/system```
-   braniaclms to /etc/nginx/sites-available, after that create a soft link
+   Copy systemd configuration files ```.service``` and ```.socket``` from ./dev to: ```$ /etc/systemd/system```<br>
+   Then install nginx
+   ```shell
+   $ sudo apt install nginx
+   ```
+   copy braniaclms to /etc/nginx/sites-available and check if settings are correct
+   ```shell
+   $sudo nginx -t
+   ```
+   After that create a soft link for nginx
    ```shell
    $ sudo ln -s /etc/nginx/sites-available/braniaclms /etc/nginx/sites-enabled/braniaclms 
    ```
@@ -107,7 +114,7 @@ $ RABBITMQ_SECURE_PASSWORD, RABBITMQ_LOGS, RABBITMQ_DEFAULT_USER, RABBITMQ_DEFAU
    $ sudo systemctl enable celeryd.service && sudo systemctl start celeryd.service 
    $ sudo systemctl enable celerybeat.service && sudo systemctl start celerybeat.service
    $ sudo systemctl enable gunicorn.socket && sudo systemctl start gunicorn.socket
-   $ sudo systemctl enable gunicorn.service && sudo systemctl start celerybeat.service
+   $ sudo systemctl enable gunicorn.service && sudo systemctl start gunicorn.service
    ```
 8. If you did everything correct - it means that it's time to congratz both of us with the server deployment!
 
