@@ -1,7 +1,9 @@
 Major:
-    1. Figure out with Users, social oauth Unique constraint
-    2. Make https
+    1. Add django_rest_framework API part;
+    2. Figure out with Users, social oauth zero email constraint;
+    3. Add application diagram.
 Minor:
-    1. Clean templates
-    2. Clean views/models/forms
+    1. Clean templates;
+    2. Clean views/models/forms;
+    3. Make https.
     
