@@ -22,6 +22,17 @@ You can also find my async client-server application in one of my repos: https:/
 <br>As a result I've deployed a website on one of <a href="https://selectel.ru/">Selectel</a> VDS'es, god bless them for that!
 You can check it on: http://185.137.234.221/, if the hosting is still paid.
 
+## Description (logics + routing)
+ - mainapp: The main application that handles all the learning platform logics
+   - Courses: list_view + details_view. Details page is cached with redis;
+   - News: list_view + details_view + few edit views. Celery beat goes for recent news to <a href="https://newsapi.org/">news api API</a>;
+   - Contacts: template_view. That carries functionality of sending the email to admin for register users, using Celery;
+   - Index: welcome page of the website
+ - authapp: Authentication application
+   - Login/Logout: default login/logout logics
+   - Register/Edit: Default registration and edit page, having permissions_required_mixin logics, nothing special
+ - social: Oauth authentication
+ - i18n: Translation mechanism, implemented for all main pages
 
 ## Technology stack
 ### Python and its infrastructure (as daemons):
